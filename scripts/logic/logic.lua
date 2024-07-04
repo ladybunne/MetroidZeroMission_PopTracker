@@ -13,397 +13,793 @@ function BrinstarMorphBall()
 end
 
 function BrinstarMorphBallCannon()
-  return AccessibilityLevel.Normal
+  if Has("Bomb") then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function BrinstarLongBeam()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function BrinstarCeilingETank()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function BrinstarMissileAboveSuper()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function BrinstarSuperMissile()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function BrinstarTopMissile()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function BrinstarSpeedBoosterShortcutMissile()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function BrinstarVariaSuit()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function BrinstarWormDrop()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function BrinstarAcidNearVaria()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function BrinstarFirstMissile()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function BrinstarBehindHive()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function BrinstarUnderBridge()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function BrinstarPostHiveMissile()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function BrinstarUpperPillarMissile()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function BrinstarBehindBombs()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function BrinstarBomb()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function BrinstarPostHiveETank()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function KraidGiantHoppersMissile()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function KraidSaveRoomMissile()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function KraidCrumbleBlockMissile()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function KraidQuadBallCannonRoom()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function KraidSpaceJumpUnknownItem2()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function KraidAcidBallspark()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function KraidSpeedBooster()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function KraidWormMissile()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function KraidPillarMissile()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function KraidAcidFall()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function KraidWormETank()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function KraidSpeedJump()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function KraidUpperRightMorphBallCannon()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function NorfairLavaPowerBomb()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function NorfairLavaMissile()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function NorfairScrewAttack()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function NorfairScrewAttackMissile()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function NorfairPowerGripMissile()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function NorfairUnderCrateriaElevator()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function NorfairWaveBeam()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function NorfairBombTrap()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function NorfairBottomHeatedRoomFirst()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function NorfairBottomHeatedRoomSecond()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function NorfairHeatedRoomUnderBrinstarElevator()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function NorfairSpaceBoostMissile()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function NorfairSpaceBoostSuperMissile()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function NorfairIceBeam()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function NorfairHeatedRoomAboveIceBeam()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function NorfairHiJump()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function NorfairBigRoom()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function NorfairBehindTopChozoStatue()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function NorfairLarvaCeilingETank()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function NorfairRightShaftLower()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function NorfairRightShaftBottom()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function RidleySouthwestPuzzleTop()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function RidleySouthwestPuzzleBottom()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function RidleyWestPillar()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function RidleyETankBehindGravity()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function RidleyGravitySuitUnknownItem3()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function RidleyFakeFloorETank()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function RidleyUpperBallCannonPuzzle()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function RidleyLowerBallCannonPuzzle()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function RidleyImagoSuperMissile()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function RidleyAfterSidehopperHallUpper()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function RidleyAfterSidehopperHallLower()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function RidleyLongHall()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function RidleyCenterPillarMissile()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function RidleyBallRoomMissile()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function RidleyBallRoomSuper()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function RidleyFakeLavaMissile()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function RidleyOwlETank()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function RidleyNortheastCornerMissile()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function RidleyBombPuzzle()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function RidleySpeedJump()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function TourianLeftOfMotherBrain()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function TourianUnderMotherBrain()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function CrateriaLandingSiteBallspark()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function CrateriaPowerGrip()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function CrateriaMoat()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function CrateriaStatueWater()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function CrateriaPlasmaBeamUnknownItem1()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function CrateriaEastBallspark()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function CrateriaNortheastCorner()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function ChozodiaUpperCrateriaDoor()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function ChozodiaBombMaze()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function ChozodiaZoomerMaze()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function ChozodiaRuinsNearUpperCrateriaDoor()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function ChozodiaChozoGhostAreaMorphTunnelAboveWater()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function ChozodiaChozoGhostAreaUnderwater()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function ChozodiaUnderChozoGhostAreaWater()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function ChozodiaGlassTubeETank()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function ChozodiaLavaSuper()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function ChozodiaOriginalPowerBomb()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function ChozodiaNextToOriginalPowerBomb()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function ChozodiaGlassTubePowerBomb()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function ChozodiaChozoGhostAreaLongShinespark()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function ChozodiaShortcutSuper()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function ChozodiaWorkbotSuper()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function ChozodiaMothershipCeilingNearZSSStart()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function ChozodiaUnderMechaRidleyHallway()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
 
 function ChozodiaSoutheastCornerInHull()
-  return AccessibilityLevel.Normal
+  if true then
+    return AccessibilityLevel.Normal
+  end
+
+  return AccessibilityLevel.None
 end
