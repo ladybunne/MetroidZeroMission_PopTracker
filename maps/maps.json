@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Brinstar",
+        "location_size": 4,
+        "location_border_thickness": 1,
+        "img": "images/maps/BrinstarMap.png"
+    },
+    {
+        "name": "Norfair",
+        "location_size": 4,
+        "location_border_thickness": 1,
+        "img": "images/maps/NorfairMap.png"
+    },
+    {
+        "name": "Crateria",
+        "location_size": 4,
+        "location_border_thickness": 1,
+        "img": "images/maps/CrateriaMap.png"
+    },
+    {
+        "name": "Kraid",
+        "location_size": 4,
+        "location_border_thickness": 1,
+        "img": "images/maps/KraidMap.png"
+    },
+    {
+        "name": "Ridley",
+        "location_size": 4,
+        "location_border_thickness": 1,
+        "img": "images/maps/RidleyMap.png"
+    },
+    {
+        "name": "Tourian",
+        "location_size": 4,
+        "location_border_thickness": 1,
+        "img": "images/maps/TourianMap.png"
+    },
+    {
+        "name": "Chozodia",
+        "location_size": 4,
+        "location_border_thickness": 1,
+        "img": "images/maps/ChozodiaMap.png"
+    }
+]

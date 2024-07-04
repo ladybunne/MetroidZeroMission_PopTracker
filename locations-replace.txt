@@ -1,0 +1,19 @@
+Just some regex crimes. Don't tell the regex police.
+
+
+From Google Sheet to general outline:
+
+(.*)\t(.*)\t(.*)\t(.*)\t(.*)
+{ "name": "$2", "access_rules": "$2", "sections": [ { "name": "$3" } ], "map_locations": [ { "map": "$1", "x": $4, "y": $5 } ] },
+
+
+Fix access rules:
+
+"access_rules": "(\w*)[^\w"]*(\w*)[^\w"]*(\w*)[^\w"]*(\w*)[^\w"]*(\w*)[^\w"]*(\w*)[^\w"]*(\w*)[^\w"]*(\w*)[^\w"]*"
+"access_rules": "^$$$1$2$3$4$5$6$7$8"
+
+
+Get function names:
+
+"access_rules": "\^\$([^"]*)"
+$1

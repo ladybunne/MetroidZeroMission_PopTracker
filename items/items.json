@@ -1,0 +1,114 @@
+[
+    {
+        "name": "Energy Tank",
+        "codes": "EnergyTank",
+        "img": "images/EnergyTank.png",
+        "type": "consumable",
+        "max_quantity": 12
+    },
+    {
+        "name": "Missile Tank",
+        "codes": "MissileTank",
+        "img": "images/MissileTank.png",
+        "type": "consumable",
+        "max_quantity": 50
+    },
+    {
+        "name": "Super Missile Tank",
+        "codes": "SuperMissileTank",
+        "img": "images/SuperMissileTank.png",
+        "type": "consumable",
+        "max_quantity": 15
+    },
+    {
+        "name": "Power Bomb Tank",
+        "codes": "PowerBombTank",
+        "img": "images/PowerBombTank.png",
+        "type": "consumable",
+        "max_quantity": 9
+    },
+    {
+        "name": "Long Beam",
+        "codes": "LongBeam",
+        "img": "images/LongBeam.png",
+        "type": "toggle"
+    },
+    {
+        "name": "Charge Beam",
+        "codes": "ChargeBeam",
+        "img": "images/ChargeBeam.png",
+        "type": "toggle"
+    },
+    {
+        "name": "Ice Beam",
+        "codes": "IceBeam",
+        "img": "images/IceBeam.png",
+        "type": "toggle"
+    },
+    {
+        "name": "Wave Beam",
+        "codes": "WaveBeam",
+        "img": "images/WaveBeam.png",
+        "type": "toggle"
+    },
+    {
+        "name": "Plasma Beam",
+        "codes": "PlasmaBeam",
+        "img": "images/PlasmaBeam.png",
+        "type": "toggle"
+    },
+    {
+        "name": "Bomb",
+        "codes": "Bomb",
+        "img": "images/Bomb.png",
+        "type": "toggle"
+    },
+    {
+        "name": "Varia Suit",
+        "codes": "VariaSuit",
+        "img": "images/VariaSuit.png",
+        "type": "toggle"
+    },
+    {
+        "name": "Gravity Suit",
+        "codes": "GravitySuit",
+        "img": "images/GravitySuit.png",
+        "type": "toggle"
+    },
+    {
+        "name": "Morph Ball",
+        "codes": "MorphBall",
+        "img": "images/MorphBall.png",
+        "type": "toggle"
+    },
+    {
+        "name": "Speed Booster",
+        "codes": "SpeedBooster",
+        "img": "images/SpeedBooster.png",
+        "type": "toggle"
+    },
+    {
+        "name": "Hi-Jump",
+        "codes": "HiJump",
+        "img": "images/HiJump.png",
+        "type": "toggle"
+    },
+    {
+        "name": "Screw Attack",
+        "codes": "ScrewAttack",
+        "img": "images/ScrewAttack.png",
+        "type": "toggle"
+    },
+    {
+        "name": "Space Jump",
+        "codes": "SpaceJump",
+        "img": "images/SpaceJump.png",
+        "type": "toggle"
+    },
+    {
+        "name": "Power Grip",
+        "codes": "PowerGrip",
+        "img": "images/PowerGrip.png",
+        "type": "toggle"
+    }
+]
