@@ -2,7 +2,8 @@ DEBUG = true
 ENABLE_DEBUG_LOG = true
 
 ScriptHost:LoadScript("scripts/utils.lua")
-ScriptHost:LoadScript("scripts/logic/logic.lua")
+ScriptHost:LoadScript("scripts/logic/helpers.lua")
+ScriptHost:LoadScript("scripts/logic/checks.lua")
 
 Tracker:AddItems("items/items.json")
 
