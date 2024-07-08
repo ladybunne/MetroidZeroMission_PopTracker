@@ -10,65 +10,82 @@
                         "type": "tabbed",
                         "tabs": [
                             {
-                                "title": "Brinstar",
+                                "title": "Combined",
                                 "content": {
                                     "type": "map",
                                     "maps": [
-                                        "Brinstar"
+                                        "Combined"
                                     ]
                                 }
                             },
                             {
-                                "title": "Norfair",
+                                "title": "Individual",
                                 "content": {
-                                    "type": "map",
-                                    "maps": [
-                                        "Norfair"
-                                    ]
-                                }
-                            },
-                            {
-                                "title": "Crateria",
-                                "content": {
-                                    "type": "map",
-                                    "maps": [
-                                        "Crateria"
-                                    ]
-                                }
-                            },
-                            {
-                                "title": "Kraid",
-                                "content": {
-                                    "type": "map",
-                                    "maps": [
-                                        "Kraid"
-                                    ]
-                                }
-                            },
-                            {
-                                "title": "Ridley",
-                                "content": {
-                                    "type": "map",
-                                    "maps": [
-                                        "Ridley"
-                                    ]
-                                }
-                            },
-                            {
-                                "title": "Tourian",
-                                "content": {
-                                    "type": "map",
-                                    "maps": [
-                                        "Tourian"
-                                    ]
-                                }
-                            },
-                            {
-                                "title": "Chozodia",
-                                "content": {
-                                    "type": "map",
-                                    "maps": [
-                                        "Chozodia"
+                                    "type": "tabbed",
+                                    "tabs": [
+                                        {
+                                            "title": "Brinstar",
+                                            "content": {
+                                                "type": "map",
+                                                "maps": [
+                                                    "Brinstar"
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "title": "Norfair",
+                                            "content": {
+                                                "type": "map",
+                                                "maps": [
+                                                    "Norfair"
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "title": "Crateria",
+                                            "content": {
+                                                "type": "map",
+                                                "maps": [
+                                                    "Crateria"
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "title": "Kraid",
+                                            "content": {
+                                                "type": "map",
+                                                "maps": [
+                                                    "Kraid"
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "title": "Ridley",
+                                            "content": {
+                                                "type": "map",
+                                                "maps": [
+                                                    "Ridley"
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "title": "Tourian",
+                                            "content": {
+                                                "type": "map",
+                                                "maps": [
+                                                    "Tourian"
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "title": "Chozodia",
+                                            "content": {
+                                                "type": "map",
+                                                "maps": [
+                                                    "Chozodia"
+                                                ]
+                                            }
+                                        }
                                     ]
                                 }
                             }

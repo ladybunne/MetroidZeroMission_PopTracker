@@ -34,10 +34,6 @@ IBJ_IN_LOGIC = false
 WALLJUMPS_IN_LOGIC = false
 CAN_TRICKY_SPARKS = false
 
--- Bosses
-CHOZO_GHOST_DEFEATED = false
-
-
 -- Ability check functions
 
 function HasMissiles()
@@ -93,7 +89,7 @@ function CanBallspark()
 end
 
 function CanSpaceJump()
-  return Has("SpaceJump") and (CHOZO_GHOST_DEFEATED or UNKNOWN_ITEMS_ALWAYS_USABLE)
+  return Has("SpaceJump") and (ChozoGhostDefeatable() or UNKNOWN_ITEMS_ALWAYS_USABLE)
 end
 
 function CanTraverseHeat()
@@ -101,7 +97,7 @@ function CanTraverseHeat()
 end
 
 function CanGravitySuit()
-  return Has("GravitySuit") and (CHOZO_GHOST_DEFEATED or UNKNOWN_ITEMS_ALWAYS_USABLE)
+  return Has("GravitySuit") and (ChozoGhostDefeatable() or UNKNOWN_ITEMS_ALWAYS_USABLE)
 end
 
 function Hellrun(etanks_amount)
@@ -123,14 +119,33 @@ end
 
 -- Region functions
 
--- AccessBrinstar
--- AccessNorfair
--- AccessCrateria
--- AccessKraid
--- AccessRidley
--- AccessTourian
--- AccessChozodia
+function AccessBrinstar()
+  return true
+end
 
+function AccessNorfair()
+  return CanBombBlock()
+end
+
+function AccessCrateria()
+  return false
+end
+
+function AccessKraid()
+  return false
+end
+
+function AccessRidley()
+  return false
+end
+
+function AccessTourian()
+  return false
+end
+
+function AccessChozodia()
+  return false
+end
 
 -- Subregion functions
 
@@ -277,3 +292,37 @@ function ChozodiaToCockpit()
     and (Has("Bomb") or PowerBombCount(4))
 end
 
+-- Boss functions
+-- These are written somewhat differently to the apworld. It has full knowledge of whether
+-- those bosses are *actually* defeated, since it has access to the game itself. We do not
+-- have that luxury, so instead, we can imagine that all defeatable bosses are instantly
+-- defeated for the purposes of logic. It's good enough for our purposes.
+
+function KraidDefeatable()
+  return AccessKraid() and
+    KraidSpaceJumpUnknownItem2() == AccessibilityLevel.Normal
+    and MissileCount(30)
+    and Has("EnergyTank", 1)
+    and (HasAll({"HiJump", "PowerGrip"}) or Has("SpeedBooster") or CanSpaceJump() or CanIBJ() or CanWalljump())
+end
+
+function RidleyDefeatable()
+  return true
+end
+
+function MotherBrainDefeatable()
+  return AccessTourian() and
+    HasAll({"IceBeam", "Bomb"})
+    and MissileCount(40)
+    and Has("EnergyTank", 4)
+    and (CanHiJump() or Has("PowerGrip"))
+    and (Has("SpeedBooster") or CanSpaceJump() or CanIBJ() or (Has("HiJump") and CanWalljump()))
+end
+
+function ChozoGhostDefeatable()
+  return true
+end
+
+function MechaRidleyDefeatable()
+  return true
+end

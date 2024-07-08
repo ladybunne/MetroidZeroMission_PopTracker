@@ -3,8 +3,8 @@ Just some regex crimes. Don't tell the regex police.
 
 From Google Sheet to general outline:
 
-(.*)\t(.*)\t(.*)\t(.*)\t(.*)
-{ "name": "$2", "access_rules": "$2", "sections": [ { "name": "$3" } ], "map_locations": [ { "map": "$1", "x": $4, "y": $5 } ] },
+(.*)\t(.*)\t(.*)\t(.*)\t(.*)\t(.*)\t(.*)
+{ "name": "$2", "access_rules": "$2", "sections": [ { "name": "$3" } ], "map_locations": [ { "map": "$1", "x": $4, "y": $5 }, { "map": "Combined", "x": $6, "y": $7 } ] },
 
 
 Fix access rules:
