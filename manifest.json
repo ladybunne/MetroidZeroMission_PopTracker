@@ -1,7 +1,7 @@
 {
     "name": "Metroid: Zero Mission - Archipelago",
     "game_name": "Metroid: Zero Mission",
-    "package_version": "0.1",
+    "package_version": "1.0",
     "package_uid": "MetroidZeroMission-Archipelago",
     "platform": "Windows",
     "author": "Ladybunne",
@@ -13,6 +13,6 @@
         ]
       }
     },
-    "versions_url": ""
+    "versions_url": "https://raw.githubusercontent.com/ladybunne/MetroidZeroMission_PopTrackerPack/main/versions.json"
   }
   
