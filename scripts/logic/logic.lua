@@ -90,7 +90,7 @@ function CanBallspark()
 end
 
 function CanSpaceJump()
-  return Has("SpaceJump") and (ChozoGhostDefeatable() or UNKNOWN_ITEMS_ALWAYS_USABLE)
+  return Has("SpaceJump") and (UNKNOWN_ITEMS_ALWAYS_USABLE or ChozoGhostDefeatable())
 end
 
 function CanTraverseHeat()
@@ -98,7 +98,7 @@ function CanTraverseHeat()
 end
 
 function CanGravitySuit()
-  return Has("GravitySuit") and (ChozoGhostDefeatable() or UNKNOWN_ITEMS_ALWAYS_USABLE)
+  return Has("GravitySuit") and (UNKNOWN_ITEMS_ALWAYS_USABLE or ChozoGhostDefeatable())
 end
 
 function Hellrun(etanks_amount)
@@ -365,7 +365,7 @@ end
 
 function BrinstarMorphBallCannon()
   local condition = AccessBrinstar() and
-    Has("Bomb")
+    CanRegularBomb()
 
   if condition then
     return AccessibilityLevel.Normal
@@ -797,7 +797,7 @@ end
 
 function NorfairPowerGripMissile()
   local condition = AccessNorfair() and
-    CanIBJ() or (Has("PowerGrip") or HasAll({"HiJump", "IceBeam"}))
+    (CanIBJ() or (Has("PowerGrip") or HasAll({"HiJump", "IceBeam"})))
 
   if condition then
     return AccessibilityLevel.Normal
@@ -955,11 +955,11 @@ end
 
 function NorfairBigRoom()
   local condition = AccessNorfair() and
-    Has("SpeedBooster")
+    (Has("SpeedBooster")
     or (NorfairRightShaftAccess()
       and (CanIBJ() or CanSpaceJump()
         or (Has("IceBeam")
-          and (HasAny({"HiJump", "PowerGrip"}) or CanWalljump()))))
+          and (HasAny({"HiJump", "PowerGrip"}) or CanWalljump())))))
 
   if condition then
     return AccessibilityLevel.Normal
@@ -1359,8 +1359,8 @@ end
 
 function CrateriaNortheastCorner()
   local condition = AccessCrateria() and
-    Has("SpeedBooster")
-    and (CanSpaceJump() or CanWalljump() or CanTrickySparks())
+    (Has("SpeedBooster")
+    and (CanSpaceJump() or CanWalljump() or CanTrickySparks()))
 
   if condition then
     return AccessibilityLevel.Normal
