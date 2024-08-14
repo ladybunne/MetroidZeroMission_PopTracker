@@ -1,0 +1,58 @@
+{
+    "tracker_broadcast": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "6, 6, 6, 6",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "14, 0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "margin": "0",
+                        "item_margin": "4, 4",
+                        "rows": [
+                            ["LongBeam"],
+                            ["ChargeBeam"],
+                            ["IceBeam"],
+                            ["WaveBeam"],
+                            ["PlasmaBeam"]
+                        ]
+                    },
+                    {
+                        "type": "canvas",
+                        "width": "12",
+                        "margin": "0"
+                    },
+                    {
+                        "type": "itemgrid",
+                        "margin": "0",
+                        "item_margin": "4, 4",
+                        "rows": [
+                            ["MorphBall", "Bomb"],
+                            ["VariaSuit", "GravitySuit"],
+                            ["SpeedBooster", "ScrewAttack"],
+                            ["HiJump", "SpaceJump"],
+                            ["PowerGrip"]
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "canvas",
+                "height": "12",
+                "margin": "0"
+            },
+            {
+                "type": "itemgrid",
+                "margin": "0",
+                "item_margin": "4, 4",
+                "rows": [
+                    ["EnergyTank", "MissileTank", "SuperMissileTank", "PowerBombTank"]
+                ]
+            }
+        ]
+    }
+}
