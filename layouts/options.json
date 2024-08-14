@@ -1,0 +1,71 @@
+{
+    "settings_popup": {
+        "type": "container",
+        "background": "#000000",
+        "margin": "144",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                
+                "content": [
+                    {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "content": [
+                            {
+                                "type": "item",
+                                "item": "TestOption1",
+                                "max_height": 16,
+                                "max_width": 16,
+                                "margin": "4"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Test Option 1",
+                                "v_alignment": "center"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "content": [
+                            {
+                                "type": "item",
+                                "item": "TestOption2",
+                                "max_height": 16,
+                                "max_width": 16,
+                                "margin": "4"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Test Option 2",
+                                "v_alignment": "center"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "content": [
+                            {
+                                "type": "item",
+                                "item": "TestOption3",
+                                "max_height": 16,
+                                "max_width": 16,
+                                "margin": "4"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Test Option 3",
+                                "v_alignment": "center"
+                            }
+                        ]
+                    }
+                ]
+            }
+            
+        ]
+    }
+}

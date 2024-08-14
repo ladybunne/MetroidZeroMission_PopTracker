@@ -19,6 +19,10 @@ function OnClear(slot_data)
     end
     SLOT_DATA = slot_data
     CUR_INDEX = -1
+
+    -- set options
+    LoadOptions(slot_data)
+
     -- reset locations
     for _, v in pairs(LOCATION_MAPPING) do
         if v[1] then
@@ -37,6 +41,7 @@ function OnClear(slot_data)
             end
         end
     end
+
     -- reset items
     for _, v in pairs(ITEM_MAPPING) do
         if v[1] and v[2] then
@@ -62,10 +67,6 @@ function OnClear(slot_data)
     end
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
-    -- manually run snes interface functions after onClear in case we are already ingame
-    if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
-        -- add snes interface functions here
-    end
 end
 
 -- called when an item gets collected
@@ -126,9 +127,6 @@ function OnItem(index, item_id, item_name, player_number)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("local items: %s", DumpTable(LOCAL_ITEMS)))
         print(string.format("global items: %s", DumpTable(GLOBAL_ITEMS)))
-    end
-    if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
-        -- add snes interface functions here for local item tracking
     end
 end
 

@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Test Option 1",
+        "codes": "TestOption1",
+        "img": "images/greensquare.png",
+        "disabled_img": "images/redsquare.png",
+        "disabled_img_mods": "",
+        "type": "toggle"
+    },
+    {
+        "name": "Test Option 2",
+        "codes": "TestOption2",
+        "img": "images/greensquare.png",
+        "disabled_img": "images/redsquare.png",
+        "disabled_img_mods": "",
+        "type": "toggle"
+    },
+    {
+        "name": "Test Option 3",
+        "codes": "TestOption3",
+        "img": "images/greensquare.png",
+        "disabled_img": "images/redsquare.png",
+        "disabled_img_mods": "",
+        "type": "toggle"
+    }
+]
