@@ -1,6 +1,5 @@
 -- yaml options - defaults for now until I can wire them up.
 
--- 
 GOAL = false
 HEATRUNS_LAVADIVES = false
 WALLJUMPS_IN_LOGIC = true
