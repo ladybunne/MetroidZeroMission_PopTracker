@@ -156,6 +156,6 @@ end
 
 
 -- add AP callbacks
-Archipelago:AddClearHandler("AUSClearHandler", OnClear)
-Archipelago:AddItemHandler("AUSItemHandler", OnItem)
-Archipelago:AddLocationHandler("AUSLocationHandler", OnLocation)
+Archipelago:AddClearHandler("ClearHandler", OnClear)
+Archipelago:AddItemHandler("ItemHandler", OnItem)
+Archipelago:AddLocationHandler("LocationHandler", OnLocation)

@@ -1,23 +1,55 @@
 [
     {
-        "name": "Test Option 1",
-        "codes": "TestOption1",
+        "name": "Goal",
+        "codes": "Goal",
         "img": "images/greensquare.png",
         "disabled_img": "images/redsquare.png",
         "disabled_img_mods": "",
         "type": "toggle"
     },
     {
-        "name": "Test Option 2",
-        "codes": "TestOption2",
+        "name": "Heatruns / Lavadives",
+        "codes": "Heatruns",
         "img": "images/greensquare.png",
         "disabled_img": "images/redsquare.png",
         "disabled_img_mods": "",
         "type": "toggle"
     },
     {
-        "name": "Test Option 3",
-        "codes": "TestOption3",
+        "name": "Walljumps In Logic",
+        "codes": "Walljumps",
+        "img": "images/greensquare.png",
+        "disabled_img": "images/redsquare.png",
+        "disabled_img_mods": "",
+        "type": "toggle"
+    },
+    {
+        "name": "Layout Patches",
+        "codes": "LayoutPatches",
+        "img": "images/greensquare.png",
+        "disabled_img": "images/redsquare.png",
+        "disabled_img_mods": "",
+        "type": "toggle"
+    },
+    {
+        "name": "Unknown Items Always Usable",
+        "codes": "UnknownItems",
+        "img": "images/greensquare.png",
+        "disabled_img": "images/redsquare.png",
+        "disabled_img_mods": "",
+        "type": "toggle"
+    },
+    {
+        "name": "IBJ In Logic",
+        "codes": "IBJ",
+        "img": "images/greensquare.png",
+        "disabled_img": "images/redsquare.png",
+        "disabled_img_mods": "",
+        "type": "toggle"
+    },
+    {
+        "name": "Chozodia Access",
+        "codes": "ChozodiaAccess",
         "img": "images/greensquare.png",
         "disabled_img": "images/redsquare.png",
         "disabled_img_mods": "",

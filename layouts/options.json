@@ -15,14 +15,14 @@
                         "content": [
                             {
                                 "type": "item",
-                                "item": "TestOption1",
+                                "item": "Goal",
                                 "max_height": 16,
                                 "max_width": 16,
                                 "margin": "4"
                             },
                             {
                                 "type": "text",
-                                "text": "Test Option 1",
+                                "text": "Goal",
                                 "v_alignment": "center"
                             }
                         ]
@@ -33,14 +33,14 @@
                         "content": [
                             {
                                 "type": "item",
-                                "item": "TestOption2",
+                                "item": "Heatruns",
                                 "max_height": 16,
                                 "max_width": 16,
                                 "margin": "4"
                             },
                             {
                                 "type": "text",
-                                "text": "Test Option 2",
+                                "text": "Heatruns / Lavadives",
                                 "v_alignment": "center"
                             }
                         ]
@@ -51,14 +51,86 @@
                         "content": [
                             {
                                 "type": "item",
-                                "item": "TestOption3",
+                                "item": "Walljumps",
                                 "max_height": 16,
                                 "max_width": 16,
                                 "margin": "4"
                             },
                             {
                                 "type": "text",
-                                "text": "Test Option 3",
+                                "text": "Walljumps In Logic",
+                                "v_alignment": "center"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "content": [
+                            {
+                                "type": "item",
+                                "item": "LayoutPatches",
+                                "max_height": 16,
+                                "max_width": 16,
+                                "margin": "4"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Layout Patches",
+                                "v_alignment": "center"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "content": [
+                            {
+                                "type": "item",
+                                "item": "UnknownItems",
+                                "max_height": 16,
+                                "max_width": 16,
+                                "margin": "4"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Unknown Items Always Usable",
+                                "v_alignment": "center"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "content": [
+                            {
+                                "type": "item",
+                                "item": "IBJ",
+                                "max_height": 16,
+                                "max_width": 16,
+                                "margin": "4"
+                            },
+                            {
+                                "type": "text",
+                                "text": "IBJ In Logic",
+                                "v_alignment": "center"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "content": [
+                            {
+                                "type": "item",
+                                "item": "ChozodiaAccess",
+                                "max_height": 16,
+                                "max_width": 16,
+                                "margin": "4"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Chozodia Access",
                                 "v_alignment": "center"
                             }
                         ]

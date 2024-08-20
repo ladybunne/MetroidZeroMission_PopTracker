@@ -3,7 +3,7 @@ ENABLE_DEBUG_LOG = true
 
 -- Lua
 ScriptHost:LoadScript("scripts/utils.lua")
-ScriptHost:LoadScript("yaml_options.lua")
+ScriptHost:LoadScript("scripts/logic/yaml_options.lua")
 ScriptHost:LoadScript("scripts/logic/logic.lua")
 
 -- Items
