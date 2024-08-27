@@ -1,31 +1,15 @@
 [
     {
-        "name": "Goal",
-        "codes": "Goal",
+        "name": "Deathlink",
+        "codes": "death_link",
         "img": "images/greensquare.png",
         "disabled_img": "images/redsquare.png",
         "disabled_img_mods": "",
         "type": "toggle"
     },
     {
-        "name": "Heatruns / Lavadives",
-        "codes": "Heatruns",
-        "img": "images/greensquare.png",
-        "disabled_img": "images/redsquare.png",
-        "disabled_img_mods": "",
-        "type": "toggle"
-    },
-    {
-        "name": "Walljumps In Logic",
-        "codes": "Walljumps",
-        "img": "images/greensquare.png",
-        "disabled_img": "images/redsquare.png",
-        "disabled_img_mods": "",
-        "type": "toggle"
-    },
-    {
-        "name": "Layout Patches",
-        "codes": "LayoutPatches",
+        "name": "Logic Difficulty",
+        "codes": "logic_difficulty",
         "img": "images/greensquare.png",
         "disabled_img": "images/redsquare.png",
         "disabled_img_mods": "",
@@ -33,7 +17,23 @@
     },
     {
         "name": "Unknown Items Always Usable",
-        "codes": "UnknownItems",
+        "codes": "unknown_items",
+        "img": "images/greensquare.png",
+        "disabled_img": "images/redsquare.png",
+        "disabled_img_mods": "",
+        "type": "toggle"
+    },
+    {
+        "name": "Remote Items",
+        "codes": "remote_items",
+        "img": "images/greensquare.png",
+        "disabled_img": "images/redsquare.png",
+        "disabled_img_mods": "",
+        "type": "toggle"
+    },
+    {
+        "name": "Tricky Shinesparks",
+        "codes": "tricky_shinesparks",
         "img": "images/greensquare.png",
         "disabled_img": "images/redsquare.png",
         "disabled_img_mods": "",
@@ -41,7 +41,39 @@
     },
     {
         "name": "IBJ In Logic",
-        "codes": "IBJ",
+        "codes": "ibj_logic",
+        "img": "images/greensquare.png",
+        "disabled_img": "images/redsquare.png",
+        "disabled_img_mods": "",
+        "type": "toggle"
+    },
+    {
+        "name": "Goal",
+        "codes": "goal",
+        "img": "images/greensquare.png",
+        "disabled_img": "images/redsquare.png",
+        "disabled_img_mods": "",
+        "type": "toggle"
+    },
+    {
+        "name": "Walljumps In Logic",
+        "codes": "walljump_logic",
+        "img": "images/greensquare.png",
+        "disabled_img": "images/redsquare.png",
+        "disabled_img_mods": "",
+        "type": "toggle"
+    },
+    {
+        "name": "Heatruns / Lavadives",
+        "codes": "heatruns",
+        "img": "images/greensquare.png",
+        "disabled_img": "images/redsquare.png",
+        "disabled_img_mods": "",
+        "type": "toggle"
+    },
+    {
+        "name": "Layout Patches",
+        "codes": "layout_patches",
         "img": "images/greensquare.png",
         "disabled_img": "images/redsquare.png",
         "disabled_img_mods": "",

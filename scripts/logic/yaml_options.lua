@@ -16,10 +16,28 @@ function LoadOptions(slot_data)
         return
     end
 
-    GOAL = slot_data["goal"] == 1
-    HEATRUNS_LAVADIVES = slot_data["heatruns"] == 1
-    WALLJUMPS_IN_LOGIC = slot_data["walljump_logic"] == 1
-    LAYOUT_PATCHES = slot_data["layout_patches"] == 1
-    UNKNOWN_ITEMS_ALWAYS_USABLE = slot_data["unknown_items"] == 1
-    IBJ_IN_LOGIC = slot_data["ibj_logic"] == 1
+    for k, v in pairs(slot_data) do
+        local obj = Tracker:FindObjectForCode(k)
+        if obj then
+            obj.Active = v == 1
+        end
+    end
 end
+
+function WalljumpsInLogic()
+    return Tracker:FindObjectForCode("walljump_logic").Active
+end
+
+
+-- {
+--     ["death_link"] = 0,
+--     ["logic_difficulty"] = 0,
+--     ["unknown_items"] = 1,
+--     ["remote_items"] = 1,
+--     ["tricky_shinesparks"] = 0,
+--     ["ibj_logic"] = 0,
+--     ["goal"] = 1,
+--     ["walljump_logic"] = 1,
+--     ["heatruns"] = 0,
+--     ["layout_patches"] = 1,
+-- }
