@@ -90,11 +90,20 @@
                         "content": [
                             {
                                 "type": "group",
-                                "header": "Items",
+                                "header": "Equipment",
                                 "dock": "left",
                                 "content": {
                                     "type": "layout",
-                                    "key": "items"
+                                    "key": "equipment"
+                                }
+                            },
+                            {
+                                "type": "group",
+                                "header": "Events",
+                                "dock": "left",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "events"
                                 }
                             }
                         ]

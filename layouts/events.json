@@ -1,5 +1,5 @@
 {
-    "items": {
+    "events": {
         "type": "array",
         "orientation": "vertical",
         "margin": "6,6",
@@ -10,8 +10,8 @@
                 "margin": "0, 0",
                 "h_alignment": "left",
                 "rows": [
-                    ["MorphBall", "Bomb", "PowerGrip", "SpeedBooster", "HiJump", "ScrewAttack", "SpaceJump", "VariaSuit", "GravitySuit"],
-                    ["LongBeam", "ChargeBeam", "IceBeam", "WaveBeam", "PlasmaBeam", "EnergyTank", "MissileTank", "SuperMissileTank", "PowerBombTank"]
+                    ["acid_worm"],
+                    []
                 ]
             }
         ]

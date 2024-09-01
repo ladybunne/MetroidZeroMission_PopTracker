@@ -8,7 +8,8 @@ ScriptHost:LoadScript("scripts/logic/yaml_options.lua")
 ScriptHost:LoadScript("scripts/logic/logic.lua")
 
 -- Items
-Tracker:AddItems("items/items.json")
+Tracker:AddItems("items/equipment.json")
+Tracker:AddItems("items/events.json")
 Tracker:AddItems("items/options.json")
 
 -- Maps
@@ -18,7 +19,8 @@ Tracker:AddMaps("maps/maps.json")
 Tracker:AddLocations("locations/locations.json")
 
 -- Layouts
-Tracker:AddLayouts("layouts/items.json")
+Tracker:AddLayouts("layouts/equipment.json")
+Tracker:AddLayouts("layouts/events.json")
 Tracker:AddLayouts("layouts/map.json")
 Tracker:AddLayouts("layouts/options.json")
 Tracker:AddLayouts("layouts/broadcast.json")
