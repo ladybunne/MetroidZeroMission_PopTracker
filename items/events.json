@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Acid Worm Killed",
+        "codes": "acid_worm",
+        "img": "images/greensquare.png",
+        "disabled_img": "images/redsquare.png",
+        "disabled_img_mods": "",
+        "type": "toggle"
+    }
+]
