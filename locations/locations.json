@@ -1,13 +1,15 @@
 [
     {
         "name": "Brinstar",
+        "chest_unopened_img": "images/MissileTank.png",
+        "chest_opened_img": "images/Checked.png",
         "children": [
             {
                 "name": "Brinstar Morph Ball",
                 "access_rules": "^$BrinstarMorphBall",
                 "sections": [
                     {
-                        "name": "Brinstar Morph Ball"
+                        "chest_unopened_img": "images/MorphBall.png"
                     }
                 ],
                 "map_locations": [
@@ -27,9 +29,7 @@
                 "name": "Brinstar Morph Ball Cannon",
                 "access_rules": "^$BrinstarMorphBallCannon",
                 "sections": [
-                    {
-                        "name": "Brinstar Morph Ball Cannon"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -49,7 +49,7 @@
                 "access_rules": "^$BrinstarLongBeam",
                 "sections": [
                     {
-                        "name": "Brinstar Long Beam"
+                        "chest_unopened_img": "images/LongBeam.png"
                     }
                 ],
                 "map_locations": [
@@ -70,7 +70,7 @@
                 "access_rules": "^$BrinstarCeilingETank",
                 "sections": [
                     {
-                        "name": "Brinstar Ceiling E-Tank"
+                        "chest_unopened_img": "images/EnergyTank.png"
                     }
                 ],
                 "map_locations": [
@@ -90,9 +90,7 @@
                 "name": "Brinstar Missile Above Super",
                 "access_rules": "^$BrinstarMissileAboveSuper",
                 "sections": [
-                    {
-                        "name": "Brinstar Missile Above Super"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -112,7 +110,7 @@
                 "access_rules": "^$BrinstarSuperMissile",
                 "sections": [
                     {
-                        "name": "Brinstar Super Missile"
+                        "chest_unopened_img": "images/SuperMissileTank.png"
                     }
                 ],
                 "map_locations": [
@@ -132,9 +130,7 @@
                 "name": "Brinstar Top Missile",
                 "access_rules": "^$BrinstarTopMissile",
                 "sections": [
-                    {
-                        "name": "Brinstar Top Missile"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -153,9 +149,7 @@
                 "name": "Brinstar Speed Booster Shortcut Missile",
                 "access_rules": "^$BrinstarSpeedBoosterShortcutMissile",
                 "sections": [
-                    {
-                        "name": "Brinstar Speed Booster Shortcut Missile"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -175,7 +169,7 @@
                 "access_rules": "^$BrinstarVariaSuit",
                 "sections": [
                     {
-                        "name": "Brinstar Varia Suit"
+                        "chest_unopened_img": "images/VariaSuit.png"
                     }
                 ],
                 "map_locations": [
@@ -196,7 +190,7 @@
                 "access_rules": "^$BrinstarWormDrop",
                 "sections": [
                     {
-                        "name": "Brinstar Worm drop"
+                        "chest_unopened_img": "images/ChargeBeam.png"
                     }
                 ],
                 "map_locations": [
@@ -217,7 +211,7 @@
                 "access_rules": "^$BrinstarAcidNearVaria",
                 "sections": [
                     {
-                        "name": "Brinstar Acid near Varia"
+                        "chest_unopened_img": "images/EnergyTank.png"
                     }
                 ],
                 "map_locations": [
@@ -237,9 +231,7 @@
                 "name": "Brinstar First Missile",
                 "access_rules": "^$BrinstarFirstMissile",
                 "sections": [
-                    {
-                        "name": "Brinstar First Missile"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -258,9 +250,7 @@
                 "name": "Brinstar Behind Hive",
                 "access_rules": "^$BrinstarBehindHive",
                 "sections": [
-                    {
-                        "name": "Brinstar Behind Hive"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -279,9 +269,7 @@
                 "name": "Brinstar Under Bridge",
                 "access_rules": "^$BrinstarUnderBridge",
                 "sections": [
-                    {
-                        "name": "Brinstar Under Bridge"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -300,9 +288,7 @@
                 "name": "Brinstar Post-Hive Missile",
                 "access_rules": "^$BrinstarPostHiveMissile",
                 "sections": [
-                    {
-                        "name": "Brinstar Post-Hive Missile"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -321,9 +307,7 @@
                 "name": "Brinstar Upper Pillar Missile",
                 "access_rules": "^$BrinstarUpperPillarMissile",
                 "sections": [
-                    {
-                        "name": "Brinstar Upper Pillar Missile"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -342,9 +326,7 @@
                 "name": "Brinstar Behind Bombs",
                 "access_rules": "^$BrinstarBehindBombs",
                 "sections": [
-                    {
-                        "name": "Brinstar Behind Bombs"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -364,7 +346,7 @@
                 "access_rules": "^$BrinstarBomb",
                 "sections": [
                     {
-                        "name": "Brinstar Bomb"
+                        "chest_unopened_img": "images/Bomb.png"
                     }
                 ],
                 "map_locations": [
@@ -385,7 +367,7 @@
                 "access_rules": "^$BrinstarPostHiveETank",
                 "sections": [
                     {
-                        "name": "Brinstar Post-Hive E-Tank"
+                        "chest_unopened_img": "images/EnergyTank.png"
                     }
                 ],
                 "map_locations": [
@@ -405,14 +387,14 @@
     },
     {
         "name": "Kraid",
+        "chest_unopened_img": "images/MissileTank.png",
+        "chest_opened_img": "images/Checked.png",
         "children": [
             {
                 "name": "Kraid Giant Hoppers Missile",
                 "access_rules": "^$KraidGiantHoppersMissile",
                 "sections": [
-                    {
-                        "name": "Kraid Giant Hoppers Missile"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -431,9 +413,7 @@
                 "name": "Kraid Save Room Missile",
                 "access_rules": "^$KraidSaveRoomMissile",
                 "sections": [
-                    {
-                        "name": "Kraid Save Room Missile"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -452,9 +432,7 @@
                 "name": "Kraid Crumble Block Missile",
                 "access_rules": "^$KraidCrumbleBlockMissile",
                 "sections": [
-                    {
-                        "name": "Kraid Crumble Block Missile"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -473,9 +451,7 @@
                 "name": "Kraid Quad Ball Cannon Room",
                 "access_rules": "^$KraidQuadBallCannonRoom",
                 "sections": [
-                    {
-                        "name": "Kraid Quad Ball Cannon Room"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -495,7 +471,7 @@
                 "access_rules": "^$KraidSpaceJump",
                 "sections": [
                     {
-                        "name": "Kraid Space Jump"
+                        "chest_unopened_img": "images/UnknownSpaceJump.png"
                     }
                 ],
                 "map_locations": [
@@ -515,9 +491,7 @@
                 "name": "Kraid Acid Ballspark",
                 "access_rules": "^$KraidAcidBallspark",
                 "sections": [
-                    {
-                        "name": "Kraid Acid Ballspark"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -537,7 +511,7 @@
                 "access_rules": "^$KraidSpeedBooster",
                 "sections": [
                     {
-                        "name": "Kraid Speed Booster"
+                        "chest_unopened_img": "images/SpeedBooster.png"
                     }
                 ],
                 "map_locations": [
@@ -557,9 +531,7 @@
                 "name": "Kraid Worm Missile",
                 "access_rules": "^$KraidWormMissile",
                 "sections": [
-                    {
-                        "name": "Kraid Worm Missile"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -578,9 +550,7 @@
                 "name": "Kraid Pillar Missile",
                 "access_rules": "^$KraidPillarMissile",
                 "sections": [
-                    {
-                        "name": "Kraid Pillar Missile"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -599,9 +569,7 @@
                 "name": "Kraid Acid Fall",
                 "access_rules": "^$KraidAcidFall",
                 "sections": [
-                    {
-                        "name": "Kraid Acid Fall"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -621,7 +589,7 @@
                 "access_rules": "^$KraidWormETank",
                 "sections": [
                     {
-                        "name": "Kraid Worm E-Tank"
+                        "chest_unopened_img": "images/EnergyTank.png"
                     }
                 ],
                 "map_locations": [
@@ -642,7 +610,7 @@
                 "access_rules": "^$KraidSpeedJump",
                 "sections": [
                     {
-                        "name": "Kraid Speed Jump"
+                        "chest_unopened_img": "images/EnergyTank.png"
                     }
                 ],
                 "map_locations": [
@@ -662,9 +630,7 @@
                 "name": "Kraid Upper Right Morph Ball Cannon",
                 "access_rules": "^$KraidUpperRightMorphBallCannon",
                 "sections": [
-                    {
-                        "name": "Kraid Upper Right Morph Ball Cannon"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -683,13 +649,15 @@
     },
     {
         "name": "Norfair",
+        "chest_unopened_img": "images/MissileTank.png",
+        "chest_opened_img": "images/Checked.png",
         "children": [
             {
                 "name": "Norfair Lava Power Bomb",
                 "access_rules": "^$NorfairLavaPowerBomb",
                 "sections": [
                     {
-                        "name": "Norfair Lava Power Bomb"
+                        "chest_unopened_img": "images/PowerBombTank.png"
                     }
                 ],
                 "map_locations": [
@@ -709,9 +677,7 @@
                 "name": "Norfair Lava Missile",
                 "access_rules": "^$NorfairLavaMissile",
                 "sections": [
-                    {
-                        "name": "Norfair Lava Missile"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -731,7 +697,7 @@
                 "access_rules": "^$NorfairScrewAttack",
                 "sections": [
                     {
-                        "name": "Norfair Screw Attack"
+                        "chest_unopened_img": "images/ScrewAttack.png"
                     }
                 ],
                 "map_locations": [
@@ -751,9 +717,7 @@
                 "name": "Norfair Screw Attack Missile",
                 "access_rules": "^$NorfairScrewAttackMissile",
                 "sections": [
-                    {
-                        "name": "Norfair Screw Attack Missile"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -772,9 +736,7 @@
                 "name": "Norfair Power Grip Missile",
                 "access_rules": "^$NorfairPowerGripMissile",
                 "sections": [
-                    {
-                        "name": "Norfair Power Grip Missile"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -793,9 +755,7 @@
                 "name": "Norfair Under Crateria Elevator",
                 "access_rules": "^$NorfairUnderCrateriaElevator",
                 "sections": [
-                    {
-                        "name": "Norfair Under Crateria Elevator"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -815,7 +775,7 @@
                 "access_rules": "^$NorfairWaveBeam",
                 "sections": [
                     {
-                        "name": "Norfair Wave Beam"
+                        "chest_unopened_img": "images/WaveBeam.png"
                     }
                 ],
                 "map_locations": [
@@ -836,7 +796,7 @@
                 "access_rules": "^$NorfairBombTrap",
                 "sections": [
                     {
-                        "name": "Norfair Bomb Trap"
+                        "chest_unopened_img": "images/SuperMissileTank.png"
                     }
                 ],
                 "map_locations": [
@@ -856,9 +816,7 @@
                 "name": "Norfair Bottom Heated Room First",
                 "access_rules": "^$NorfairBottomHeatedRoomFirst",
                 "sections": [
-                    {
-                        "name": "Norfair Bottom Heated Room First"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -877,9 +835,7 @@
                 "name": "Norfair Bottom Heated Room Second",
                 "access_rules": "^$NorfairBottomHeatedRoomSecond",
                 "sections": [
-                    {
-                        "name": "Norfair Bottom Heated Room Second"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -898,9 +854,7 @@
                 "name": "Norfair Heated Room Under Brinstar Elevator",
                 "access_rules": "^$NorfairHeatedRoomUnderBrinstarElevator",
                 "sections": [
-                    {
-                        "name": "Norfair Heated Room Under Brinstar Elevator"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -919,9 +873,7 @@
                 "name": "Norfair Space Boost Missile",
                 "access_rules": "^$NorfairSpaceBoostMissile",
                 "sections": [
-                    {
-                        "name": "Norfair Space Boost Missile"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -941,7 +893,7 @@
                 "access_rules": "^$NorfairSpaceBoostSuperMissile",
                 "sections": [
                     {
-                        "name": "Norfair Space Boost Super Missile"
+                        "chest_unopened_img": "images/SuperMissileTank.png"
                     }
                 ],
                 "map_locations": [
@@ -962,7 +914,7 @@
                 "access_rules": "^$NorfairIceBeam",
                 "sections": [
                     {
-                        "name": "Norfair Ice Beam"
+                        "chest_unopened_img": "images/IceBeam.png"
                     }
                 ],
                 "map_locations": [
@@ -982,9 +934,7 @@
                 "name": "Norfair Heated Room Above Ice Beam",
                 "access_rules": "^$NorfairHeatedRoomAboveIceBeam",
                 "sections": [
-                    {
-                        "name": "Norfair Heated Room above Ice Beam"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -1004,7 +954,7 @@
                 "access_rules": "^$NorfairHiJump",
                 "sections": [
                     {
-                        "name": "Norfair Hi-Jump"
+                        "chest_unopened_img": "images/HiJump.png"
                     }
                 ],
                 "map_locations": [
@@ -1024,9 +974,7 @@
                 "name": "Norfair Big Room",
                 "access_rules": "^$NorfairBigRoom",
                 "sections": [
-                    {
-                        "name": "Norfair Big Room"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -1045,9 +993,7 @@
                 "name": "Norfair Behind Top Chozo Statue",
                 "access_rules": "^$NorfairBehindTopChozoStatue",
                 "sections": [
-                    {
-                        "name": "Norfair Behind Top Chozo Statue"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -1067,7 +1013,7 @@
                 "access_rules": "^$NorfairLarvaCeilingETank",
                 "sections": [
                     {
-                        "name": "Norfair Larva Ceiling E-tank"
+                        "chest_unopened_img": "images/EnergyTank.png"
                     }
                 ],
                 "map_locations": [
@@ -1087,9 +1033,7 @@
                 "name": "Norfair Right Shaft Lower",
                 "access_rules": "^$NorfairRightShaftLower",
                 "sections": [
-                    {
-                        "name": "Norfair Right Shaft Lower"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -1108,9 +1052,7 @@
                 "name": "Norfair Right Shaft Bottom",
                 "access_rules": "^$NorfairRightShaftBottom",
                 "sections": [
-                    {
-                        "name": "Norfair Right Shaft Bottom"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -1129,14 +1071,14 @@
     },
     {
         "name": "Ridley",
+        "chest_unopened_img": "images/MissileTank.png",
+        "chest_opened_img": "images/Checked.png",
         "children": [
             {
                 "name": "Ridley Southwest Puzzle Top",
                 "access_rules": "^$RidleySouthwestPuzzleTop",
                 "sections": [
-                    {
-                        "name": "Ridley Southwest Puzzle Top"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -1155,9 +1097,7 @@
                 "name": "Ridley Southwest Puzzle Bottom",
                 "access_rules": "^$RidleySouthwestPuzzleBottom",
                 "sections": [
-                    {
-                        "name": "Ridley Southwest Puzzle Bottom"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -1176,9 +1116,7 @@
                 "name": "Ridley West Pillar",
                 "access_rules": "^$RidleyWestPillar",
                 "sections": [
-                    {
-                        "name": "Ridley West Pillar"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -1198,7 +1136,7 @@
                 "access_rules": "^$RidleyETankBehindGravity",
                 "sections": [
                     {
-                        "name": "Ridley E-Tank behind Gravity"
+                        "chest_unopened_img": "images/EnergyTank.png"
                     }
                 ],
                 "map_locations": [
@@ -1219,7 +1157,7 @@
                 "access_rules": "^$RidleyGravitySuit",
                 "sections": [
                     {
-                        "name": "Ridley Gravity Suit"
+                        "chest_unopened_img": "images/UnknownGravitySuit.png"
                     }
                 ],
                 "map_locations": [
@@ -1240,7 +1178,7 @@
                 "access_rules": "^$RidleyFakeFloorETank",
                 "sections": [
                     {
-                        "name": "Ridley Fake Floor E-Tank"
+                        "chest_unopened_img": "images/EnergyTank.png"
                     }
                 ],
                 "map_locations": [
@@ -1260,9 +1198,7 @@
                 "name": "Ridley Upper Ball Cannon Puzzle",
                 "access_rules": "^$RidleyUpperBallCannonPuzzle",
                 "sections": [
-                    {
-                        "name": "Ridley Upper Ball Cannon Puzzle"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -1281,9 +1217,7 @@
                 "name": "Ridley Lower Ball Cannon Puzzle",
                 "access_rules": "^$RidleyLowerBallCannonPuzzle",
                 "sections": [
-                    {
-                        "name": "Ridley Lower Ball Cannon Puzzle"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -1303,7 +1237,7 @@
                 "access_rules": "^$RidleyImagoSuperMissile",
                 "sections": [
                     {
-                        "name": "Ridley Imago Super Missile"
+                        "chest_unopened_img": "images/SuperMissileTank.png"
                     }
                 ],
                 "map_locations": [
@@ -1323,9 +1257,7 @@
                 "name": "Ridley After Sidehopper Hall Upper",
                 "access_rules": "^$RidleyAfterSidehopperHallUpper",
                 "sections": [
-                    {
-                        "name": "Ridley After Sidehopper Hall Upper"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -1345,7 +1277,7 @@
                 "access_rules": "^$RidleyAfterSidehopperHallLower",
                 "sections": [
                     {
-                        "name": "Ridley After Sidehopper Hall Lower"
+                        "chest_unopened_img": "images/SuperMissileTank.png"
                     }
                 ],
                 "map_locations": [
@@ -1365,9 +1297,7 @@
                 "name": "Ridley Long Hall",
                 "access_rules": "^$RidleyLongHall",
                 "sections": [
-                    {
-                        "name": "Ridley Long Hall"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -1386,9 +1316,7 @@
                 "name": "Ridley Center Pillar Missile",
                 "access_rules": "^$RidleyCenterPillarMissile",
                 "sections": [
-                    {
-                        "name": "Ridley Center Pillar Missile"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -1407,9 +1335,7 @@
                 "name": "Ridley Ball Room Missile",
                 "access_rules": "^$RidleyBallRoomMissile",
                 "sections": [
-                    {
-                        "name": "Ridley Ball Room Missile"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -1429,7 +1355,7 @@
                 "access_rules": "^$RidleyBallRoomSuper",
                 "sections": [
                     {
-                        "name": "Ridley Ball Room Super"
+                        "chest_unopened_img": "images/SuperMissileTank.png"
                     }
                 ],
                 "map_locations": [
@@ -1449,9 +1375,7 @@
                 "name": "Ridley Fake Lava Missile",
                 "access_rules": "^$RidleyFakeLavaMissile",
                 "sections": [
-                    {
-                        "name": "Ridley Fake Lava Missile"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -1471,7 +1395,7 @@
                 "access_rules": "^$RidleyOwlETank",
                 "sections": [
                     {
-                        "name": "Ridley Owl E-Tank"
+                        "chest_unopened_img": "images/EnergyTank.png"
                     }
                 ],
                 "map_locations": [
@@ -1491,9 +1415,7 @@
                 "name": "Ridley Northeast Corner Missile",
                 "access_rules": "^$RidleyNortheastCornerMissile",
                 "sections": [
-                    {
-                        "name": "Ridley Northeast corner Missile"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -1512,9 +1434,7 @@
                 "name": "Ridley Bomb Puzzle",
                 "access_rules": "^$RidleyBombPuzzle",
                 "sections": [
-                    {
-                        "name": "Ridley Bomb Puzzle"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -1533,9 +1453,7 @@
                 "name": "Ridley Speed Jump",
                 "access_rules": "^$RidleySpeedJump",
                 "sections": [
-                    {
-                        "name": "Ridley Speed Jump"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -1554,14 +1472,14 @@
     },
     {
         "name": "Tourian",
+        "chest_unopened_img": "images/MissileTank.png",
+        "chest_opened_img": "images/Checked.png",
         "children": [
             {
                 "name": "Tourian Left Of Mother Brain",
                 "access_rules": "^$TourianLeftOfMotherBrain",
                 "sections": [
-                    {
-                        "name": "Tourian Left of Mother Brain"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -1581,7 +1499,7 @@
                 "access_rules": "^$TourianUnderMotherBrain",
                 "sections": [
                     {
-                        "name": "Tourian Under Mother Brain"
+                        "chest_unopened_img": "images/PowerBombTank.png"
                     }
                 ],
                 "map_locations": [
@@ -1601,13 +1519,15 @@
     },
     {
         "name": "Crateria",
+        "chest_unopened_img": "images/MissileTank.png",
+        "chest_opened_img": "images/Checked.png",
         "children": [
             {
                 "name": "Crateria Landing Site Ballspark",
                 "access_rules": "^$CrateriaLandingSiteBallspark",
                 "sections": [
                     {
-                        "name": "Crateria Landing Site Ballspark"
+                        "chest_unopened_img": "images/PowerBombTank.png"
                     }
                 ],
                 "map_locations": [
@@ -1628,7 +1548,7 @@
                 "access_rules": "^$CrateriaPowerGrip",
                 "sections": [
                     {
-                        "name": "Crateria Power Grip"
+                        "chest_unopened_img": "images/PowerGrip.png"
                     }
                 ],
                 "map_locations": [
@@ -1648,9 +1568,7 @@
                 "name": "Crateria Moat",
                 "access_rules": "^$CrateriaMoat",
                 "sections": [
-                    {
-                        "name": "Crateria Moat"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -1669,9 +1587,7 @@
                 "name": "Crateria Statue Water",
                 "access_rules": "^$CrateriaStatueWater",
                 "sections": [
-                    {
-                        "name": "Crateria Statue Water"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -1691,7 +1607,7 @@
                 "access_rules": "^$CrateriaPlasmaBeam",
                 "sections": [
                     {
-                        "name": "Crateria Plasma Beam"
+                        "chest_unopened_img": "images/UnknownPlasmaBeam.png"
                     }
                 ],
                 "map_locations": [
@@ -1711,9 +1627,7 @@
                 "name": "Crateria East Ballspark",
                 "access_rules": "^$CrateriaEastBallspark",
                 "sections": [
-                    {
-                        "name": "Crateria East Ballspark"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -1733,7 +1647,7 @@
                 "access_rules": "^$CrateriaNortheastCorner",
                 "sections": [
                     {
-                        "name": "Crateria Northeast Corner"
+                        "chest_unopened_img": "images/SuperMissileTank.png"
                     }
                 ],
                 "map_locations": [
@@ -1753,13 +1667,15 @@
     },
     {
         "name": "Chozodia",
+        "chest_unopened_img": "images/MissileTank.png",
+        "chest_opened_img": "images/Checked.png",
         "children": [
             {
                 "name": "Chozodia Upper Crateria Door",
                 "access_rules": "^$ChozodiaUpperCrateriaDoor",
                 "sections": [
                     {
-                        "name": "Chozodia Upper Crateria Door"
+                        "chest_unopened_img": "images/PowerBombTank.png"
                     }
                 ],
                 "map_locations": [
@@ -1780,7 +1696,7 @@
                 "access_rules": "^$ChozodiaBombMaze",
                 "sections": [
                     {
-                        "name": "Chozodia Bomb Maze"
+                        "chest_unopened_img": "images/SuperMissileTank.png"
                     }
                 ],
                 "map_locations": [
@@ -1801,7 +1717,7 @@
                 "access_rules": "^$ChozodiaZoomerMaze",
                 "sections": [
                     {
-                        "name": "Chozodia Zoomer Maze"
+                        "chest_unopened_img": "images/SuperMissileTank.png"
                     }
                 ],
                 "map_locations": [
@@ -1822,7 +1738,7 @@
                 "access_rules": "^$ChozodiaRuinsNearUpperCrateriaDoor",
                 "sections": [
                     {
-                        "name": "Chozodia Ruins Near Upper Crateria Door"
+                        "chest_unopened_img": "images/SuperMissileTank.png"
                     }
                 ],
                 "map_locations": [
@@ -1842,9 +1758,7 @@
                 "name": "Chozodia Chozo Ghost Area Morph Tunnel Above Water",
                 "access_rules": "^$ChozodiaChozoGhostAreaMorphTunnelAboveWater",
                 "sections": [
-                    {
-                        "name": "Chozodia Chozo Ghost Area Morph Tunnel Above Water"
-                    }
+                    {}
                 ],
                 "map_locations": [
                     {
@@ -1864,7 +1778,7 @@
                 "access_rules": "^$ChozodiaChozoGhostAreaUnderwater",
                 "sections": [
                     {
-                        "name": "Chozodia Chozo Ghost Area Underwater"
+                        "chest_unopened_img": "images/SuperMissileTank.png"
                     }
                 ],
                 "map_locations": [
@@ -1885,7 +1799,7 @@
                 "access_rules": "^$ChozodiaUnderChozoGhostAreaWater",
                 "sections": [
                     {
-                        "name": "Chozodia Under Chozo Ghost Area Water"
+                        "chest_unopened_img": "images/PowerBombTank.png"
                     }
                 ],
                 "map_locations": [
@@ -1906,7 +1820,7 @@
                 "access_rules": "^$ChozodiaGlassTubeETank",
                 "sections": [
                     {
-                        "name": "Chozodia Glass Tube E-Tank"
+                        "chest_unopened_img": "images/EnergyTank.png"
                     }
                 ],
                 "map_locations": [
@@ -1927,7 +1841,7 @@
                 "access_rules": "^$ChozodiaLavaSuper",
                 "sections": [
                     {
-                        "name": "Chozodia Lava Super"
+                        "chest_unopened_img": "images/SuperMissileTank.png"
                     }
                 ],
                 "map_locations": [
@@ -1948,7 +1862,7 @@
                 "access_rules": "^$ChozodiaOriginalPowerBomb",
                 "sections": [
                     {
-                        "name": "Chozodia Original Power Bomb"
+                        "chest_unopened_img": "images/PowerBombTank.png"
                     }
                 ],
                 "map_locations": [
@@ -1969,7 +1883,7 @@
                 "access_rules": "^$ChozodiaNextToOriginalPowerBomb",
                 "sections": [
                     {
-                        "name": "Chozodia Next to Original Power Bomb"
+                        "chest_unopened_img": "images/PowerBombTank.png"
                     }
                 ],
                 "map_locations": [
@@ -1990,7 +1904,7 @@
                 "access_rules": "^$ChozodiaGlassTubePowerBomb",
                 "sections": [
                     {
-                        "name": "Chozodia Glass Tube Power Bomb"
+                        "chest_unopened_img": "images/PowerBombTank.png"
                     }
                 ],
                 "map_locations": [
@@ -2011,7 +1925,7 @@
                 "access_rules": "^$ChozodiaChozoGhostAreaLongShinespark",
                 "sections": [
                     {
-                        "name": "Chozodia Chozo Ghost Area Long Shinespark"
+                        "chest_unopened_img": "images/EnergyTank.png"
                     }
                 ],
                 "map_locations": [
@@ -2032,7 +1946,7 @@
                 "access_rules": "^$ChozodiaShortcutSuper",
                 "sections": [
                     {
-                        "name": "Chozodia Shortcut Super"
+                        "chest_unopened_img": "images/SuperMissileTank.png"
                     }
                 ],
                 "map_locations": [
@@ -2053,7 +1967,7 @@
                 "access_rules": "^$ChozodiaWorkbotSuper",
                 "sections": [
                     {
-                        "name": "Chozodia Workbot Super"
+                        "chest_unopened_img": "images/SuperMissileTank.png"
                     }
                 ],
                 "map_locations": [
@@ -2074,7 +1988,7 @@
                 "access_rules": "^$ChozodiaMothershipCeilingNearZSSStart",
                 "sections": [
                     {
-                        "name": "Chozodia Mothership Ceiling Near ZSS Start"
+                        "chest_unopened_img": "images/SuperMissileTank.png"
                     }
                 ],
                 "map_locations": [
@@ -2095,7 +2009,7 @@
                 "access_rules": "^$ChozodiaUnderMechaRidleyHallway",
                 "sections": [
                     {
-                        "name": "Chozodia Under Mecha Ridley Hallway"
+                        "chest_unopened_img": "images/EnergyTank.png"
                     }
                 ],
                 "map_locations": [
@@ -2116,7 +2030,7 @@
                 "access_rules": "^$ChozodiaSoutheastCornerInHull",
                 "sections": [
                     {
-                        "name": "Chozodia Southeast Corner In Hull"
+                        "chest_unopened_img": "images/PowerBombTank.png"
                     }
                 ],
                 "map_locations": [
