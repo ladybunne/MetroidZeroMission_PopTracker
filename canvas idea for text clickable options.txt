@@ -1,0 +1,30 @@
+                "content": [
+                    {
+                        "type": "canvas",
+                        "orientation": "horizontal",
+                        "margin": "0,0,0,100",
+                        "content": [
+                            {
+                                "type": "item",
+                                "item": "goal",
+                                "item_size": "48,16",
+                                "background": "#000000",
+                                "margin": "4"
+                            },
+                            {
+                                "type": "item",
+                                "item": "testitem",
+                                "background": "#FFFFFF",
+                                "item_size": "48,16",
+                                "canvas_left": 16
+                            },
+                            {
+                                "type": "text",
+                                "text": "Goal",
+                                "v_alignment": "center",
+                                "canvas_left": 18
+                            }
+                        ]
+                    },
+
+Gotta have an icon, unfortunately.

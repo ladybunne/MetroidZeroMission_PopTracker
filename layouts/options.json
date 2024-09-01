@@ -2,12 +2,11 @@
     "settings_popup": {
         "type": "container",
         "background": "#000000",
-        "margin": "144",
         "content": [
             {
                 "type": "array",
                 "orientation": "vertical",
-                
+                "margin": "64, 128",
                 "content": [
                     {
                         "type": "array",
@@ -22,7 +21,7 @@
                             },
                             {
                                 "type": "text",
-                                "text": "Goal",
+                                "text": "All Bosses Required for Goal",
                                 "v_alignment": "center"
                             }
                         ]
@@ -33,7 +32,7 @@
                         "content": [
                             {
                                 "type": "item",
-                                "item": "ChozodiaAccess",
+                                "item": "chozodia_access",
                                 "max_height": 16,
                                 "max_width": 16,
                                 "margin": "4"

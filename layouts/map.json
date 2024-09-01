@@ -19,29 +19,20 @@
                                 }
                             },
                             {
-                                "title": "Norfair",
-                                "content": {
-                                    "type": "map",
-                                    "maps": [
-                                        "Norfair"
-                                    ]
-                                }
-                            },
-                            {
-                                "title": "Crateria",
-                                "content": {
-                                    "type": "map",
-                                    "maps": [
-                                        "Crateria"
-                                    ]
-                                }
-                            },
-                            {
                                 "title": "Kraid",
                                 "content": {
                                     "type": "map",
                                     "maps": [
                                         "Kraid"
+                                    ]
+                                }
+                            },
+                            {
+                                "title": "Norfair",
+                                "content": {
+                                    "type": "map",
+                                    "maps": [
+                                        "Norfair"
                                     ]
                                 }
                             },
@@ -60,6 +51,15 @@
                                     "type": "map",
                                     "maps": [
                                         "Tourian"
+                                    ]
+                                }
+                            },
+                            {
+                                "title": "Crateria",
+                                "content": {
+                                    "type": "map",
+                                    "maps": [
+                                        "Crateria"
                                     ]
                                 }
                             },
