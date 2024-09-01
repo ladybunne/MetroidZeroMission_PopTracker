@@ -9,6 +9,7 @@ end
 function SwitchTab(value)
     if value then
         Tracker:UiHint("ActivateTab", tabs[value])
+    -- Don't auto-swap to Brinstar on nil, that's annoying for dev.
     else
         Tracker:UiHint("ActivateTab", tabs[0])
     end

@@ -5,6 +5,15 @@
         "chest_opened_img": "images/Checked.png",
         "children": [
             {
+                "name": "Brinstar",
+                "sections": [
+
+                ],
+                "map_locations": [
+
+                ]
+            },
+            {
                 "name": "Brinstar Morph Ball",
                 "access_rules": "^$BrinstarMorphBall",
                 "sections": [
@@ -15,8 +24,8 @@
                 "map_locations": [
                     {
                         "map": "Brinstar",
-                        "x": 4,
-                        "y": 108
+                        "x": 12,
+                        "y": 116
                     },
                     {
                         "map": "Combined",
@@ -34,8 +43,8 @@
                 "map_locations": [
                     {
                         "map": "Brinstar",
-                        "x": 44,
-                        "y": 100
+                        "x": 52,
+                        "y": 108
                     },
                     {
                         "map": "Combined",
@@ -55,8 +64,8 @@
                 "map_locations": [
                     {
                         "map": "Brinstar",
-                        "x": 52,
-                        "y": 36
+                        "x": 60,
+                        "y": 44
                     },
                     {
                         "map": "Combined",
@@ -76,8 +85,8 @@
                 "map_locations": [
                     {
                         "map": "Brinstar",
-                        "x": 60,
-                        "y": 108
+                        "x": 68,
+                        "y": 116
                     },
                     {
                         "map": "Combined",
@@ -95,8 +104,8 @@
                 "map_locations": [
                     {
                         "map": "Brinstar",
-                        "x": 76,
-                        "y": 76
+                        "x": 84,
+                        "y": 84
                     },
                     {
                         "map": "Combined",
@@ -116,8 +125,8 @@
                 "map_locations": [
                     {
                         "map": "Brinstar",
-                        "x": 76,
-                        "y": 84
+                        "x": 84,
+                        "y": 92
                     },
                     {
                         "map": "Combined",
@@ -135,8 +144,8 @@
                 "map_locations": [
                     {
                         "map": "Brinstar",
-                        "x": 92,
-                        "y": 12
+                        "x": 100,
+                        "y": 20
                     },
                     {
                         "map": "Combined",
@@ -154,8 +163,8 @@
                 "map_locations": [
                     {
                         "map": "Brinstar",
-                        "x": 92,
-                        "y": 84
+                        "x": 100,
+                        "y": 92
                     },
                     {
                         "map": "Combined",
@@ -175,8 +184,8 @@
                 "map_locations": [
                     {
                         "map": "Brinstar",
-                        "x": 116,
-                        "y": 4
+                        "x": 124,
+                        "y": 12
                     },
                     {
                         "map": "Combined",
@@ -197,13 +206,23 @@
                 "map_locations": [
                     {
                         "map": "Brinstar",
-                        "x": 116,
-                        "y": 84
+                        "x": 124,
+                        "y": 92
+                    },
+                    {
+                        "map": "Brinstar",
+                        "x": 196,
+                        "y": 60
                     },
                     {
                         "map": "Combined",
                         "x": 228,
                         "y": 84
+                    },
+                    {
+                        "map": "Combined",
+                        "x": 300,
+                        "y": 52
                     }
                 ]
             },
@@ -218,8 +237,8 @@
                 "map_locations": [
                     {
                         "map": "Brinstar",
-                        "x": 132,
-                        "y": 12
+                        "x": 140,
+                        "y": 20
                     },
                     {
                         "map": "Combined",
@@ -237,8 +256,8 @@
                 "map_locations": [
                     {
                         "map": "Brinstar",
-                        "x": 132,
-                        "y": 84
+                        "x": 140,
+                        "y": 92
                     },
                     {
                         "map": "Combined",
@@ -256,8 +275,8 @@
                 "map_locations": [
                     {
                         "map": "Brinstar",
-                        "x": 140,
-                        "y": 44
+                        "x": 148,
+                        "y": 52
                     },
                     {
                         "map": "Combined",
@@ -275,8 +294,8 @@
                 "map_locations": [
                     {
                         "map": "Brinstar",
-                        "x": 140,
-                        "y": 68
+                        "x": 148,
+                        "y": 76
                     },
                     {
                         "map": "Combined",
@@ -294,8 +313,8 @@
                 "map_locations": [
                     {
                         "map": "Brinstar",
-                        "x": 180,
-                        "y": 52
+                        "x": 188,
+                        "y": 60
                     },
                     {
                         "map": "Combined",
@@ -313,8 +332,8 @@
                 "map_locations": [
                     {
                         "map": "Brinstar",
-                        "x": 188,
-                        "y": 20
+                        "x": 196,
+                        "y": 28
                     },
                     {
                         "map": "Combined",
@@ -332,8 +351,8 @@
                 "map_locations": [
                     {
                         "map": "Brinstar",
-                        "x": 188,
-                        "y": 36
+                        "x": 196,
+                        "y": 44
                     },
                     {
                         "map": "Combined",
@@ -353,8 +372,8 @@
                 "map_locations": [
                     {
                         "map": "Brinstar",
-                        "x": 196,
-                        "y": 36
+                        "x": 204,
+                        "y": 44
                     },
                     {
                         "map": "Combined",
@@ -374,8 +393,8 @@
                 "map_locations": [
                     {
                         "map": "Brinstar",
-                        "x": 196,
-                        "y": 52
+                        "x": 204,
+                        "y": 60
                     },
                     {
                         "map": "Combined",
@@ -392,10 +411,80 @@
         "chest_opened_img": "images/Checked.png",
         "children": [
             {
-                "name": "Kraid Giant Hoppers Missile",
-                "access_rules": "^$KraidGiantHoppersMissile",
+                "name": "Kraid",
                 "sections": [
-                    {}
+                    {
+                        "name": "Kraid Giant Hoppers Missile",
+                        "access_rules": "^$KraidGiantHoppersMissile"
+                    },
+                    {
+                        "name": "Kraid Save Room Missile",
+                        "access_rules": "^$KraidSaveRoomMissile"
+                    },
+                    {
+                        "name": "Kraid Crumble Block Missile",
+                        "access_rules": "^$KraidCrumbleBlockMissile"
+                    },
+                    {
+                        "name": "Kraid Quad Ball Cannon Room",
+                        "access_rules": "^$KraidQuadBallCannonRoom"
+                    },
+                    {
+                        "name": "Kraid Space Jump",
+                        "access_rules": "^$KraidSpaceJump",
+                        "chest_unopened_img": "images/UnknownSpaceJump.png"
+                    },
+                    {
+                        "name": "Kraid Acid Ballspark",
+                        "access_rules": "^$KraidAcidBallspark"
+                    },
+                    {
+                        "name": "Kraid Speed Booster",
+                        "access_rules": "^$KraidSpeedBooster",
+                        "chest_unopened_img": "images/SpeedBooster.png"
+                    },
+                    {
+                        "name": "Kraid Worm Missile",
+                        "access_rules": "^$KraidWormMissile"
+                    },
+                    {
+                        "name": "Kraid Pillar Missile",
+                        "access_rules": "^$KraidPillarMissile"
+                    },
+                    {
+                        "name": "Kraid Acid Fall",
+                        "access_rules": "^$KraidAcidFall"
+                    },
+                    {
+                        "name": "Kraid Worm E-Tank",
+                        "access_rules": "^$KraidWormETank",
+                        "chest_unopened_img": "images/EnergyTank.png"
+                    },
+                    {
+                        "name": "Kraid Speed Jump",
+                        "access_rules": "^$KraidSpeedJump",
+                        "chest_unopened_img": "images/EnergyTank.png"
+                    },
+                    {
+                        "name": "Kraid Upper Right Morph Ball Cannon",
+                        "access_rules": "^$KraidUpperRightMorphBallCannon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Brinstar",
+                        "x": 60,
+                        "y": 164
+                    }
+                ]
+            },
+            {
+                "name": "Kraid Giant Hoppers Missile",
+                "sections": [
+                    {
+                        "name": " ",
+                        "ref": "Kraid/Kraid/Kraid Giant Hoppers Missile"
+                    }
                 ],
                 "map_locations": [
                     {
@@ -412,9 +501,11 @@
             },
             {
                 "name": "Kraid Save Room Missile",
-                "access_rules": "^$KraidSaveRoomMissile",
                 "sections": [
-                    {}
+                    {
+                        "name": " ",
+                        "ref": "Kraid/Kraid/Kraid Save Room Missile"
+                    }
                 ],
                 "map_locations": [
                     {
@@ -431,9 +522,11 @@
             },
             {
                 "name": "Kraid Crumble Block Missile",
-                "access_rules": "^$KraidCrumbleBlockMissile",
                 "sections": [
-                    {}
+                    {
+                        "name": " ",
+                        "ref": "Kraid/Kraid/Kraid Crumble Block Missile"
+                    }
                 ],
                 "map_locations": [
                     {
@@ -450,9 +543,11 @@
             },
             {
                 "name": "Kraid Quad Ball Cannon Room",
-                "access_rules": "^$KraidQuadBallCannonRoom",
                 "sections": [
-                    {}
+                    {
+                        "name": " ",
+                        "ref": "Kraid/Kraid/Kraid Quad Ball Cannon Room"
+                    }
                 ],
                 "map_locations": [
                     {
@@ -469,10 +564,10 @@
             },
             {
                 "name": "Kraid Space Jump",
-                "access_rules": "^$KraidSpaceJump",
                 "sections": [
                     {
-                        "chest_unopened_img": "images/UnknownSpaceJump.png"
+                        "name": " ",
+                        "ref": "Kraid/Kraid/Kraid Space Jump"
                     }
                 ],
                 "map_locations": [
@@ -490,9 +585,11 @@
             },
             {
                 "name": "Kraid Acid Ballspark",
-                "access_rules": "^$KraidAcidBallspark",
                 "sections": [
-                    {}
+                    {
+                        "name": " ",
+                        "ref": "Kraid/Kraid/Kraid Acid Ballspark"
+                    }
                 ],
                 "map_locations": [
                     {
@@ -509,10 +606,10 @@
             },
             {
                 "name": "Kraid Speed Booster",
-                "access_rules": "^$KraidSpeedBooster",
                 "sections": [
                     {
-                        "chest_unopened_img": "images/SpeedBooster.png"
+                        "name": " ",
+                        "ref": "Kraid/Kraid/Kraid Speed Booster"
                     }
                 ],
                 "map_locations": [
@@ -530,9 +627,11 @@
             },
             {
                 "name": "Kraid Worm Missile",
-                "access_rules": "^$KraidWormMissile",
                 "sections": [
-                    {}
+                    {
+                        "name": " ",
+                        "ref": "Kraid/Kraid/Kraid Worm Missile"
+                    }
                 ],
                 "map_locations": [
                     {
@@ -549,9 +648,11 @@
             },
             {
                 "name": "Kraid Pillar Missile",
-                "access_rules": "^$KraidPillarMissile",
                 "sections": [
-                    {}
+                    {
+                        "name": " ",
+                        "ref": "Kraid/Kraid/Kraid Pillar Missile"
+                    }
                 ],
                 "map_locations": [
                     {
@@ -568,9 +669,11 @@
             },
             {
                 "name": "Kraid Acid Fall",
-                "access_rules": "^$KraidAcidFall",
                 "sections": [
-                    {}
+                    {
+                        "name": " ",
+                        "ref": "Kraid/Kraid/Kraid Acid Fall"
+                    }
                 ],
                 "map_locations": [
                     {
@@ -587,10 +690,10 @@
             },
             {
                 "name": "Kraid Worm E-Tank",
-                "access_rules": "^$KraidWormETank",
                 "sections": [
                     {
-                        "chest_unopened_img": "images/EnergyTank.png"
+                        "name": " ",
+                        "ref": "Kraid/Kraid/Kraid Worm E-Tank"
                     }
                 ],
                 "map_locations": [
@@ -608,10 +711,10 @@
             },
             {
                 "name": "Kraid Speed Jump",
-                "access_rules": "^$KraidSpeedJump",
                 "sections": [
                     {
-                        "chest_unopened_img": "images/EnergyTank.png"
+                        "name": " ",
+                        "ref": "Kraid/Kraid/Kraid Speed Jump"
                     }
                 ],
                 "map_locations": [
@@ -629,9 +732,11 @@
             },
             {
                 "name": "Kraid Upper Right Morph Ball Cannon",
-                "access_rules": "^$KraidUpperRightMorphBallCannon",
                 "sections": [
-                    {}
+                    {
+                        "name": " ",
+                        "ref": "Kraid/Kraid/Kraid Upper Right Morph Ball Cannon"
+                    }
                 ],
                 "map_locations": [
                     {
@@ -653,6 +758,15 @@
         "chest_unopened_img": "images/MissileTank.png",
         "chest_opened_img": "images/Checked.png",
         "children": [
+            {
+                "name": "Norfair",
+                "sections": [
+
+                ],
+                "map_locations": [
+
+                ]
+            },
             {
                 "name": "Norfair Lava Power Bomb",
                 "access_rules": "^$NorfairLavaPowerBomb",
@@ -1076,6 +1190,15 @@
         "chest_opened_img": "images/Checked.png",
         "children": [
             {
+                "name": "Ridley",
+                "sections": [
+
+                ],
+                "map_locations": [
+
+                ]
+            },
+            {
                 "name": "Ridley Southwest Puzzle Top",
                 "access_rules": "^$RidleySouthwestPuzzleTop",
                 "sections": [
@@ -1477,10 +1600,33 @@
         "chest_opened_img": "images/Checked.png",
         "children": [
             {
-                "name": "Tourian Left Of Mother Brain",
-                "access_rules": "^$TourianLeftOfMotherBrain",
+                "name": "Tourian",
                 "sections": [
-                    {}
+                    {
+                        "name": "Tourian Left Of Mother Brain",
+                        "access_rules": "^$TourianLeftOfMotherBrain"
+                    },
+                    {
+                        "name": "Tourian Under Mother Brain",
+                        "access_rules": "^$TourianUnderMotherBrain",
+                        "chest_unopened_img": "images/PowerBombTank.png"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Brinstar",
+                        "x": 20,
+                        "y": 44
+                    }
+                ]
+            },
+            {
+                "name": "Tourian Left Of Mother Brain",
+                "sections": [
+                    {
+                        "name": " ",
+                        "ref": "Tourian/Tourian/Tourian Left Of Mother Brain"
+                    }
                 ],
                 "map_locations": [
                     {
@@ -1497,10 +1643,10 @@
             },
             {
                 "name": "Tourian Under Mother Brain",
-                "access_rules": "^$TourianUnderMotherBrain",
                 "sections": [
                     {
-                        "chest_unopened_img": "images/PowerBombTank.png"
+                        "name": " ",
+                        "ref": "Tourian/Tourian/Tourian Under Mother Brain"
                     }
                 ],
                 "map_locations": [
@@ -1523,6 +1669,15 @@
         "chest_unopened_img": "images/MissileTank.png",
         "chest_opened_img": "images/Checked.png",
         "children": [
+            {
+                "name": "Crateria",
+                "sections": [
+
+                ],
+                "map_locations": [
+
+                ]
+            },
             {
                 "name": "Crateria Landing Site Ballspark",
                 "access_rules": "^$CrateriaLandingSiteBallspark",
@@ -1671,6 +1826,15 @@
         "chest_unopened_img": "images/MissileTank.png",
         "chest_opened_img": "images/Checked.png",
         "children": [
+            {
+                "name": "Chozodia",
+                "sections": [
+
+                ],
+                "map_locations": [
+
+                ]
+            },
             {
                 "name": "Chozodia Upper Crateria Door",
                 "access_rules": "^$ChozodiaUpperCrateriaDoor",
