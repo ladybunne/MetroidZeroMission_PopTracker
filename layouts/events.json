@@ -10,8 +10,8 @@
                 "margin": "0, 0",
                 "h_alignment": "left",
                 "rows": [
-                    ["acid_worm"],
-                    []
+                    ["deorem", "acid_worm", "kraid", "imago_cocoon", "imago", "ridley"],
+                    ["mother_brain", "escaped_zebes", "fully_powered_suit", "mecha_ridley", "escaped_chozodia"]
                 ]
             }
         ]

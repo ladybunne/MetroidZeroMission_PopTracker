@@ -186,6 +186,7 @@
                 ]
             },
             {
+                "notes": "I'd like to support moving the location between its two spots eventually, and marking off the one you actually clear.",
                 "name": "Brinstar Worm Drop",
                 "access_rules": "^$BrinstarWormDrop",
                 "sections": [

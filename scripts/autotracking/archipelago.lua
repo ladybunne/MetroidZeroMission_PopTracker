@@ -69,7 +69,7 @@ function OnClear(slot_data)
     GLOBAL_ITEMS = {}
 
     -- data storage keys
-    KEYS_TO_WATCH = {GetAreaSwitchingKey()}
+    KEYS_TO_WATCH = {GetAreaSwitchingKey(), GetEventKey()}
     Archipelago:SetNotify(KEYS_TO_WATCH)
     Archipelago:Get(KEYS_TO_WATCH)
 end
@@ -178,6 +178,8 @@ function OnRetrieved(key, value)
 
     if key == GetAreaSwitchingKey() then
         SwitchTab(value)
+    elseif key == GetEventKey() then
+        HandleNewEvent(value)
     end
 end
 
@@ -188,6 +190,8 @@ function OnSetReply(key, value, oldValue)
 
     if key == GetAreaSwitchingKey() then
         SwitchTab(value)
+    elseif key == GetEventKey() then
+        HandleNewEvent(value)
     end
 end
 

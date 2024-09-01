@@ -1,7 +1,87 @@
 [
     {
+        "name": "Deorem Killed",
+        "codes": "deorem",
+        "img": "images/greensquare.png",
+        "disabled_img": "images/redsquare.png",
+        "disabled_img_mods": "",
+        "type": "toggle"
+    },
+    {
         "name": "Acid Worm Killed",
         "codes": "acid_worm",
+        "img": "images/greensquare.png",
+        "disabled_img": "images/redsquare.png",
+        "disabled_img_mods": "",
+        "type": "toggle"
+    },
+    {
+        "name": "Kraid Killed",
+        "codes": "kraid",
+        "img": "images/greensquare.png",
+        "disabled_img": "images/redsquare.png",
+        "disabled_img_mods": "",
+        "type": "toggle"
+    },
+    {
+        "name": "Imago Cocoon Killed",
+        "codes": "imago_cocoon",
+        "img": "images/greensquare.png",
+        "disabled_img": "images/redsquare.png",
+        "disabled_img_mods": "",
+        "type": "toggle"
+    },
+    {
+        "name": "Imago Killed",
+        "codes": "imago",
+        "img": "images/greensquare.png",
+        "disabled_img": "images/redsquare.png",
+        "disabled_img_mods": "",
+        "type": "toggle"
+    },
+    {
+        "name": "Ridley Killed",
+        "codes": "ridley",
+        "img": "images/greensquare.png",
+        "disabled_img": "images/redsquare.png",
+        "disabled_img_mods": "",
+        "type": "toggle"
+    },
+    {
+        "name": "Mother Brain Killed",
+        "codes": "mother_brain",
+        "img": "images/greensquare.png",
+        "disabled_img": "images/redsquare.png",
+        "disabled_img_mods": "",
+        "type": "toggle"
+    },
+    {
+        "name": "Escaped Zebes",
+        "codes": "escaped_zebes",
+        "img": "images/greensquare.png",
+        "disabled_img": "images/redsquare.png",
+        "disabled_img_mods": "",
+        "type": "toggle"
+    },
+    {
+        "name": "Obtained Fully Powered Suit",
+        "codes": "fully_powered_suit",
+        "img": "images/greensquare.png",
+        "disabled_img": "images/redsquare.png",
+        "disabled_img_mods": "",
+        "type": "toggle"
+    },
+    {
+        "name": "Mecha Ridley Killed",
+        "codes": "mecha_ridley",
+        "img": "images/greensquare.png",
+        "disabled_img": "images/redsquare.png",
+        "disabled_img_mods": "",
+        "type": "toggle"
+    },
+    {
+        "name": "Escaped Chozodia",
+        "codes": "escaped_chozodia",
         "img": "images/greensquare.png",
         "disabled_img": "images/redsquare.png",
         "disabled_img_mods": "",
