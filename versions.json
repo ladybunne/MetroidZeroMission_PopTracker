@@ -1,6 +1,22 @@
 {
     "versions": [
         {
+            "package_version": "1.1",
+            "download_url": "https://github.com/ladybunne/MetroidZeroMission_PopTrackerPack/releases/download/v1.1/MetroidZeroMission_PopTrackerPack.zip",
+            "sha256": "7a953f93e0ed8a9b9c320a15a68a3958faa883cc0a9a8870a0ecec72b2040e38",
+            "changelog": [
+                "Added automatic tab switching based on area.",
+                "Added support for options, and autoloading of options on connect.",
+                "Added event tracking to show when bosses are defeated.",
+                "Updated individual area maps to have a cleaner look.",
+                "Improved combined map layout, and added visual indicators for how zones connect.",
+                "Added 'peeks', which are little squares near connectors to other areas, that show all of the checks in those areas.",
+                "Added broadcast view (thanks David!).",
+                "Removed duplicated location names (thanks again, David!).",
+                "Logic hasn't yet been updated, that will come in the next update."
+            ]
+        },
+        {
             "package_version": "1.0",
             "download_url": "https://github.com/ladybunne/MetroidZeroMission_PopTrackerPack/releases/download/v1.0/MetroidZeroMission_PopTrackerPack.zip",
             "sha256": "e53e64be8f5baae41c8afacf96f3bb609af9c4e4b2b01a426abf8cb873a96ba6",
