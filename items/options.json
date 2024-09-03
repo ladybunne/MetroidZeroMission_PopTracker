@@ -190,5 +190,22 @@
                 "img": "images/redsquare.png"
             }
         ]
+    },
+    {
+        "name": "Auto-Switch Tabs",
+        "type": "progressive",
+        "loop": "true",
+        "allow_disabled": false,
+        "codes": "auto_switch_tabs",
+        "stages": [
+            {
+                "name": "Enabled",
+                "img": "images/greensquare.png"
+            },
+            {
+                "name": "Disabled",
+                "img": "images/redsquare.png"
+            }
+        ]
     }
 ]

@@ -4,28 +4,36 @@
         "codes": "EnergyTank",
         "img": "images/EnergyTank.png",
         "type": "consumable",
-        "max_quantity": 12
+        "max_quantity": 12,
+        "overlay_background": "000000",
+        "overlay_font_size": 12
     },
     {
         "name": "Missile Tank",
         "codes": "MissileTank",
         "img": "images/MissileTank.png",
         "type": "consumable",
-        "max_quantity": 50
+        "max_quantity": 50,
+        "overlay_background": "000000",
+        "overlay_font_size": 12
     },
     {
         "name": "Super Missile Tank",
         "codes": "SuperMissileTank",
         "img": "images/SuperMissileTank.png",
         "type": "consumable",
-        "max_quantity": 15
+        "max_quantity": 15,
+        "overlay_background": "000000",
+        "overlay_font_size": 12
     },
     {
         "name": "Power Bomb Tank",
         "codes": "PowerBombTank",
         "img": "images/PowerBombTank.png",
         "type": "consumable",
-        "max_quantity": 9
+        "max_quantity": 9,
+        "overlay_background": "000000",
+        "overlay_font_size": 12
     },
     {
         "name": "Long Beam",

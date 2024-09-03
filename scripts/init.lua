@@ -21,7 +21,8 @@ Tracker:AddLocations("locations/locations.json")
 
 -- Layouts
 Tracker:AddLayouts("layouts/equipment.json")
-Tracker:AddLayouts("layouts/events.json")
+Tracker:AddLayouts("layouts/events1.json")
+Tracker:AddLayouts("layouts/events2.json")
 Tracker:AddLayouts("layouts/map.json")
 Tracker:AddLayouts("layouts/options.json")
 Tracker:AddLayouts("layouts/broadcast.json")
@@ -31,5 +32,13 @@ if PopVersion and PopVersion >= "0.18.0" then
     ScriptHost:LoadScript("scripts/autotracking.lua")
 end
 
+
+-- Extra init stuff
+
+
 -- Load default options
 LoadDefaultOptions()
+
+-- Watch for auto swap tab option changing
+-- This is the nichest of niche UX improvements, but I like it, and that's what matters.
+ScriptHost:AddWatchForCode("AutoSwitchTabOnOptionEnabled", "auto_switch_tabs", SwitchTabOnAutoSwitchOptionEnabled)

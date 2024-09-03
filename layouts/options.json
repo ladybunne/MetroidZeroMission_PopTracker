@@ -187,6 +187,24 @@
                                 "v_alignment": "center"
                             }
                         ]
+                    },
+                    {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "content": [
+                            {
+                                "type": "item",
+                                "item": "auto_switch_tabs",
+                                "max_height": 16,
+                                "max_width": 16,
+                                "margin": "4"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Automatically Switch Tabs",
+                                "v_alignment": "center"
+                            }
+                        ]
                     }
                 ]
             }
