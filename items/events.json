@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Deorem Defeated",
+        "codes": "deorem",
+        "img": "images/Deorem.png",
+        "type": "toggle"
+    },
+    {
+        "name": "Acid Worm Defeated",
+        "codes": "acid_worm",
+        "img": "images/AcidWorm.png",
+        "type": "toggle"
+    },
+    {
+        "name": "Kraid Defeated",
+        "codes": "kraid",
+        "img": "images/Kraid.png",
+        "type": "toggle"
+    },
+    {
+        "name": "Imago Cocoon Defeated",
+        "codes": "imago_cocoon",
+        "img": "images/ImagoCocoon.png",
+        "type": "toggle"
+    },
+    {
+        "name": "Imago Defeated",
+        "codes": "imago",
+        "img": "images/Imago.png",
+        "type": "toggle"
+    },
+    {
+        "name": "Ridley Defeated",
+        "codes": "ridley",
+        "img": "images/Ridley.png",
+        "type": "toggle"
+    },
+    {
+        "name": "Mother Brain Defeated",
+        "codes": "mother_brain",
+        "img": "images/MotherBrain.png",
+        "type": "toggle"
+    },
+    {
+        "name": "Escaped Zebes",
+        "codes": "escaped_zebes",
+        "img": "images/greensquare.png",
+        "disabled_img": "images/redsquare.png",
+        "disabled_img_mods": "",
+        "type": "toggle"
+    },
+    {
+        "name": "Chozo Ghost Defeated",
+        "codes": "fully_powered_suit",
+        "img": "images/ChozoGhost.png",
+        "type": "toggle"
+    },
+    {
+        "name": "Mecha Ridley Defeated",
+        "codes": "mecha_ridley",
+        "img": "images/MechaRidley.png",
+        "type": "toggle"
+    },
+    {
+        "name": "Escaped Chozodia",
+        "codes": "escaped_chozodia",
+        "img": "images/greensquare.png",
+        "disabled_img": "images/redsquare.png",
+        "disabled_img_mods": "",
+        "type": "toggle"
+    }
+]

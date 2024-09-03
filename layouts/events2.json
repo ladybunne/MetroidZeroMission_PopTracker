@@ -1,0 +1,19 @@
+{
+    "events2": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "6,6",
+        "content": [
+            {
+                "type": "itemgrid",
+                "item_margin": "4, 4",
+                "item_size": "64, 64",
+                "margin": "0, 0",
+                "h_alignment": "left",
+                "rows": [
+                    ["deorem", "acid_worm", "imago_cocoon", "imago"]
+                ]
+            }
+        ]
+    }
+}

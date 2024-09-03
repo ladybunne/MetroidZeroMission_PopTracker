@@ -10,82 +10,74 @@
                         "type": "tabbed",
                         "tabs": [
                             {
+                                "title": "Brinstar",
+                                "content": {
+                                    "type": "map",
+                                    "maps": [
+                                        "Brinstar"
+                                    ]
+                                }
+                            },
+                            {
+                                "title": "Kraid",
+                                "content": {
+                                    "type": "map",
+                                    "maps": [
+                                        "Kraid"
+                                    ]
+                                }
+                            },
+                            {
+                                "title": "Norfair",
+                                "content": {
+                                    "type": "map",
+                                    "maps": [
+                                        "Norfair"
+                                    ]
+                                }
+                            },
+                            {
+                                "title": "Ridley",
+                                "content": {
+                                    "type": "map",
+                                    "maps": [
+                                        "Ridley"
+                                    ]
+                                }
+                            },
+                            {
+                                "title": "Tourian",
+                                "content": {
+                                    "type": "map",
+                                    "maps": [
+                                        "Tourian"
+                                    ]
+                                }
+                            },
+                            {
+                                "title": "Crateria",
+                                "content": {
+                                    "type": "map",
+                                    "maps": [
+                                        "Crateria"
+                                    ]
+                                }
+                            },
+                            {
+                                "title": "Chozodia",
+                                "content": {
+                                    "type": "map",
+                                    "maps": [
+                                        "Chozodia"
+                                    ]
+                                }
+                            },
+                            {
                                 "title": "Combined",
                                 "content": {
                                     "type": "map",
                                     "maps": [
                                         "Combined"
-                                    ]
-                                }
-                            },
-                            {
-                                "title": "Individual",
-                                "content": {
-                                    "type": "tabbed",
-                                    "tabs": [
-                                        {
-                                            "title": "Brinstar",
-                                            "content": {
-                                                "type": "map",
-                                                "maps": [
-                                                    "Brinstar"
-                                                ]
-                                            }
-                                        },
-                                        {
-                                            "title": "Norfair",
-                                            "content": {
-                                                "type": "map",
-                                                "maps": [
-                                                    "Norfair"
-                                                ]
-                                            }
-                                        },
-                                        {
-                                            "title": "Crateria",
-                                            "content": {
-                                                "type": "map",
-                                                "maps": [
-                                                    "Crateria"
-                                                ]
-                                            }
-                                        },
-                                        {
-                                            "title": "Kraid",
-                                            "content": {
-                                                "type": "map",
-                                                "maps": [
-                                                    "Kraid"
-                                                ]
-                                            }
-                                        },
-                                        {
-                                            "title": "Ridley",
-                                            "content": {
-                                                "type": "map",
-                                                "maps": [
-                                                    "Ridley"
-                                                ]
-                                            }
-                                        },
-                                        {
-                                            "title": "Tourian",
-                                            "content": {
-                                                "type": "map",
-                                                "maps": [
-                                                    "Tourian"
-                                                ]
-                                            }
-                                        },
-                                        {
-                                            "title": "Chozodia",
-                                            "content": {
-                                                "type": "map",
-                                                "maps": [
-                                                    "Chozodia"
-                                                ]
-                                            }
-                                        }
                                     ]
                                 }
                             }
@@ -98,11 +90,29 @@
                         "content": [
                             {
                                 "type": "group",
-                                "header": "Items",
+                                "header": "Equipment",
                                 "dock": "left",
                                 "content": {
                                     "type": "layout",
-                                    "key": "items"
+                                    "key": "equipment"
+                                }
+                            },
+                            {
+                                "type": "group",
+                                "header": "Major Bosses",
+                                "dock": "left",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "events1"
+                                }
+                            },
+                            {
+                                "type": "group",
+                                "header": "Minor Bosses",
+                                "dock": "left",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "events2"
                                 }
                             }
                         ]

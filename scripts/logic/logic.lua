@@ -26,14 +26,6 @@ function HasAll(items)
   return true
 end
 
--- yaml options - defaults for now until I can wire them up.
-LAYOUT_PATCHES = true
-UNKNOWN_ITEMS_ALWAYS_USABLE = true
-HEATRUNS_LAVADIVES = false
-IBJ_IN_LOGIC = false
-WALLJUMPS_IN_LOGIC = true
-CAN_TRICKY_SPARKS = false
-CHOZODIA_ACCESS = false
 
 -- Ability check functions
 
