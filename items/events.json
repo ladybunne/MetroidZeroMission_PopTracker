@@ -2,43 +2,43 @@
     {
         "name": "Deorem Defeated",
         "codes": "deorem",
-        "img": "images/Deorem.png",
+        "img": "images/bosses/Deorem.png",
         "type": "toggle"
     },
     {
         "name": "Acid Worm Defeated",
         "codes": "acid_worm",
-        "img": "images/AcidWorm.png",
+        "img": "images/bosses/AcidWorm.png",
         "type": "toggle"
     },
     {
         "name": "Kraid Defeated",
         "codes": "kraid",
-        "img": "images/Kraid.png",
+        "img": "images/bosses/Kraid.png",
         "type": "toggle"
     },
     {
         "name": "Imago Cocoon Defeated",
         "codes": "imago_cocoon",
-        "img": "images/ImagoCocoon.png",
+        "img": "images/bosses/ImagoCocoon.png",
         "type": "toggle"
     },
     {
         "name": "Imago Defeated",
         "codes": "imago",
-        "img": "images/Imago.png",
+        "img": "images/bosses/Imago.png",
         "type": "toggle"
     },
     {
         "name": "Ridley Defeated",
         "codes": "ridley",
-        "img": "images/Ridley.png",
+        "img": "images/bosses/Ridley.png",
         "type": "toggle"
     },
     {
         "name": "Mother Brain Defeated",
         "codes": "mother_brain",
-        "img": "images/MotherBrain.png",
+        "img": "images/bosses/MotherBrain.png",
         "type": "toggle"
     },
     {
@@ -52,13 +52,13 @@
     {
         "name": "Chozo Ghost Defeated",
         "codes": "fully_powered_suit",
-        "img": "images/ChozoGhost.png",
+        "img": "images/bosses/ChozoGhost.png",
         "type": "toggle"
     },
     {
         "name": "Mecha Ridley Defeated",
         "codes": "mecha_ridley",
-        "img": "images/MechaRidley.png",
+        "img": "images/bosses/MechaRidley.png",
         "type": "toggle"
     },
     {

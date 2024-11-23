@@ -9,9 +9,9 @@ function GetAreaSwitchingKey()
 end
 
 function SwitchTab(value)
-    -- Only switch tabs if it's enabled. (Enabled is 0 here. Confusing, isn't it?)
+    -- Only switch tabs if it's enabled.
     CURRENT_TAB_VALUE = value
-    if Tracker:FindObjectForCode("auto_switch_tabs").CurrentStage == 0 then
+    if Tracker:FindObjectForCode("auto_switch_tabs").CurrentStage == 1 then
         if value then
             Tracker:UiHint("ActivateTab", tabs[value])
         -- Don't auto-swap to Brinstar on nil, that's annoying for dev.
@@ -23,7 +23,7 @@ function SwitchTab(value)
 end
 
 function SwitchTabOnAutoSwitchOptionEnabled(code)
-    if Tracker:FindObjectForCode(code).CurrentStage == 0 then
+    if Tracker:FindObjectForCode(code).CurrentStage == 1 then
         SwitchTab(CURRENT_TAB_VALUE)
     end
 end

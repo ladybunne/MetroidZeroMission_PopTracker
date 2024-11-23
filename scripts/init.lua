@@ -36,9 +36,6 @@ end
 -- Extra init stuff
 
 
--- Load default options
-LoadDefaultOptions()
-
 -- Watch for auto swap tab option changing
 -- This is the nichest of niche UX improvements, but I like it, and that's what matters.
 ScriptHost:AddWatchForCode("AutoSwitchTabOnOptionEnabled", "auto_switch_tabs", SwitchTabOnAutoSwitchOptionEnabled)

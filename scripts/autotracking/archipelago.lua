@@ -68,6 +68,9 @@ function OnClear(slot_data)
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
 
+    -- reset events
+    ResetEvents()
+
     -- data storage keys
     KEYS_TO_WATCH = {GetAreaSwitchingKey(), GetEventKey()}
     Archipelago:SetNotify(KEYS_TO_WATCH)

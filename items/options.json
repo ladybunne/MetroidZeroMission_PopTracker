@@ -39,14 +39,15 @@
         "loop": "true",
         "allow_disabled": false,
         "codes": "unknown_items",
+        "initial_stage_idx": 1,
         "stages": [
             {
                 "name": "Disabled",
-                "img": "images/redsquare.png"
+                "img": "images/UnknownPlasmaBeam.png"
             },
             {
                 "name": "Enabled",
-                "img": "images/greensquare.png"
+                "img": "images/PlasmaBeam.png"
             }
         ]
     },
@@ -76,11 +77,12 @@
         "stages": [
             {
                 "name": "Disabled",
-                "img": "images/redsquare.png"
+                "img_mods": "@disabled",
+                "img": "images/SpeedBooster.png"
             },
             {
                 "name": "Enabled",
-                "img": "images/greensquare.png"
+                "img": "images/SpeedBooster.png"
             }
         ]
     },
@@ -93,15 +95,16 @@
         "stages": [
             {
                 "name": "None",
-                "img": "images/redsquare.png"
+                "img_mods": "@disabled",
+                "img": "images/Bomb.png"
             },
             {
                 "name": "Vertical Only",
-                "img": "images/yellowsquare.png"
+                "img": "images/Bomb.png"
             },
             {
                 "name": "Horizontal and Vertical",
-                "img": "images/greensquare.png"
+                "img": "images/Bomb.png"
             }
         ]
     },
@@ -111,6 +114,7 @@
         "loop": "true",
         "allow_disabled": false,
         "codes": "goal",
+        "initial_stage_idx": 1,
         "stages": [
             {
                 "name": "Mecha-Ridley Only",
@@ -129,14 +133,16 @@
         "loop": "true",
         "allow_disabled": false,
         "codes": "walljump_logic",
+        "initial_stage_idx": 1,
         "stages": [
             {
                 "name": "Disabled",
-                "img": "images/redsquare.png"
+                "img_mods": "@disabled",
+                "img": "images/HiJump.png"
             },
             {
                 "name": "Enabled",
-                "img": "images/greensquare.png"
+                "img": "images/HiJump.png"
             }
         ]
     },
@@ -149,11 +155,12 @@
         "stages": [
             {
                 "name": "Disabled",
-                "img": "images/redsquare.png"
+                "img_mods": "@disabled",
+                "img": "images/EnergyTank.png"
             },
             {
                 "name": "Enabled",
-                "img": "images/greensquare.png"
+                "img": "images/EnergyTank.png"
             }
         ]
     },
@@ -163,6 +170,7 @@
         "loop": "true",
         "allow_disabled": false,
         "codes": "layout_patches",
+        "initial_stage_idx": 1,
         "stages": [
             {
                 "name": "Disabled",
@@ -197,14 +205,15 @@
         "loop": "true",
         "allow_disabled": false,
         "codes": "auto_switch_tabs",
+        "initial_stage_idx": 1,
         "stages": [
-            {
-                "name": "Enabled",
-                "img": "images/greensquare.png"
-            },
             {
                 "name": "Disabled",
                 "img": "images/redsquare.png"
+            },
+            {
+                "name": "Enabled",
+                "img": "images/greensquare.png"
             }
         ]
     }

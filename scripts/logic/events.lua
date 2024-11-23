@@ -23,3 +23,9 @@ function HandleNewEvent(value)
         end
     end
 end
+
+function ResetEvents()
+    for i=0,#events do
+        Tracker:FindObjectForCode(events[i]).Active = false
+    end
+end

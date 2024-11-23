@@ -28,15 +28,6 @@ function LoadOptions(slot_data)
     end
 end
 
-function LoadDefaultOptions()
-    -- Could loop this, but it's less granular.
-    Tracker:FindObjectForCode("goal").CurrentStage = 1
-    Tracker:FindObjectForCode("walljump_logic").CurrentStage = 1
-    Tracker:FindObjectForCode("unknown_items").CurrentStage = 1
-    Tracker:FindObjectForCode("remote_items").CurrentStage = 1
-    Tracker:FindObjectForCode("layout_patches").CurrentStage = 1
-end
-
 function WalljumpsInLogic()
     return Tracker:FindObjectForCode("walljump_logic").Active
 end
