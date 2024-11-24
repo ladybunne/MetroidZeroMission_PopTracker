@@ -1,0 +1,11 @@
+Do the usual any/all capitalisation
+
+None to nil
+
+
+Fix table strings
+
+(".*"):
+[$1] =
+
+Remove commas manually.

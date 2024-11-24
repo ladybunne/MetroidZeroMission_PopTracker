@@ -6,6 +6,9 @@ ScriptHost:LoadScript("scripts/utils.lua")
 ScriptHost:LoadScript("scripts/tab_switching.lua")
 ScriptHost:LoadScript("scripts/logic/yaml_options.lua")
 ScriptHost:LoadScript("scripts/logic/events.lua")
+ScriptHost:LoadScript("scripts/logic/helpers.lua")
+ScriptHost:LoadScript("scripts/logic/requirements.lua")
+ScriptHost:LoadScript("scripts/logic/locations_from_apworld.lua")
 ScriptHost:LoadScript("scripts/logic/logic.lua")
 
 -- Items
