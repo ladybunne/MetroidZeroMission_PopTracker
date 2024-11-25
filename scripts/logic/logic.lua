@@ -1,5 +1,9 @@
 -- Access rules
 
+-- List of all tables from `locations_from_apworld.lua`
+-- These are provided "automatically" (actually manually, don't tell anyone)
+-- When the apworld updates, that file needs to be updated too, and if there
+-- are any new tables there, they need to be added here as well.
 local tables_from_apworld = {
   brinstar_start,
   brinstar_main,
@@ -38,6 +42,7 @@ local tables_from_apworld = {
 
 local access_rules = {}
 
+-- Unpack all tables in `tables_from_apworld` and put them all in one table!
 for k, v in pairs(tables_from_apworld) do
   for k2, v2 in pairs(v) do
     access_rules[k2] = v2
@@ -45,11 +50,11 @@ for k, v in pairs(tables_from_apworld) do
   end
 end
 
-print(string.format("Access rules looks like this: %s rows\nFirst row: %s", #access_rules, access_rules[0]))
-
 local out_of_logic_access_rules = {}
 
-local scout_rules = {}
+local scout_rules = {
+  ["Brinstar Ceiling E-Tank"] = function() return true end
+}
 
 
 -- Ingress point for locations.json asking for logic.

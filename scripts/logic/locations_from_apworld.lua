@@ -1,5 +1,5 @@
 brinstar_start = {
-    ["Brinstar Morph Ball"] = nil,
+    ["Brinstar Morph Ball"] = function() return true end,
     ["Brinstar Morph Ball Cannon"] = CanBallCannon,
     ["Brinstar Ceiling E-Tank"] = Any(
         All(
@@ -109,17 +109,17 @@ brinstar_top = {
             Hellrun(2)
         )
     ),
-    ["Brinstar Upper Pillar"] = nil
+    ["Brinstar Upper Pillar"] = function() return true end
 }
 
 brinstar_pasthives = {
-    ["Brinstar Post-Hive In Wall"] = nil,
+    ["Brinstar Post-Hive In Wall"] = function() return true end,
     ["Brinstar Behind Bombs"] = All(
         CanBombTunnelBlock,
         CanBallJump
     ),
-    ["Brinstar Bomb"] = nil,
-    ["Brinstar Post-Hive Pillar"] = nil
+    ["Brinstar Bomb"] = function() return true end,
+    ["Brinstar Post-Hive Pillar"] = function() return true end
 }
 
 
@@ -156,7 +156,7 @@ kraid_acidworm_area = {
         CanSingleBombBlock,
         CanVerticalWall
     ),
-    ["Kraid Zipline Activator Room"] = nil
+    ["Kraid Zipline Activator Room"] = function() return true end
 }
 
 
@@ -193,7 +193,7 @@ kraid_bottom = {
         KraidBoss,
         SpeedBooster
     ),
-    ["Kraid Acid Fall"] = nil,
+    ["Kraid Acid Fall"] = function() return true end,
     ["Kraid"] = All(
         Any(
             UnknownItem2,
@@ -252,7 +252,7 @@ norfair_right_shaft = {
 }
 
 norfair_upper_right = {
-    ["Norfair Ice Beam"] = nil,
+    ["Norfair Ice Beam"] = function() return true end,
     ["Norfair Heated Room above Ice Beam"] = Any(
         VariaSuit,
         Hellrun(1)
@@ -260,7 +260,7 @@ norfair_upper_right = {
 }
 
 norfair_behind_ice = {
-    ["Norfair Behind Top Chozo Statue"] = nil,
+    ["Norfair Behind Top Chozo Statue"] = function() return true end,
 }
 
 norfair_lowerrightshaft = {
@@ -344,7 +344,7 @@ lower_norfair = {
 }
 
 norfair_screwattack = {
-    ["Norfair Screw Attack"] = nil,
+    ["Norfair Screw Attack"] = function() return true end,
     ["Norfair Next to Screw Attack"] = ScrewAttack,
 }
 
@@ -415,9 +415,9 @@ ridley_main = {
 }
 
 ridley_left_shaft = {
-    ["Ridley West Pillar"] = nil,
-    ["Ridley Fake Floor"] = nil,
-    ["Ridley Long Hall"] = nil
+    ["Ridley West Pillar"] = function() return true end,
+    ["Ridley Fake Floor"] = function() return true end,
+    ["Ridley Long Hall"] = function() return true end
 }
 
 ridley_sw_puzzle = {
@@ -429,7 +429,7 @@ ridley_sw_puzzle = {
             SpaceJump
         )
     ),
-    ["Ridley Southwest Puzzle Bottom"] = nil
+    ["Ridley Southwest Puzzle Bottom"] = function() return true end
 }
 
 ridley_right_shaft = {
@@ -512,10 +512,10 @@ ridley_central = {
             )
         )
     ),
-    ["Ridley After Sidehopper Hall Upper"] = nil,
-    ["Ridley After Sidehopper Hall Lower"] = nil,
-    ["Ridley Center Pillar"] = nil,
-    ["Ridley Ball Room Lower"] = nil,
+    ["Ridley After Sidehopper Hall Upper"] = function() return true end,
+    ["Ridley After Sidehopper Hall Lower"] = function() return true end,
+    ["Ridley Center Pillar"] = function() return true end,
+    ["Ridley Ball Room Lower"] = function() return true end,
     ["Ridley Ball Room Upper"] = All(
         SuperMissiles,
         Any(
@@ -530,12 +530,12 @@ ridley_central = {
         ),
         CanEnterHighMorphTunnel
     ),
-    ["Ridley Under Owls"] = nil,
+    ["Ridley Under Owls"] = function() return true end,
 }
 
 ridley_room = {
     ["Ridley Behind Unknown Statue"] = UnknownItem3,
-    ["Ridley Unknown Item Statue"] = nil,
+    ["Ridley Unknown Item Statue"] = function() return true end,
     ["Ridley"] = UnknownItem3,
 }
 
@@ -587,7 +587,7 @@ crateria_main = {
             CanReachEntrance("Brinstar -> Crateria Ballcannon")
         )
     ),
-    ["Crateria Moat"] = nil
+    ["Crateria Moat"] = function() return true end
 }
 
 crateria_upper = {
@@ -682,7 +682,7 @@ chozodia_ruins_test = {
             )
         )
     ),
-    ["Chozo Ghost"] = nil
+    ["Chozo Ghost"] = function() return true end
 }
 
 chozodia_under_tube = {
@@ -761,7 +761,7 @@ chozodia_mothership = {
 }
 
 chozodia_pb_area = {
-    ["Chozodia Original Power Bomb"] = nil,
+    ["Chozodia Original Power Bomb"] = function() return true end,
     ["Chozodia Next to Original Power Bomb"] = All(
         PowerBombs,
         CanFly

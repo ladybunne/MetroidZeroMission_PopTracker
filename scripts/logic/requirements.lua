@@ -102,14 +102,14 @@ CanLongBeam = Any(
 
 AdvancedLogic = OptionAtLeast("logic_difficulty", 1)
 CanIBJ = All(
-    OptionAtLeast("ibj_in_logic", 1),
+    OptionAtLeast("ibj_logic", 1),
     CanRegularBomb
 )
 CanHorizontalIBJ = All(
     CanIBJ,
-    OptionAtLeast("ibj_in_logic", 2)
+    OptionAtLeast("ibj_logic", 2)
 )
-CanWallJump = OptionAtLeast("walljumps_in_logic", 1)
+CanWallJump = OptionAtLeast("walljump_logic", 1)
 CanTrickySparks = All(
     OptionIs("tricky_shinesparks"),
     SpeedBooster

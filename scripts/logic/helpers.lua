@@ -51,9 +51,12 @@ function OptionAtLeast(option, value)
 end
 
 function Any(...)
+    local args = table.pack(...)
     return function()
-        for _, v in pairs(arg) do
-            if v() then
+        for i=1, args.n do
+            if not args[i] then
+                return true
+            elseif args[i]() then
                 return true
             end
         end
@@ -61,10 +64,13 @@ function Any(...)
     end
 end
 
+-- Probably rewrite this when I'm more awake.
 function All(...)
+    local args = table.pack(...)
     return function()
-        for _, v in pairs(arg) do
-            if not v() then
+        for i=1, args.n do
+            if not args[i] then
+            elseif not args[i]() then
                 return false
             end
         end
