@@ -1,10 +1,10 @@
 -- Access rules
 
--- List of all tables from `locations_from_apworld.lua`
+-- List of all tables from `location_rules.lua`
 -- These are provided "automatically" (actually manually, don't tell anyone)
 -- When the apworld updates, that file needs to be updated too, and if there
 -- are any new tables there, they need to be added here as well.
-local tables_from_apworld = {
+local location_tables_from_apworld = {
   brinstar_start,
   brinstar_main,
   brinstar_top,
@@ -40,13 +40,32 @@ local tables_from_apworld = {
   chozodia_mecha_ridley_hall
 }
 
-local access_rules = {}
+local location_region_mappings_from_apworld = {
+  brinstar_location_table,
+  kraid_location_table,
+  norfair_location_table,
+  ridley_location_table,
+  tourian_location_table,
+  crateria_location_table,
+  chozodia_location_table,
+}
+
+access_rules = {}
+location_regions = {}
 
 -- Unpack all tables in `tables_from_apworld` and put them all in one table!
-for k, v in pairs(tables_from_apworld) do
+for k, v in pairs(location_tables_from_apworld) do
   for k2, v2 in pairs(v) do
-    access_rules[k2] = v2
-    -- print(string.format("%s, %s", k2, v2))
+      access_rules[k2] = v2
+      -- print(string.format("%s, %s", k2, v2))
+  end
+end
+
+-- Do the same with location region mappings.
+for k, v in pairs(location_region_mappings_from_apworld) do
+  for k2, v2 in pairs(v) do
+      location_regions[k2] = v2
+      -- print(string.format("%s, %s", k2, v2))
   end
 end
 
@@ -56,10 +75,14 @@ local scout_rules = {
   ["Brinstar Ceiling E-Tank"] = function() return true end
 }
 
-
 -- Ingress point for locations.json asking for logic.
 -- Takes a string, runs it through predicates and returns the most suitable accessibility level.
 function CanReach(location)
+  -- Very jank, but... if it's the first check, update accessible_regions.
+  if location == "Brinstar Morph Ball" then
+    ACCESSIBLE_REGIONS = GetAccessibleRegions()
+  end
+
   -- Get access rules for the location.
   local access_rule = access_rules[location]
   local out_of_logic_access_rule = out_of_logic_access_rules[location]
@@ -70,6 +93,11 @@ function CanReach(location)
   -- I've decided to go with "no".
   if not access_rule then
     print(string.format("Location %s doesn't exist in logic.", location))
+    return AccessibilityLevel.None
+  end
+
+  -- Test that its region is accessible.
+  if not CanReachRegion(location_regions[location]) then
     return AccessibilityLevel.None
   end
 
