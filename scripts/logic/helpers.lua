@@ -22,6 +22,7 @@ function Event(flag)
     end
 end
 
+-- Fix what happens if no options are provided.
 function OptionIs(option, value)
     return function()
         local obj = Tracker:FindObjectForCode(option)
@@ -51,12 +52,13 @@ function OptionAtLeast(option, value)
 end
 
 function Any(...)
-    local args = table.pack(...)
+    local args = {...}
     return function()
-        for i=1, args.n do
-            if not args[i] then
-                return true
-            elseif args[i]() then
+        if not args then
+            return true
+        end
+        for _, element in pairs(args) do
+            if element() then
                 return true
             end
         end
@@ -64,13 +66,14 @@ function Any(...)
     end
 end
 
--- Probably rewrite this when I'm more awake.
 function All(...)
-    local args = table.pack(...)
+    local args = {...}
     return function()
-        for i=1, args.n do
-            if not args[i] then
-            elseif not args[i]() then
+        if not args then
+            return true
+        end
+        for _, element in pairs(args) do
+            if not element() then
                 return false
             end
         end

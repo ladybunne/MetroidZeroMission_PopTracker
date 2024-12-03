@@ -7,21 +7,29 @@ ChozoGhostBoss = Event("fully_powered_suit")
 MechaRidleyBoss = Event("mecha_ridley")
 
 -- CanReachLocation = lambda n: Requirement.location(n)
-CanReachLocation = function(n) return true end
+CanReachLocation = function(n)
+    local location = n
+    return function()
+        return true end
+end
 
 -- CanReachEntrance = lambda n: Requirement.entrance(n)
-CanReachEntrance = function(n) return true end
+CanReachEntrance = function(n)
+    local entrance = n
+    return function()
+        return true end
+end
 
-UnknownItem1 = CanReachLocation("Crateria Unknown Item Statue")
-UnknownItem2 = CanReachLocation("Kraid Unknown Item Statue")
-UnknownItem3 = CanReachLocation("Ridley Unknown Item Statue")
+UnknownItem1 = function() return CanReachLocation("Crateria Unknown Item Statue") end
+UnknownItem2 = function() return CanReachLocation("Kraid Unknown Item Statue") end
+UnknownItem3 = function() return CanReachLocation("Ridley Unknown Item Statue") end
 
 CanUseUnknownItems = Any(
-    OptionIs("unknown_items_always_usable", true),
+    OptionIs("unknown_items", 1),
     ChozoGhostBoss
 )
 
-LayoutPatches = OptionIs("layout_patches", true)
+LayoutPatches = OptionIs("layout_patches", 1)
 
 EnergyTanks = function(n) Has("EnergyTank", n) end
 MissileTanks = function(n) Has("MissileTank", n) end
@@ -58,12 +66,15 @@ Missiles = Any(
 )
 
 MissileCount = function(n)
-    return Tracker:ProviderCountForCode("MissileTank") * 5 +
-        Tracker:ProviderCountForCode("SuperMissileTank") * 2 >= n
+    local count = n
+    return function()
+        return Tracker:ProviderCountForCode("MissileTank") * 5 +
+            Tracker:ProviderCountForCode("SuperMissileTank") * 2 >= count
+    end
 end
 
-SuperMissiles = SuperMissileTanks(1)
-PowerBombs = PowerBombTanks(1)
+SuperMissiles = function() return SuperMissileTanks(1) end
+PowerBombs = function() return PowerBombTanks(1) end
 PowerBombCount = function(n) return PowerBombTanks(n // 2) end
 
 CanRegularBomb = All(
@@ -111,12 +122,12 @@ CanHorizontalIBJ = All(
 )
 CanWallJump = OptionAtLeast("walljump_logic", 1)
 CanTrickySparks = All(
-    OptionIs("tricky_shinesparks"),
+    OptionIs("tricky_shinesparks", 1),
     SpeedBooster
 )
 Hellrun = function(n)
     return All(
-        OptionIs("heatruns_lavadives"),
+        OptionIs("heatruns", 1),
         EnergyTanks(n)
     )
 end
@@ -157,7 +168,7 @@ CanEnterMediumMorphTunnel = Any(
     )
 )
 
-Ziplines = CanReachEntrance("Kraid Main -> Acid Worm Area")
+Ziplines = function() return CanReachEntrance("Kraid Main -> Acid Worm Area") end
 
 ChozodiaCombat = All(
     Any(

@@ -2177,9 +2177,9 @@
                         "name": "Ridley West Pillar"
                     },
                     {
-                        "access_rules": "^$CanReach|Ridley Behind Unknown Item Statue",
+                        "access_rules": "^$CanReach|Ridley Behind Unknown Statue",
                         "chest_unopened_img": "images/EnergyTank.png",
-                        "name": "Ridley Behind Unknown Item Statue"
+                        "name": "Ridley Behind Unknown Statue"
                     },
                     {
                         "access_rules": "^$CanReach|Ridley Unknown Item Statue",
