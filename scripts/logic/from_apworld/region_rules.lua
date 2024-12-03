@@ -483,7 +483,7 @@ function crateria_upper_to_chozo_ruins()
         Missiles,
         Any(
             CanFly,
-            LookupLocation("Crateria Northeast Corner")
+            CanReachLocation("Crateria Northeast Corner")
         ),
         Any(
             MotherBrainBoss,

@@ -86,5 +86,3 @@ ConnectRegions("Chozozia Glass Tube -> Mothership Central", "Chozodia Glass Tube
 ConnectRegions("Chozodia Mothership -> Cockpit", "Chozodia Mothership Central", "Chozodia Mothership Cockpit", mothership_central_to_cockpit())
 ConnectRegions("Chozodia Cockpit -> Original PB", "Chozodia Mothership Cockpit", "Chozodia Original Power Bomb Room", cockpit_to_original_pb())
 ConnectRegions("Chozodia Cockpit -> Mecha Ridley", "Chozodia Mothership Cockpit", "Chozodia Mecha Ridley Hallway", cockpit_to_mecha_ridley())
-
--- print(DumpTable(REGIONS))

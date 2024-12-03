@@ -1,20 +1,15 @@
 -- Requirements
 
-function LookupLocation(location)
-    return function()
-        return true
-    end
-end
-
 KraidBoss = Event("kraid")
 RidleyBoss = Event("ridley")
 MotherBrainBoss = Event("mother_brain")
 ChozoGhostBoss = Event("fully_powered_suit")
 MechaRidleyBoss = Event("mecha_ridley")
 
-UnknownItem1 = LookupLocation("Crateria Unknown Item Statue")
-UnknownItem2 = LookupLocation("Kraid Unknown Item Statue")
-UnknownItem3 = LookupLocation("Ridley Unknown Item Statue")
+-- Figure out something better for these.
+UnknownItem1 = CanReachRegion("Upper Crateria")
+UnknownItem2 = CanReachRegion("Kraid Left Shaft")
+UnknownItem3 = CanReachRegion("Ridley Room")
 
 CanUseUnknownItems = Any(
     OptionIs("unknown_items", 1),

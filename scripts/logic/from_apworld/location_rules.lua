@@ -272,7 +272,7 @@ norfair_lowerrightshaft = {
                 PowerBombs
             )
         ),
-        LookupLocation("Norfair Heated Room Under Brinstar Elevator")
+        CanReachLocation("Norfair Heated Room Under Brinstar Elevator")
     ),
     ["Norfair Heated Room Under Brinstar Elevator"] = All(
         SuperMissiles,
@@ -366,7 +366,7 @@ norfair_behind_superdoor = {
                     CanEnterMediumMorphTunnel,
                     Bomb
                 ),
-                LookupLocation("Norfair Behind Lower Super Missile Door - Right")
+                CanReachLocation("Norfair Behind Lower Super Missile Door - Right")
             )
         ),
         Any(
@@ -608,7 +608,7 @@ crateria_upper = {
         CanBallspark,
         Any(
             CanReachEntrance("Crateria -> Chozodia Upper Door"),
-            LookupLocation("Crateria Northeast Corner")
+            CanReachLocation("Crateria Northeast Corner")
         )
     ),
     ["Crateria Northeast Corner"] = All(

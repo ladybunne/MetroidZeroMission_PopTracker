@@ -98,144 +98,50 @@ end
 
 ACCESSIBLE_REGIONS = {}
 
-function GetAccessibleRegions(region, entrance, accessible)
-    if not accessible then
-        ACCESSIBLE_REGIONS = {}
-        return GetAccessibleRegions(1, nil, {start_region})
-    end
-
-    if not region then
-        return accessible
-    end
-
-    if not entrance then
-        if not next(REGIONS[accessible[region]]) then
-            return GetAccessibleRegions(next(accessible, region), nil, accessible)
+function UpdateAccessibleRegions()
+    ACCESSIBLE_REGIONS = {start_region}
+    local inverted = {[start_region] = true}
+    local region = 1
+    while ACCESSIBLE_REGIONS[region] do
+        for k,v in pairs(REGIONS[ACCESSIBLE_REGIONS[region]]) do
+            if not inverted[v.region] then
+                if not v.rule or v.rule() then
+                    ACCESSIBLE_REGIONS[#ACCESSIBLE_REGIONS+1] = v.region
+                    inverted[v.region] = true
+                end
+            end
         end
-        return GetAccessibleRegions(region, next(REGIONS[accessible[region]]), accessible)
+        region = region + 1
     end
-
-    local region_already_accessible = false
-    for k,v in pairs(accessible) do
-        if v == REGIONS[accessible[region]][entrance].region then
-            region_already_accessible = true
-            break
-        end
-    end
-
-    if not region_already_accessible and
-        not REGIONS[accessible[region]][entrance].rule or
-        REGIONS[accessible[region]][entrance].rule() then
-        table.insert(accessible, region + 1, REGIONS[accessible[region]][entrance].region)
-    end
-
-    if not next(REGIONS[accessible[region]], entrance) then
-        return GetAccessibleRegions(next(accessible, region), nil, accessible)
-    end
-
-    return GetAccessibleRegions(region, next(REGIONS[accessible[region]], entrance), accessible)
 end
 
-function CanReachRegion(goal, region, entrance, accessible)
-    -- print(goal, accessible and accessible[region] or region, entrance)
-    -- First call just has goal, so load region.
-    if not accessible then
-        return CanReachRegion(goal, 1, nil, {start_region})
-    end
-
-    -- If no region, we're done.
-    if not region then
+function CanReachRegion(region)
+    return function()
+        for _,v in pairs(ACCESSIBLE_REGIONS) do
+            if v == region then
+                return true
+            end
+        end
         return false
     end
-
-    -- If no entrance, we're at the start of the area.
-    if not entrance then
-        -- If there are no entrances here...
-        if not next(REGIONS[accessible[region]]) then
-            -- Go to the next region.
-            return CanReachRegion(goal, next(accessible, region), nil, accessible)
-        end
-        return CanReachRegion(goal, region, next(REGIONS[accessible[region]]), accessible)
-    end
-
-    -- Avoid having multiple copies of the same region, and test if we can reach our goal.
-    local region_already_accessible = false
-    for k,v in pairs(accessible) do
-        -- Success
-        if v == goal then
-            return true
-        end
-        if v == REGIONS[accessible[region]][entrance].region then
-            region_already_accessible = true
-            break
-        end
-    end
-
-    -- Test the entrance's access rule.
-    if not region_already_accessible and
-        not REGIONS[accessible[region]][entrance].rule or
-        REGIONS[accessible[region]][entrance].rule() then
-        table.insert(accessible, region + 1, REGIONS[accessible[region]][entrance].region)
-    end
-
-    -- print(DumpTable(accessible))
-    -- Attempt to move to next region if all entrances here are exhausted.
-    if not next(REGIONS[accessible[region]], entrance) then
-        return CanReachRegion(goal, next(accessible, region), nil, accessible)
-    end
-
-    return CanReachRegion(goal, region, next(REGIONS[accessible[region]], entrance), accessible)
 end
 
-function CanReachEntrance(goal)
+function CanReachEntrance(entrance)
+    return function()
+        for _,v in pairs(ACCESSIBLE_REGIONS) do
+            for k2, _ in pairs(REGIONS[v]) do
+                if k2 == entrance then
+                    return true
+                end
+            end
+        end
+        return false
+    end
+end
+
+-- Stub method while I figure out how to actually implement this.
+function CanReachLocation(location)
     return function()
         return true
     end
 end
-
--- function CanReachEntrance(goal, region, entrance, accessible)
---     -- Start
---     if not region then
---         return CanReachEntrance(goal, 1, next(REGIONS[start_region]), {start_region})
---     end
-
---     -- Success
---     if entrance == goal then
---         return true
---     end
-
---     local region_already_accessible = false
---     for k,v in pairs(accessible) do
---         -- Avoid having multiple copies of the same region
---         if v == REGIONS[accessible[region]][entrance].region then
---             region_already_accessible = true
---             break
---         end
---     end
-
---     -- Test
---     if not region_already_accessible and REGIONS[accessible[region]][entrance].rule() then
---         table.insert(accessible, REGIONS[accessible[region]][entrance].region)
-
---         -- This is really bad.
---         table.sort(accessible)
---     end
-
---     -- Failure
---     if not next(REGIONS[accessible[region]], entrance) and
---     not next(accessible, region) then
---         return false
---     end
-
---     local next_region = region
---     local next_entrance = next(REGIONS[accessible[region]], entrance)
-
---     if not next_entrance then
---         next_region = next(accessible, region)
---         if next_region then
---             next_entrance = next(REGIONS[accessible[next_region]])
---         end
---     end
-
---     return CanReachEntrance(goal, next_region, next_entrance, accessible)
--- end
