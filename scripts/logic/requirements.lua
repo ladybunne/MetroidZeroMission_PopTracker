@@ -60,8 +60,8 @@ MissileCount = function(n)
     end
 end
 
-SuperMissiles = function() return SuperMissileTanks(1) end
-PowerBombs = function() return PowerBombTanks(1) end
+SuperMissiles = SuperMissileTanks(1)
+PowerBombs = PowerBombTanks(1)
 PowerBombCount = function(n) return PowerBombTanks(n // 2) end
 
 CanRegularBomb = All(

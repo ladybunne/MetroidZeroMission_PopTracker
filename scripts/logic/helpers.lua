@@ -139,9 +139,10 @@ function CanReachEntrance(entrance)
     end
 end
 
--- Stub method while I figure out how to actually implement this.
+require("logic.logic")
+
 function CanReachLocation(location)
     return function()
-        return true
+        return CanReach(location) == AccessibilityLevel.Normal
     end
 end

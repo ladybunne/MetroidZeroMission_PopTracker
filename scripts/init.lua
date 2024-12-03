@@ -30,6 +30,8 @@ ScriptHost:LoadScript("scripts/logic/requirements.lua")
     ScriptHost:LoadScript("scripts/logic/from_apworld/create_regions.lua")
 
 ScriptHost:LoadScript("scripts/logic/logic.lua")
+ScriptHost:LoadScript("scripts/logic/load_apworld_data.lua")
+ScriptHost:LoadScript("scripts/logic/load_scout_rules.lua")
 
 -- Layouts
 Tracker:AddLayouts("layouts/equipment.json")
