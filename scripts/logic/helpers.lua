@@ -22,7 +22,6 @@ function Event(flag)
     end
 end
 
--- Fix what happens if no options are provided.
 function OptionIs(option, value)
     return function()
         local obj = Tracker:FindObjectForCode(option)

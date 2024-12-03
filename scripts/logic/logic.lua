@@ -46,7 +46,7 @@ local access_rules = {}
 for k, v in pairs(tables_from_apworld) do
   for k2, v2 in pairs(v) do
     access_rules[k2] = v2
-    print(string.format("%s, %s", k2, v2))
+    -- print(string.format("%s, %s", k2, v2))
   end
 end
 

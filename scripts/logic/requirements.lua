@@ -31,10 +31,10 @@ CanUseUnknownItems = Any(
 
 LayoutPatches = OptionIs("layout_patches", 1)
 
-EnergyTanks = function(n) Has("EnergyTank", n) end
-MissileTanks = function(n) Has("MissileTank", n) end
-SuperMissileTanks = function(n) Has("SuperMissileTank", n) end
-PowerBombTanks = function(n) Has("PowerBombTank", n) end
+EnergyTanks = function(n) return Has("EnergyTank", n) end
+MissileTanks = function(n) return Has("MissileTank", n) end
+SuperMissileTanks = function(n) return Has("SuperMissileTank", n) end
+PowerBombTanks = function(n) return Has("PowerBombTank", n) end
 
 LongBeam = Has("LongBeam")
 ChargeBeam = Has("ChargeBeam")
