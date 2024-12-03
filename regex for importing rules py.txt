@@ -1,11 +1,42 @@
 Do the usual any/all capitalisation
 
-None to nil
-
+None to function() return true end
 
 Fix table strings
 
 (".*"):
 [$1] =
 
+Requirement.setting_is 
+to
+OptionIs
+
 Remove commas manually.
+
+---
+
+For regions, need to also do:
+
+def to function
+
+Turn:
+    )
+
+function
+
+into:
+    )
+end
+
+function
+
+
+Remove trailing colons from functions
+
+---
+
+For regions:
+
+Rename connect to connect_regions
+Strip multiworld and player stuff
+Remove .create_rule(world)

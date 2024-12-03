@@ -6,20 +6,6 @@ MotherBrainBoss = Event("mother_brain")
 ChozoGhostBoss = Event("fully_powered_suit")
 MechaRidleyBoss = Event("mecha_ridley")
 
--- CanReachLocation = lambda n: Requirement.location(n)
-CanReachLocation = function(n)
-    local location = n
-    return function()
-        return true end
-end
-
--- CanReachEntrance = lambda n: Requirement.entrance(n)
-CanReachEntrance = function(n)
-    local entrance = n
-    return function()
-        return true end
-end
-
 UnknownItem1 = function() return CanReachLocation("Crateria Unknown Item Statue") end
 UnknownItem2 = function() return CanReachLocation("Kraid Unknown Item Statue") end
 UnknownItem3 = function() return CanReachLocation("Ridley Unknown Item Statue") end
