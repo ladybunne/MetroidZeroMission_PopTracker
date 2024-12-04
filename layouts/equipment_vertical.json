@@ -1,5 +1,5 @@
 {
-    "equipment": {
+    "equipment_vertical": {
         "type": "array",
         "orientation": "vertical",
         "margin": "6,6",

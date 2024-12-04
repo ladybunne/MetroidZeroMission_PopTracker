@@ -1,5 +1,5 @@
 {
-    "tracker_default": {
+    "tracker_horizontal": {
         "type": "container",
         "background": "#000000",
         "content": [
@@ -85,22 +85,22 @@
                     },
                     {
                         "type": "dock",
-                        "dock": "bottom",
+                        "dock": "left",
                         "v_alignment": "stretch",
                         "content": [
                             {
                                 "type": "group",
                                 "header": "Equipment",
-                                "dock": "left",
+                                "dock": "top",
                                 "content": {
                                     "type": "layout",
-                                    "key": "equipment"
+                                    "key": "equipment_horizontal"
                                 }
                             },
                             {
                                 "type": "group",
                                 "header": "Major Bosses",
-                                "dock": "left",
+                                "dock": "top",
                                 "content": {
                                     "type": "layout",
                                     "key": "events1"
@@ -109,7 +109,7 @@
                             {
                                 "type": "group",
                                 "header": "Minor Bosses",
-                                "dock": "left",
+                                "dock": "top",
                                 "content": {
                                     "type": "layout",
                                     "key": "events2"

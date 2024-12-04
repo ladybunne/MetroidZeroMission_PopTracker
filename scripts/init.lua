@@ -34,10 +34,12 @@ ScriptHost:LoadScript("scripts/logic/load_apworld_data.lua")
 ScriptHost:LoadScript("scripts/logic/load_scout_rules.lua")
 
 -- Layouts
-Tracker:AddLayouts("layouts/equipment.json")
+-- Tracker:AddLayouts("layouts/equipment_horizontal.json")
+Tracker:AddLayouts("layouts/equipment_vertical.json")
 Tracker:AddLayouts("layouts/events1.json")
 Tracker:AddLayouts("layouts/events2.json")
-Tracker:AddLayouts("layouts/map.json")
+-- Tracker:AddLayouts("layouts/tracker_horizontal.json")
+Tracker:AddLayouts("layouts/tracker_vertical.json")
 Tracker:AddLayouts("layouts/options.json")
 Tracker:AddLayouts("layouts/broadcast.json")
 

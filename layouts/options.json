@@ -6,7 +6,7 @@
             {
                 "type": "array",
                 "orientation": "vertical",
-                "margin": "64, 256",
+                "margin": "0, 0, 0, 100",
                 "content": [
                     {
                         "type": "array",

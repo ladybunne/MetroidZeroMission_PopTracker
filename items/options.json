@@ -25,11 +25,11 @@
         "stages": [
             {
                 "name": "Normal",
-                "img": "images/greensquare.png"
+                "img": "images/RedSpacePirate.png"
             },
             {
                 "name": "Advanced",
-                "img": "images/redsquare.png"
+                "img": "images/BlackSpacePirate.png"
             }
         ]
     },
@@ -60,11 +60,11 @@
         "stages": [
             {
                 "name": "Disabled",
-                "img": "images/redsquare.png"
+                "img": "images/ItemSphere.png"
             },
             {
                 "name": "Enabled",
-                "img": "images/greensquare.png"
+                "img": "images/archipelago-color-icon.png"
             }
         ]
     },
@@ -96,15 +96,17 @@
             {
                 "name": "None",
                 "img_mods": "@disabled",
-                "img": "images/Bomb.png"
+                "img": "images/IBJBall.png"
             },
             {
                 "name": "Vertical Only",
-                "img": "images/Bomb.png"
+                "img_mods": "overlay|images/IBJVertical.png",
+                "img": "images/IBJBall.png"
             },
             {
                 "name": "Horizontal and Vertical",
-                "img": "images/Bomb.png"
+                "img_mods": "overlay|images/IBJDiagonal.png",
+                "img": "images/IBJBall.png"
             }
         ]
     },
@@ -118,11 +120,11 @@
         "stages": [
             {
                 "name": "Mecha-Ridley Only",
-                "img": "images/redsquare.png"
+                "img": "images/bosses/MechaRidley.png"
             },
             {
                 "name": "All Bosses",
-                "img": "images/greensquare.png"
+                "img": "images/bosses/MotherBrain.png"
             }
         ],
         "notes": "Mecha-Ridley is 0, Bosses is 1. Bosses needs Kraid, Ridley, Mother Brain and Chozo Ghost."
@@ -174,11 +176,12 @@
         "stages": [
             {
                 "name": "Disabled",
-                "img": "images/redsquare.png"
+                "img_mods": "@disabled",
+                "img": "images/LayoutBlockBreakable.png"
             },
             {
                 "name": "Enabled",
-                "img": "images/greensquare.png"
+                "img": "images/LayoutBlockBreakable.png"
             }
         ]
     },
@@ -191,11 +194,12 @@
         "stages": [
             {
                 "name": "Open",
-                "img": "images/greensquare.png"
+                "img": "images/ChozodiaYellowDoor.png"
             },
             {
                 "name": "Closed",
-                "img": "images/redsquare.png"
+                "img_mods": "@disabled",
+                "img": "images/ChozodiaGreyDoor.png"
             }
         ]
     },
@@ -209,11 +213,12 @@
         "stages": [
             {
                 "name": "Disabled",
-                "img": "images/redsquare.png"
+                "img_mods": "@disabled",
+                "img": "images/PauseMap.png"
             },
             {
                 "name": "Enabled",
-                "img": "images/greensquare.png"
+                "img": "images/PauseMap.png"
             }
         ]
     }
