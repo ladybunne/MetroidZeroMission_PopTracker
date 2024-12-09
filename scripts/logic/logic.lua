@@ -32,6 +32,11 @@ function CanReach(location)
 
     -- Test that its region is accessible.
     if not CanReachRegion(location_regions[location])() then
+        -- This specific check can be scouted from the main menu demo movie, meaning you don't
+        -- even need to reach the region to be able to scout it!
+        if location == "Ridley Long Hall" then
+            return AccessibilityLevel.Inspect
+        end
         return AccessibilityLevel.None
     end
 

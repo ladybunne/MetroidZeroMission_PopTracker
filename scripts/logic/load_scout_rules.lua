@@ -2,7 +2,7 @@
 
 scout_rules = {
     -- Brinstar
-    ["Brinstar Ceiling E-Tank"] = function() return true end,
+    ["Brinstar Ceiling E-Tank"] = MorphBall,
     ["Brinstar Ballspark"] = Any(
         CanSingleBombBlock,
         Any(
@@ -11,8 +11,15 @@ scout_rules = {
         )
     ),
     ["Brinstar Speed Booster Shortcut"] = function() return true end,
-    -- This one needs the initial climb's logic written out.
-    ["Brinstar Acid near Varia"] = function() return false end,
+    ["Brinstar Acid near Varia"] = All(
+        Any(
+            SpaceJump,
+            CanHorizontalIBJ,
+            CanHiGrip,
+            CanTrickySparks
+        ),
+        CanBallJump
+    ),
     ["Brinstar Under Bridge"] = Any(
         Missiles,
         CanReachRegion("Brinstar Past Hives")
@@ -30,8 +37,17 @@ scout_rules = {
     -- the blocks.
     -- 
     -- Time this later.
-    ["Kraid Acid Ballspark"] = Any(
-        VariaSuit
+    ["Kraid Acid Ballspark"] = All(
+        Any(
+            CanHorizontalIBJ,
+            PowerGrip,
+            HiJump
+        ),
+        CanBallJump,
+        CanBombTunnelBlock,
+        Any(
+            VariaSuit
+        )
     ),
     ["Kraid Speed Jump"] = All(
         Missiles,
@@ -40,9 +56,13 @@ scout_rules = {
             Hellrun(1)
         )
     ),
-    ["Kraid Upper Right Morph Ball Cannon"] = Missiles
 
     -- Norfair
+    ["Norfair Next to Screw Attack"] = function() return true end,
+    ["Norfair Hallway to Crateria"] = function() return true end,
+    ["Norfair Bomb Trap"] = CanReachLocation("Norfair Heated Room Under Brinstar Elevator"),
+    ["Norfair Big Room"] = function() return true end,
+    ["Norfair Right Shaft Near Hi-Jump"] = function() return true end,
 
     -- Ridley
 

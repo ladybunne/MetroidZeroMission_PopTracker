@@ -8,10 +8,30 @@
                 "type": "itemgrid",
                 "item_margin": "4, 4",
                 "margin": "0, 0",
-                "h_alignment": "left",
+                "h_alignment": "center",
                 "rows": [
-                    ["MorphBall", "Bomb", "PowerGrip", "SpeedBooster", "HiJump", "ScrewAttack", "SpaceJump", "VariaSuit", "GravitySuit"],
-                    ["LongBeam", "ChargeBeam", "IceBeam", "WaveBeam", "PlasmaBeam", "EnergyTank", "MissileTank", "SuperMissileTank", "PowerBombTank"]
+                    ["MorphBall", "Bomb", "PowerGrip", "SpeedBooster"],
+                    ["HiJump", "ScrewAttack", "SpaceJump"],
+                    ["VariaSuit", "GravitySuit"]
+                ]
+            },
+            {
+                "type": "itemgrid",
+                "item_margin": "4, 4",
+                "margin": "0, 10",
+                "h_alignment": "center",
+                "rows": [
+                    ["LongBeam", "ChargeBeam", "IceBeam"],
+                    ["", "WaveBeam", "PlasmaBeam", ""]
+                ]
+            },
+            {
+                "type": "itemgrid",
+                "item_margin": "4, 4",
+                "margin": "0, 10",
+                "h_alignment": "center",
+                "rows": [
+                    ["EnergyTank", "MissileTank", "SuperMissileTank", "PowerBombTank"]
                 ]
             }
         ]

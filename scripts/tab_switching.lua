@@ -1,6 +1,9 @@
 local tabs = {
-    [0] = "Brinstar", "Kraid", "Norfair", "Ridley", "Tourian", "Crateria", "Chozodia"
+    [0] = "Brinstar", "Kraid", "Norfair", "Ridley", "Tourian", "Crateria", "Chozodia",
 }
+
+-- Currently there's no way to know if we're on Combined, so there's no way to
+-- prevent a swap from it. If that changes I'll update this behaviour.
 
 CURRENT_TAB_VALUE = 0
 

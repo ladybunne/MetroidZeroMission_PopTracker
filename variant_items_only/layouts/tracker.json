@@ -1,0 +1,22 @@
+{
+    "tracker_default": {
+        "type": "container",
+        "background": "#000000",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "content": [
+                        {
+                            "type": "layout",
+                            "key": "equipment"
+                        },
+                        {
+                            "type": "layout",
+                            "key": "major_bosses"
+                        }
+                ]
+            }
+        ]
+    }
+}

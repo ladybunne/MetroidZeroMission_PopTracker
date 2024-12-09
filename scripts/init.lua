@@ -16,8 +16,8 @@ Tracker:AddLocations("locations/locations.json")
 ScriptHost:LoadScript("scripts/utils.lua")
 
 ScriptHost:LoadScript("scripts/tab_switching.lua")
-ScriptHost:LoadScript("scripts/logic/yaml_options.lua")
-ScriptHost:LoadScript("scripts/logic/events.lua")
+ScriptHost:LoadScript("scripts/yaml_options.lua")
+ScriptHost:LoadScript("scripts/events.lua")
 
 -- Logic
 ScriptHost:LoadScript("scripts/logic/helpers.lua")
@@ -34,14 +34,16 @@ ScriptHost:LoadScript("scripts/logic/load_apworld_data.lua")
 ScriptHost:LoadScript("scripts/logic/load_scout_rules.lua")
 
 -- Layouts
--- Tracker:AddLayouts("layouts/equipment_horizontal.json")
+Tracker:AddLayouts("layouts/maps.json")
+Tracker:AddLayouts("layouts/equipment.json")
 Tracker:AddLayouts("layouts/equipment_vertical.json")
-Tracker:AddLayouts("layouts/events1.json")
-Tracker:AddLayouts("layouts/events2.json")
--- Tracker:AddLayouts("layouts/tracker_horizontal.json")
-Tracker:AddLayouts("layouts/tracker_vertical.json")
-Tracker:AddLayouts("layouts/options.json")
+Tracker:AddLayouts("layouts/major_bosses.json")
+Tracker:AddLayouts("layouts/major_bosses_vertical.json")
+Tracker:AddLayouts("layouts/major_bosses_supervertical.json")
+-- Tracker:AddLayouts("layouts/minor_bosses.json")
+Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")
+Tracker:AddLayouts("layouts/options.json")
 
 -- Autotracking
 if PopVersion and PopVersion >= "0.18.0" then

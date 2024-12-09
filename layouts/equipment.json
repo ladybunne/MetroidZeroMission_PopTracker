@@ -1,5 +1,5 @@
 {
-    "events1": {
+    "equipment": {
         "type": "array",
         "orientation": "vertical",
         "margin": "6,6",
@@ -7,11 +7,11 @@
             {
                 "type": "itemgrid",
                 "item_margin": "4, 4",
-                "item_size": "64, 64",
                 "margin": "0, 0",
                 "h_alignment": "left",
                 "rows": [
-                    ["kraid", "ridley", "mother_brain", "fully_powered_suit", "mecha_ridley"]
+                    ["MorphBall", "Bomb", "PowerGrip", "SpeedBooster", "HiJump", "ScrewAttack", "SpaceJump", "VariaSuit", "GravitySuit"],
+                    ["LongBeam", "ChargeBeam", "IceBeam", "WaveBeam", "PlasmaBeam", "EnergyTank", "MissileTank", "SuperMissileTank", "PowerBombTank"]
                 ]
             }
         ]

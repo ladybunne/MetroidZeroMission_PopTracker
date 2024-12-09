@@ -2329,11 +2329,11 @@
                         "y": 380
                     }
                 ],
-                "name": "Ridley Behind Unknown Item Statue",
+                "name": "Ridley Behind Unknown Statue",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Ridley/Ridley/Ridley Behind Unknown Item Statue"
+                        "ref": "Ridley/Ridley/Ridley Behind Unknown Statue"
                     }
                 ]
             },
