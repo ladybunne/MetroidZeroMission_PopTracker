@@ -7,9 +7,9 @@ ChozoGhostBoss = Event("fully_powered_suit")
 MechaRidleyBoss = Event("mecha_ridley")
 
 -- Figure out something better for these.
-UnknownItem1 = CanReachRegion("Upper Crateria")
-UnknownItem2 = CanReachRegion("Kraid Left Shaft")
-UnknownItem3 = CanReachRegion("Ridley Room")
+UnknownItem1 = CanReachLocation("Crateria Unknown Item Statue")
+UnknownItem2 = CanReachLocation("Kraid Unknown Item Statue")
+UnknownItem3 = CanReachLocation("Ridley Unknown Item Statue")
 
 CanUseUnknownItems = Any(
     OptionIs("unknown_items", 1),
@@ -155,7 +155,7 @@ CanEnterMediumMorphTunnel = Any(
     )
 )
 
-Ziplines = function() return CanReachEntrance("Kraid Main -> Acid Worm Area") end
+Ziplines = CanReachEntrance("Kraid Main -> Acid Worm Area")
 
 ChozodiaCombat = All(
     Any(

@@ -1,5 +1,5 @@
 brinstar_start = {
-    ["Brinstar Morph Ball"] = function() return true end,
+    ["Brinstar Morph Ball"] = True,
     ["Brinstar Morph Ball Cannon"] = CanBallCannon,
     ["Brinstar Ceiling E-Tank"] = Any(
         All(
@@ -109,17 +109,17 @@ brinstar_top = {
             Hellrun(2)
         )
     ),
-    ["Brinstar Upper Pillar"] = function() return true end
+    ["Brinstar Upper Pillar"] = True
 }
 
 brinstar_pasthives = {
-    ["Brinstar Post-Hive In Wall"] = function() return true end,
+    ["Brinstar Post-Hive In Wall"] = True,
     ["Brinstar Behind Bombs"] = All(
         CanBombTunnelBlock,
         CanBallJump
     ),
-    ["Brinstar Bomb"] = function() return true end,
-    ["Brinstar Post-Hive Pillar"] = function() return true end
+    ["Brinstar Bomb"] = True,
+    ["Brinstar Post-Hive Pillar"] = True
 }
 
 
@@ -156,7 +156,7 @@ kraid_acidworm_area = {
         CanSingleBombBlock,
         CanVerticalWall
     ),
-    ["Kraid Zipline Activator Room"] = function() return true end
+    ["Kraid Zipline Activator Room"] = True
 }
 
 
@@ -193,7 +193,7 @@ kraid_bottom = {
         KraidBoss,
         SpeedBooster
     ),
-    ["Kraid Acid Fall"] = function() return true end,
+    ["Kraid Acid Fall"] = True,
     ["Kraid"] = All(
         Any(
             UnknownItem2,
@@ -252,7 +252,7 @@ norfair_right_shaft = {
 }
 
 norfair_upper_right = {
-    ["Norfair Ice Beam"] = function() return true end,
+    ["Norfair Ice Beam"] = True,
     ["Norfair Heated Room above Ice Beam"] = Any(
         VariaSuit,
         Hellrun(1)
@@ -260,7 +260,7 @@ norfair_upper_right = {
 }
 
 norfair_behind_ice = {
-    ["Norfair Behind Top Chozo Statue"] = function() return true end,
+    ["Norfair Behind Top Chozo Statue"] = True,
 }
 
 norfair_lowerrightshaft = {
@@ -344,7 +344,7 @@ lower_norfair = {
 }
 
 norfair_screwattack = {
-    ["Norfair Screw Attack"] = function() return true end,
+    ["Norfair Screw Attack"] = True,
     ["Norfair Next to Screw Attack"] = ScrewAttack,
 }
 
@@ -415,9 +415,9 @@ ridley_main = {
 }
 
 ridley_left_shaft = {
-    ["Ridley West Pillar"] = function() return true end,
-    ["Ridley Fake Floor"] = function() return true end,
-    ["Ridley Long Hall"] = function() return true end
+    ["Ridley West Pillar"] = True,
+    ["Ridley Fake Floor"] = True,
+    ["Ridley Long Hall"] = True
 }
 
 ridley_sw_puzzle = {
@@ -429,7 +429,7 @@ ridley_sw_puzzle = {
             SpaceJump
         )
     ),
-    ["Ridley Southwest Puzzle Bottom"] = function() return true end
+    ["Ridley Southwest Puzzle Bottom"] = True
 }
 
 ridley_right_shaft = {
@@ -512,10 +512,10 @@ ridley_central = {
             )
         )
     ),
-    ["Ridley After Sidehopper Hall Upper"] = function() return true end,
-    ["Ridley After Sidehopper Hall Lower"] = function() return true end,
-    ["Ridley Center Pillar"] = function() return true end,
-    ["Ridley Ball Room Lower"] = function() return true end,
+    ["Ridley After Sidehopper Hall Upper"] = True,
+    ["Ridley After Sidehopper Hall Lower"] = True,
+    ["Ridley Center Pillar"] = True,
+    ["Ridley Ball Room Lower"] = True,
     ["Ridley Ball Room Upper"] = All(
         SuperMissiles,
         Any(
@@ -530,12 +530,12 @@ ridley_central = {
         ),
         CanEnterHighMorphTunnel
     ),
-    ["Ridley Under Owls"] = function() return true end,
+    ["Ridley Under Owls"] = True,
 }
 
 ridley_room = {
     ["Ridley Behind Unknown Statue"] = UnknownItem3,
-    ["Ridley Unknown Item Statue"] = function() return true end,
+    ["Ridley Unknown Item Statue"] = True,
     ["Ridley"] = UnknownItem3,
 }
 
@@ -587,7 +587,7 @@ crateria_main = {
             CanReachEntrance("Brinstar -> Crateria Ballcannon")
         )
     ),
-    ["Crateria Moat"] = function() return true end
+    ["Crateria Moat"] = True
 }
 
 crateria_upper = {
@@ -682,7 +682,7 @@ chozodia_ruins_test = {
             )
         )
     ),
-    ["Chozo Ghost"] = function() return true end
+    ["Chozo Ghost"] = True
 }
 
 chozodia_under_tube = {
@@ -761,7 +761,7 @@ chozodia_mothership = {
 }
 
 chozodia_pb_area = {
-    ["Chozodia Original Power Bomb"] = function() return true end,
+    ["Chozodia Original Power Bomb"] = True,
     ["Chozodia Next to Original Power Bomb"] = All(
         PowerBombs,
         CanFly

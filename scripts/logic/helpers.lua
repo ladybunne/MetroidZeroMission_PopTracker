@@ -1,5 +1,13 @@
 -- Helpers - these all return functions, keep in mind.
 
+function True()
+    return true
+end
+
+function False()
+    return false
+end
+
 function Has(item, amount)
     return function()
         local count = Tracker:ProviderCountForCode(item)
@@ -129,8 +137,8 @@ end
 function CanReachEntrance(entrance)
     return function()
         for _,v in pairs(ACCESSIBLE_REGIONS) do
-            for k2, _ in pairs(REGIONS[v]) do
-                if k2 == entrance then
+            for k2, v2 in pairs(REGIONS[v]) do
+                if k2 == entrance and v2.rule() then
                     return true
                 end
             end
