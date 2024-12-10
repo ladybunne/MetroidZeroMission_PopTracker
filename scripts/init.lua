@@ -1,13 +1,6 @@
 DEBUG = true
 ENABLE_DEBUG_LOG = true
 
--- Lua
-ScriptHost:LoadScript("scripts/utils.lua")
-ScriptHost:LoadScript("scripts/tab_switching.lua")
-ScriptHost:LoadScript("scripts/logic/yaml_options.lua")
-ScriptHost:LoadScript("scripts/logic/events.lua")
-ScriptHost:LoadScript("scripts/logic/logic.lua")
-
 -- Items
 Tracker:AddItems("items/equipment.json")
 Tracker:AddItems("items/events.json")
@@ -19,13 +12,39 @@ Tracker:AddMaps("maps/maps.json")
 -- Locations
 Tracker:AddLocations("locations/locations.json")
 
+-- Non-logic helpers
+ScriptHost:LoadScript("scripts/utils.lua")
+
+ScriptHost:LoadScript("scripts/tab_switching.lua")
+ScriptHost:LoadScript("scripts/yaml_options.lua")
+ScriptHost:LoadScript("scripts/events.lua")
+
+-- Logic
+ScriptHost:LoadScript("scripts/logic/helpers.lua")
+ScriptHost:LoadScript("scripts/logic/requirements.lua")
+
+    -- From apworld
+    ScriptHost:LoadScript("scripts/logic/from_apworld/location_region_mappings.lua")
+    ScriptHost:LoadScript("scripts/logic/from_apworld/location_rules.lua")
+    ScriptHost:LoadScript("scripts/logic/from_apworld/region_rules.lua")
+    ScriptHost:LoadScript("scripts/logic/from_apworld/create_regions.lua")
+
+ScriptHost:LoadScript("scripts/logic/logic.lua")
+ScriptHost:LoadScript("scripts/logic/load_apworld_data.lua")
+ScriptHost:LoadScript("scripts/logic/scout_rules.lua")
+ScriptHost:LoadScript("scripts/logic/out_of_logic_rules.lua")
+
 -- Layouts
+Tracker:AddLayouts("layouts/maps.json")
 Tracker:AddLayouts("layouts/equipment.json")
-Tracker:AddLayouts("layouts/events1.json")
-Tracker:AddLayouts("layouts/events2.json")
-Tracker:AddLayouts("layouts/map.json")
-Tracker:AddLayouts("layouts/options.json")
+Tracker:AddLayouts("layouts/equipment_vertical.json")
+Tracker:AddLayouts("layouts/major_bosses.json")
+Tracker:AddLayouts("layouts/major_bosses_vertical.json")
+Tracker:AddLayouts("layouts/major_bosses_supervertical.json")
+-- Tracker:AddLayouts("layouts/minor_bosses.json")
+Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")
+Tracker:AddLayouts("layouts/options.json")
 
 -- Autotracking
 if PopVersion and PopVersion >= "0.18.0" then
@@ -35,9 +54,6 @@ end
 
 -- Extra init stuff
 
-
--- Load default options
-LoadDefaultOptions()
 
 -- Watch for auto swap tab option changing
 -- This is the nichest of niche UX improvements, but I like it, and that's what matters.

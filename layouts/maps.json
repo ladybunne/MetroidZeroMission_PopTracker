@@ -1,0 +1,87 @@
+{
+    "maps": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Brinstar",
+                "icon": "images/MorphBall.png",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Brinstar"
+                    ]
+                }
+            },
+            {
+                "title": "Kraid",
+                "icon": "images/bosses/Kraid.png",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Kraid"
+                    ]
+                }
+            },
+            {
+                "title": "Norfair",
+                "icon": "images/ScrewAttack.png",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Norfair"
+                    ]
+                }
+            },
+            {
+                "title": "Ridley",
+                "icon": "images/bosses/Ridley.png",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Ridley"
+                    ]
+                }
+            },
+            {
+                "title": "Tourian",
+                "icon": "images/bosses/MotherBrain.png",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Tourian"
+                    ]
+                }
+            },
+            {
+                "title": "Crateria",
+                "icon": "images/PowerGrip.png",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Crateria"
+                    ]
+                }
+            },
+            {
+                "title": "Chozodia",
+                "icon": "images/bosses/ChozoGhost.png",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Chozodia"
+                    ]
+                }
+            },
+            {
+                "title": "Combined",
+                "icon": "images/PowerBombTank.png",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Combined"
+                    ]
+                }
+            }
+        ]
+    }
+}

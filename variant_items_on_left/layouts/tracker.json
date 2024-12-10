@@ -1,0 +1,42 @@
+{
+    "tracker_default": {
+        "type": "container",
+        "background": "#000000",
+        "content": [
+            {
+                "type": "dock",
+                "content": [
+                    {
+                        "type": "dock",
+                        "dock": "left",
+                        "v_alignment": "stretch",
+                        "content": [
+                            {
+                                "type": "group",
+                                "header": "Equipment",
+                                "dock": "top",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "equipment_vertical"
+                                }
+                            },
+                            {
+                                "type": "group",
+                                "header": "Bosses",
+                                "dock": "top",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "major_bosses_vertical"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "layout",
+                        "key": "maps"
+                    }
+                ]
+            }
+        ]
+    }
+}

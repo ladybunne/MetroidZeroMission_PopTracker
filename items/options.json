@@ -25,11 +25,11 @@
         "stages": [
             {
                 "name": "Normal",
-                "img": "images/greensquare.png"
+                "img": "images/RedSpacePirate.png"
             },
             {
                 "name": "Advanced",
-                "img": "images/redsquare.png"
+                "img": "images/BlackSpacePirate.png"
             }
         ]
     },
@@ -39,14 +39,15 @@
         "loop": "true",
         "allow_disabled": false,
         "codes": "unknown_items",
+        "initial_stage_idx": 1,
         "stages": [
             {
                 "name": "Disabled",
-                "img": "images/redsquare.png"
+                "img": "images/UnknownPlasmaBeam.png"
             },
             {
                 "name": "Enabled",
-                "img": "images/greensquare.png"
+                "img": "images/PlasmaBeam.png"
             }
         ]
     },
@@ -59,11 +60,11 @@
         "stages": [
             {
                 "name": "Disabled",
-                "img": "images/redsquare.png"
+                "img": "images/ItemSphere.png"
             },
             {
                 "name": "Enabled",
-                "img": "images/greensquare.png"
+                "img": "images/archipelago-color-icon.png"
             }
         ]
     },
@@ -76,11 +77,12 @@
         "stages": [
             {
                 "name": "Disabled",
-                "img": "images/redsquare.png"
+                "img_mods": "@disabled",
+                "img": "images/SpeedBooster.png"
             },
             {
                 "name": "Enabled",
-                "img": "images/greensquare.png"
+                "img": "images/SpeedBooster.png"
             }
         ]
     },
@@ -93,15 +95,18 @@
         "stages": [
             {
                 "name": "None",
-                "img": "images/redsquare.png"
+                "img_mods": "@disabled",
+                "img": "images/IBJBall.png"
             },
             {
                 "name": "Vertical Only",
-                "img": "images/yellowsquare.png"
+                "img_mods": "overlay|images/IBJVertical.png",
+                "img": "images/IBJBall.png"
             },
             {
                 "name": "Horizontal and Vertical",
-                "img": "images/greensquare.png"
+                "img_mods": "overlay|images/IBJDiagonal.png",
+                "img": "images/IBJBall.png"
             }
         ]
     },
@@ -111,14 +116,15 @@
         "loop": "true",
         "allow_disabled": false,
         "codes": "goal",
+        "initial_stage_idx": 1,
         "stages": [
             {
                 "name": "Mecha-Ridley Only",
-                "img": "images/redsquare.png"
+                "img": "images/bosses/MechaRidley.png"
             },
             {
                 "name": "All Bosses",
-                "img": "images/greensquare.png"
+                "img": "images/bosses/MotherBrain.png"
             }
         ],
         "notes": "Mecha-Ridley is 0, Bosses is 1. Bosses needs Kraid, Ridley, Mother Brain and Chozo Ghost."
@@ -129,14 +135,16 @@
         "loop": "true",
         "allow_disabled": false,
         "codes": "walljump_logic",
+        "initial_stage_idx": 1,
         "stages": [
             {
                 "name": "Disabled",
-                "img": "images/redsquare.png"
+                "img_mods": "@disabled",
+                "img": "images/HiJump.png"
             },
             {
                 "name": "Enabled",
-                "img": "images/greensquare.png"
+                "img": "images/HiJump.png"
             }
         ]
     },
@@ -149,11 +157,12 @@
         "stages": [
             {
                 "name": "Disabled",
-                "img": "images/redsquare.png"
+                "img_mods": "@disabled",
+                "img": "images/EnergyTank.png"
             },
             {
                 "name": "Enabled",
-                "img": "images/greensquare.png"
+                "img": "images/EnergyTank.png"
             }
         ]
     },
@@ -163,14 +172,16 @@
         "loop": "true",
         "allow_disabled": false,
         "codes": "layout_patches",
+        "initial_stage_idx": 1,
         "stages": [
             {
                 "name": "Disabled",
-                "img": "images/redsquare.png"
+                "img_mods": "@disabled",
+                "img": "images/LayoutBlockBreakable.png"
             },
             {
                 "name": "Enabled",
-                "img": "images/greensquare.png"
+                "img": "images/LayoutBlockBreakable.png"
             }
         ]
     },
@@ -183,11 +194,12 @@
         "stages": [
             {
                 "name": "Open",
-                "img": "images/greensquare.png"
+                "img": "images/ChozodiaYellowDoor.png"
             },
             {
                 "name": "Closed",
-                "img": "images/redsquare.png"
+                "img_mods": "@disabled",
+                "img": "images/ChozodiaGreyDoor.png"
             }
         ]
     },
@@ -197,14 +209,16 @@
         "loop": "true",
         "allow_disabled": false,
         "codes": "auto_switch_tabs",
+        "initial_stage_idx": 1,
         "stages": [
             {
-                "name": "Enabled",
-                "img": "images/greensquare.png"
+                "name": "Disabled",
+                "img_mods": "@disabled",
+                "img": "images/PauseMap.png"
             },
             {
-                "name": "Disabled",
-                "img": "images/redsquare.png"
+                "name": "Enabled",
+                "img": "images/PauseMap.png"
             }
         ]
     }

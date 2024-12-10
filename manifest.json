@@ -7,7 +7,19 @@
     "author": "Ladybunne",
     "variants": {
       "standard": {
-        "display_name": "Map Tracker",
+        "display_name": "Map Tracker - Standard",
+        "flags": [
+          "ap"
+        ]
+      },
+      "variant_items_on_left": {
+        "display_name": "Map Tracker - Items on Left",
+        "flags": [
+          "ap"
+        ]
+      },
+      "variant_items_only": {
+        "display_name": "Items Only",
         "flags": [
           "ap"
         ]

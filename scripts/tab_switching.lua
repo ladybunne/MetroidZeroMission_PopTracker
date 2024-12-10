@@ -1,6 +1,9 @@
 local tabs = {
-    [0] = "Brinstar", "Kraid", "Norfair", "Ridley", "Tourian", "Crateria", "Chozodia"
+    [0] = "Brinstar", "Kraid", "Norfair", "Ridley", "Tourian", "Crateria", "Chozodia",
 }
+
+-- Currently there's no way to know if we're on Combined, so there's no way to
+-- prevent a swap from it. If that changes I'll update this behaviour.
 
 CURRENT_TAB_VALUE = 0
 
@@ -9,9 +12,9 @@ function GetAreaSwitchingKey()
 end
 
 function SwitchTab(value)
-    -- Only switch tabs if it's enabled. (Enabled is 0 here. Confusing, isn't it?)
+    -- Only switch tabs if it's enabled.
     CURRENT_TAB_VALUE = value
-    if Tracker:FindObjectForCode("auto_switch_tabs").CurrentStage == 0 then
+    if Tracker:FindObjectForCode("auto_switch_tabs").CurrentStage == 1 then
         if value then
             Tracker:UiHint("ActivateTab", tabs[value])
         -- Don't auto-swap to Brinstar on nil, that's annoying for dev.
@@ -23,7 +26,7 @@ function SwitchTab(value)
 end
 
 function SwitchTabOnAutoSwitchOptionEnabled(code)
-    if Tracker:FindObjectForCode(code).CurrentStage == 0 then
+    if Tracker:FindObjectForCode(code).CurrentStage == 1 then
         SwitchTab(CURRENT_TAB_VALUE)
     end
 end

@@ -29,88 +29,88 @@
                 "name": "Brinstar",
                 "sections": [
                     {
-                        "access_rules": "^$BrinstarMorphBall",
+                        "access_rules": "^$CanReach|Brinstar Morph Ball",
                         "chest_unopened_img": "images/MorphBall.png",
                         "name": "Brinstar Morph Ball"
                     },
                     {
-                        "access_rules": "^$BrinstarMorphBallCannon",
+                        "access_rules": "^$CanReach|Brinstar Morph Ball Cannon",
                         "name": "Brinstar Morph Ball Cannon"
                     },
                     {
-                        "access_rules": "^$BrinstarCeilingETank",
-                        "chest_unopened_img": "images/EnergyTank.png",
-                        "name": "Brinstar Ceiling E-Tank"
-                    },
-                    {
-                        "access_rules": "^$BrinstarLongBeam",
+                        "access_rules": "^$CanReach|Brinstar Long Beam",
                         "chest_unopened_img": "images/LongBeam.png",
                         "name": "Brinstar Long Beam"
                     },
                     {
-                        "access_rules": "^$BrinstarMissileAboveSuper",
-                        "name": "Brinstar Missile Above Super"
+                        "access_rules": "^$CanReach|Brinstar Ceiling E-Tank",
+                        "chest_unopened_img": "images/EnergyTank.png",
+                        "name": "Brinstar Ceiling E-Tank"
                     },
                     {
-                        "access_rules": "^$BrinstarSuperMissile",
+                        "access_rules": "^$CanReach|Brinstar Main Shaft Left Alcove",
+                        "name": "Brinstar Main Shaft Left Alcove"
+                    },
+                    {
+                        "access_rules": "^$CanReach|Brinstar Ballspark",
                         "chest_unopened_img": "images/SuperMissileTank.png",
-                        "name": "Brinstar Super Missile"
+                        "name": "Brinstar Ballspark"
                     },
                     {
-                        "access_rules": "^$BrinstarSpeedBoosterShortcutMissile",
-                        "name": "Brinstar Speed Booster Shortcut Missile"
+                        "access_rules": "^$CanReach|Brinstar Ripper Climb",
+                        "name": "Brinstar Ripper Climb"
                     },
                     {
-                        "access_rules": "^$BrinstarFirstMissile",
-                        "name": "Brinstar First Missile"
+                        "access_rules": "^$CanReach|Brinstar Speed Booster Shortcut",
+                        "name": "Brinstar Speed Booster Shortcut"
                     },
                     {
-                        "access_rules": "^$BrinstarUnderBridge",
-                        "name": "Brinstar Under Bridge"
-                    },
-                    {
-                        "access_rules": "^$BrinstarBehindHive",
-                        "name": "Brinstar Behind Hive"
-                    },
-                    {
-                        "access_rules": "^$BrinstarTopMissile",
-                        "name": "Brinstar Top Missile"
-                    },
-                    {
-                        "access_rules": "^$BrinstarVariaSuit",
+                        "access_rules": "^$CanReach|Brinstar Varia Suit",
                         "chest_unopened_img": "images/VariaSuit.png",
                         "name": "Brinstar Varia Suit"
                     },
                     {
-                        "access_rules": "^$BrinstarAcidNearVaria",
-                        "name": "Brinstar Acid Near Varia"
+                        "access_rules": "^$CanReach|Brinstar Worm drop",
+                        "chest_unopened_img": "images/ChargeBeam.png",
+                        "name": "Brinstar Worm drop"
                     },
                     {
-                        "access_rules": "^$BrinstarUpperPillarMissile",
-                        "name": "Brinstar Upper Pillar Missile"
+                        "access_rules": "^$CanReach|Brinstar Acid near Varia",
+                        "name": "Brinstar Acid near Varia"
                     },
                     {
-                        "access_rules": "^$BrinstarBehindBombs",
+                        "access_rules": "^$CanReach|Brinstar First Missile",
+                        "name": "Brinstar First Missile"
+                    },
+                    {
+                        "access_rules": "^$CanReach|Brinstar Behind Hive",
+                        "name": "Brinstar Behind Hive"
+                    },
+                    {
+                        "access_rules": "^$CanReach|Brinstar Under Bridge",
+                        "name": "Brinstar Under Bridge"
+                    },
+                    {
+                        "access_rules": "^$CanReach|Brinstar Post-Hive In Wall",
+                        "name": "Brinstar Post-Hive In Wall"
+                    },
+                    {
+                        "access_rules": "^$CanReach|Brinstar Upper Pillar",
+                        "name": "Brinstar Upper Pillar"
+                    },
+                    {
+                        "access_rules": "^$CanReach|Brinstar Behind Bombs",
                         "name": "Brinstar Behind Bombs"
                     },
                     {
-                        "access_rules": "^$BrinstarBomb",
+                        "access_rules": "^$CanReach|Brinstar Bomb",
                         "chest_unopened_img": "images/Bomb.png",
                         "name": "Brinstar Bomb"
                     },
                     {
-                        "access_rules": "^$BrinstarPostHiveMissile",
-                        "name": "Brinstar Post-Hive Missile"
-                    },
-                    {
-                        "access_rules": "^$BrinstarPostHiveETank",
+                        "access_rules": "^$CanReach|Brinstar Post-Hive Pillar",
                         "chest_unopened_img": "images/EnergyTank.png",
-                        "name": "Brinstar Post-Hive E-Tank"
-                    },
-                    {
-                        "access_rules": "^$BrinstarWormDrop",
-                        "chest_unopened_img": "images/ChargeBeam.png",
-                        "name": "Brinstar Worm Drop"
+                        "name": "Brinstar Post-Hive Pillar"
                     }
                 ]
             },
@@ -160,27 +160,6 @@
                 "map_locations": [
                     {
                         "map": "Brinstar",
-                        "x": 68,
-                        "y": 116
-                    },
-                    {
-                        "map": "Combined",
-                        "x": 164,
-                        "y": 204
-                    }
-                ],
-                "name": "Brinstar Ceiling E-Tank",
-                "sections": [
-                    {
-                        "name": " ",
-                        "ref": "Brinstar/Brinstar/Brinstar Ceiling E-Tank"
-                    }
-                ]
-            },
-            {
-                "map_locations": [
-                    {
-                        "map": "Brinstar",
                         "x": 60,
                         "y": 44
                     },
@@ -202,6 +181,27 @@
                 "map_locations": [
                     {
                         "map": "Brinstar",
+                        "x": 68,
+                        "y": 116
+                    },
+                    {
+                        "map": "Combined",
+                        "x": 164,
+                        "y": 204
+                    }
+                ],
+                "name": "Brinstar Ceiling E-Tank",
+                "sections": [
+                    {
+                        "name": " ",
+                        "ref": "Brinstar/Brinstar/Brinstar Ceiling E-Tank"
+                    }
+                ]
+            },
+            {
+                "map_locations": [
+                    {
+                        "map": "Brinstar",
                         "x": 84,
                         "y": 84
                     },
@@ -211,11 +211,11 @@
                         "y": 172
                     }
                 ],
-                "name": "Brinstar Missile Above Super",
+                "name": "Brinstar Main Shaft Left Alcove",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Brinstar/Brinstar/Brinstar Missile Above Super"
+                        "ref": "Brinstar/Brinstar/Brinstar Main Shaft Left Alcove"
                     }
                 ]
             },
@@ -232,11 +232,32 @@
                         "y": 180
                     }
                 ],
-                "name": "Brinstar Super Missile",
+                "name": "Brinstar Ballspark",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Brinstar/Brinstar/Brinstar Super Missile"
+                        "ref": "Brinstar/Brinstar/Brinstar Ballspark"
+                    }
+                ]
+            },
+            {
+                "map_locations": [
+                    {
+                        "map": "Brinstar",
+                        "x": 100,
+                        "y": 20
+                    },
+                    {
+                        "map": "Combined",
+                        "x": 196,
+                        "y": 108
+                    }
+                ],
+                "name": "Brinstar Ripper Climb",
+                "sections": [
+                    {
+                        "name": " ",
+                        "ref": "Brinstar/Brinstar/Brinstar Ripper Climb"
                     }
                 ]
             },
@@ -253,11 +274,84 @@
                         "y": 180
                     }
                 ],
-                "name": "Brinstar Speed Booster Shortcut Missile",
+                "name": "Brinstar Speed Booster Shortcut",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Brinstar/Brinstar/Brinstar Speed Booster Shortcut Missile"
+                        "ref": "Brinstar/Brinstar/Brinstar Speed Booster Shortcut"
+                    }
+                ]
+            },
+            {
+                "map_locations": [
+                    {
+                        "map": "Brinstar",
+                        "x": 124,
+                        "y": 12
+                    },
+                    {
+                        "map": "Combined",
+                        "x": 220,
+                        "y": 100
+                    }
+                ],
+                "name": "Brinstar Varia Suit",
+                "sections": [
+                    {
+                        "name": " ",
+                        "ref": "Brinstar/Brinstar/Brinstar Varia Suit"
+                    }
+                ]
+            },
+            {
+                "map_locations": [
+                    {
+                        "map": "Brinstar",
+                        "x": 124,
+                        "y": 92
+                    },
+                    {
+                        "map": "Brinstar",
+                        "x": 196,
+                        "y": 60
+                    },
+                    {
+                        "map": "Combined",
+                        "x": 220,
+                        "y": 180
+                    },
+                    {
+                        "map": "Combined",
+                        "x": 292,
+                        "y": 148
+                    }
+                ],
+                "name": "Brinstar Worm drop",
+                "sections": [
+                    {
+                        "name": " ",
+                        "ref": "Brinstar/Brinstar/Brinstar Worm drop"
+                    }
+                ]
+            },
+            {
+                "map_locations": [
+                    {
+                        "map": "Brinstar",
+                        "x": 140,
+                        "y": 20
+                    },
+                    {
+                        "map": "Combined",
+                        "x": 236,
+                        "y": 108
+                    }
+                ],
+                "name": "Brinstar Acid near Varia",
+                "sections": [
+                    {
+                        "name": " ",
+                        "ref": "Brinstar/Brinstar/Brinstar Acid near Varia"
                     }
                 ]
             },
@@ -287,27 +381,6 @@
                     {
                         "map": "Brinstar",
                         "x": 148,
-                        "y": 76
-                    },
-                    {
-                        "map": "Combined",
-                        "x": 244,
-                        "y": 164
-                    }
-                ],
-                "name": "Brinstar Under Bridge",
-                "sections": [
-                    {
-                        "name": " ",
-                        "ref": "Brinstar/Brinstar/Brinstar Under Bridge"
-                    }
-                ]
-            },
-            {
-                "map_locations": [
-                    {
-                        "map": "Brinstar",
-                        "x": 148,
                         "y": 52
                     },
                     {
@@ -328,20 +401,20 @@
                 "map_locations": [
                     {
                         "map": "Brinstar",
-                        "x": 100,
-                        "y": 20
+                        "x": 148,
+                        "y": 76
                     },
                     {
                         "map": "Combined",
-                        "x": 196,
-                        "y": 108
+                        "x": 244,
+                        "y": 164
                     }
                 ],
-                "name": "Brinstar Top Missile",
+                "name": "Brinstar Under Bridge",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Brinstar/Brinstar/Brinstar Top Missile"
+                        "ref": "Brinstar/Brinstar/Brinstar Under Bridge"
                     }
                 ]
             },
@@ -349,41 +422,20 @@
                 "map_locations": [
                     {
                         "map": "Brinstar",
-                        "x": 124,
-                        "y": 12
+                        "x": 188,
+                        "y": 60
                     },
                     {
                         "map": "Combined",
-                        "x": 220,
-                        "y": 100
+                        "x": 284,
+                        "y": 148
                     }
                 ],
-                "name": "Brinstar Varia Suit",
+                "name": "Brinstar Post-Hive In Wall",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Brinstar/Brinstar/Brinstar Varia Suit"
-                    }
-                ]
-            },
-            {
-                "map_locations": [
-                    {
-                        "map": "Brinstar",
-                        "x": 140,
-                        "y": 20
-                    },
-                    {
-                        "map": "Combined",
-                        "x": 236,
-                        "y": 108
-                    }
-                ],
-                "name": "Brinstar Acid Near Varia",
-                "sections": [
-                    {
-                        "name": " ",
-                        "ref": "Brinstar/Brinstar/Brinstar Acid Near Varia"
+                        "ref": "Brinstar/Brinstar/Brinstar Post-Hive In Wall"
                     }
                 ]
             },
@@ -400,11 +452,11 @@
                         "y": 116
                     }
                 ],
-                "name": "Brinstar Upper Pillar Missile",
+                "name": "Brinstar Upper Pillar",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Brinstar/Brinstar/Brinstar Upper Pillar Missile"
+                        "ref": "Brinstar/Brinstar/Brinstar Upper Pillar"
                     }
                 ]
             },
@@ -454,27 +506,6 @@
                 "map_locations": [
                     {
                         "map": "Brinstar",
-                        "x": 188,
-                        "y": 60
-                    },
-                    {
-                        "map": "Combined",
-                        "x": 284,
-                        "y": 148
-                    }
-                ],
-                "name": "Brinstar Post-Hive Missile",
-                "sections": [
-                    {
-                        "name": " ",
-                        "ref": "Brinstar/Brinstar/Brinstar Post-Hive Missile"
-                    }
-                ]
-            },
-            {
-                "map_locations": [
-                    {
-                        "map": "Brinstar",
                         "x": 204,
                         "y": 60
                     },
@@ -484,42 +515,11 @@
                         "y": 148
                     }
                 ],
-                "name": "Brinstar Post-Hive E-Tank",
+                "name": "Brinstar Post-Hive Pillar",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Brinstar/Brinstar/Brinstar Post-Hive E-Tank"
-                    }
-                ]
-            },
-            {
-                "map_locations": [
-                    {
-                        "map": "Brinstar",
-                        "x": 124,
-                        "y": 92
-                    },
-                    {
-                        "map": "Combined",
-                        "x": 220,
-                        "y": 180
-                    },
-                    {
-                        "map": "Brinstar",
-                        "x": 196,
-                        "y": 60
-                    },
-                    {
-                        "map": "Combined",
-                        "x": 292,
-                        "y": 148
-                    }
-                ],
-                "name": "Brinstar Worm Drop",
-                "sections": [
-                    {
-                        "name": " ",
-                        "ref": "Brinstar/Brinstar/Brinstar Worm Drop"
+                        "ref": "Brinstar/Brinstar/Brinstar Post-Hive Pillar"
                     }
                 ]
             }
@@ -546,91 +546,91 @@
                 "name": "Chozodia",
                 "sections": [
                     {
-                        "access_rules": "^$ChozodiaUpperCrateriaDoor",
+                        "access_rules": "^$CanReach|Chozodia Upper Crateria Door",
                         "chest_unopened_img": "images/PowerBombTank.png",
                         "name": "Chozodia Upper Crateria Door"
                     },
                     {
-                        "access_rules": "^$ChozodiaBombMaze",
+                        "access_rules": "^$CanReach|Chozodia Bomb Maze",
                         "chest_unopened_img": "images/SuperMissileTank.png",
                         "name": "Chozodia Bomb Maze"
                     },
                     {
-                        "access_rules": "^$ChozodiaZoomerMaze",
+                        "access_rules": "^$CanReach|Chozodia Zoomer Maze",
                         "chest_unopened_img": "images/SuperMissileTank.png",
                         "name": "Chozodia Zoomer Maze"
                     },
                     {
-                        "access_rules": "^$ChozodiaRuinsNearUpperCrateriaDoor",
+                        "access_rules": "^$CanReach|Chozodia Ruins East of Upper Crateria Door",
                         "chest_unopened_img": "images/SuperMissileTank.png",
-                        "name": "Chozodia Ruins Near Upper Crateria Door"
+                        "name": "Chozodia Ruins East of Upper Crateria Door"
                     },
                     {
-                        "access_rules": "^$ChozodiaChozoGhostAreaMorphTunnelAboveWater",
+                        "access_rules": "^$CanReach|Chozodia Chozo Ghost Area Morph Tunnel Above Water",
                         "name": "Chozodia Chozo Ghost Area Morph Tunnel Above Water"
                     },
                     {
-                        "access_rules": "^$ChozodiaChozoGhostAreaUnderwater",
+                        "access_rules": "^$CanReach|Chozodia Chozo Ghost Area Underwater",
                         "chest_unopened_img": "images/SuperMissileTank.png",
                         "name": "Chozodia Chozo Ghost Area Underwater"
                     },
                     {
-                        "access_rules": "^$ChozodiaUnderChozoGhostAreaWater",
+                        "access_rules": "^$CanReach|Chozodia Triple Crawling Pirates",
                         "chest_unopened_img": "images/PowerBombTank.png",
-                        "name": "Chozodia Under Chozo Ghost Area Water"
+                        "name": "Chozodia Triple Crawling Pirates"
                     },
                     {
-                        "access_rules": "^$ChozodiaGlassTubeETank",
+                        "access_rules": "^$CanReach|Chozodia Left of Glass Tube",
                         "chest_unopened_img": "images/EnergyTank.png",
-                        "name": "Chozodia Glass Tube E-Tank"
+                        "name": "Chozodia Left of Glass Tube"
                     },
                     {
-                        "access_rules": "^$ChozodiaLavaSuper",
+                        "access_rules": "^$CanReach|Chozodia Lava Dive",
                         "chest_unopened_img": "images/SuperMissileTank.png",
-                        "name": "Chozodia Lava Super"
+                        "name": "Chozodia Lava Dive"
                     },
                     {
-                        "access_rules": "^$ChozodiaOriginalPowerBomb",
+                        "access_rules": "^$CanReach|Chozodia Original Power Bomb",
                         "chest_unopened_img": "images/PowerBombTank.png",
                         "name": "Chozodia Original Power Bomb"
                     },
                     {
-                        "access_rules": "^$ChozodiaNextToOriginalPowerBomb",
+                        "access_rules": "^$CanReach|Chozodia Next to Original Power Bomb",
                         "chest_unopened_img": "images/PowerBombTank.png",
-                        "name": "Chozodia Next To Original Power Bomb"
+                        "name": "Chozodia Next to Original Power Bomb"
                     },
                     {
-                        "access_rules": "^$ChozodiaGlassTubePowerBomb",
+                        "access_rules": "^$CanReach|Chozodia Right of Glass Tube",
                         "chest_unopened_img": "images/PowerBombTank.png",
-                        "name": "Chozodia Glass Tube Power Bomb"
+                        "name": "Chozodia Right of Glass Tube"
                     },
                     {
-                        "access_rules": "^$ChozodiaChozoGhostAreaLongShinespark",
+                        "access_rules": "^$CanReach|Chozodia Chozo Ghost Area Long Shinespark",
                         "chest_unopened_img": "images/EnergyTank.png",
                         "name": "Chozodia Chozo Ghost Area Long Shinespark"
                     },
                     {
-                        "access_rules": "^$ChozodiaShortcutSuper",
+                        "access_rules": "^$CanReach|Chozodia Pirate Pitfall Trap",
                         "chest_unopened_img": "images/SuperMissileTank.png",
-                        "name": "Chozodia Shortcut Super"
+                        "name": "Chozodia Pirate Pitfall Trap"
                     },
                     {
-                        "access_rules": "^$ChozodiaWorkbotSuper",
+                        "access_rules": "^$CanReach|Chozodia Behind Workbot",
                         "chest_unopened_img": "images/SuperMissileTank.png",
-                        "name": "Chozodia Workbot Super"
+                        "name": "Chozodia Behind Workbot"
                     },
                     {
-                        "access_rules": "^$ChozodiaMothershipCeilingNearZSSStart",
+                        "access_rules": "^$CanReach|Chozodia Ceiling Near Map Station",
                         "chest_unopened_img": "images/SuperMissileTank.png",
-                        "name": "Chozodia Mothership Ceiling Near ZSS Start"
+                        "name": "Chozodia Ceiling Near Map Station"
                     },
                     {
-                        "access_rules": "^$ChozodiaUnderMechaRidleyHallway",
+                        "access_rules": "^$CanReach|Chozodia Under Mecha Ridley Hallway",
                         "chest_unopened_img": "images/EnergyTank.png",
                         "name": "Chozodia Under Mecha Ridley Hallway"
                     },
                     {
-                        "access_rules": "^$ChozodiaSoutheastCornerInHull",
+                        "access_rules": "^$CanReach|Chozodia Southeast Corner In Hull",
                         "chest_unopened_img": "images/PowerBombTank.png",
                         "name": "Chozodia Southeast Corner In Hull"
                     }
@@ -712,11 +712,11 @@
                         "y": 156
                     }
                 ],
-                "name": "Chozodia Ruins Near Upper Crateria Door",
+                "name": "Chozodia Ruins East of Upper Crateria Door",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Chozodia/Chozodia/Chozodia Ruins Near Upper Crateria Door"
+                        "ref": "Chozodia/Chozodia/Chozodia Ruins East of Upper Crateria Door"
                     }
                 ]
             },
@@ -775,11 +775,11 @@
                         "y": 76
                     }
                 ],
-                "name": "Chozodia Under Chozo Ghost Area Water",
+                "name": "Chozodia Triple Crawling Pirates",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Chozodia/Chozodia/Chozodia Under Chozo Ghost Area Water"
+                        "ref": "Chozodia/Chozodia/Chozodia Triple Crawling Pirates"
                     }
                 ]
             },
@@ -796,11 +796,11 @@
                         "y": 148
                     }
                 ],
-                "name": "Chozodia Glass Tube E-Tank",
+                "name": "Chozodia Left of Glass Tube",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Chozodia/Chozodia/Chozodia Glass Tube E-Tank"
+                        "ref": "Chozodia/Chozodia/Chozodia Left of Glass Tube"
                     }
                 ]
             },
@@ -817,11 +817,11 @@
                         "y": 108
                     }
                 ],
-                "name": "Chozodia Lava Super",
+                "name": "Chozodia Lava Dive",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Chozodia/Chozodia/Chozodia Lava Super"
+                        "ref": "Chozodia/Chozodia/Chozodia Lava Dive"
                     }
                 ]
             },
@@ -859,11 +859,11 @@
                         "y": 36
                     }
                 ],
-                "name": "Chozodia Next To Original Power Bomb",
+                "name": "Chozodia Next to Original Power Bomb",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Chozodia/Chozodia/Chozodia Next To Original Power Bomb"
+                        "ref": "Chozodia/Chozodia/Chozodia Next to Original Power Bomb"
                     }
                 ]
             },
@@ -880,11 +880,11 @@
                         "y": 108
                     }
                 ],
-                "name": "Chozodia Glass Tube Power Bomb",
+                "name": "Chozodia Right of Glass Tube",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Chozodia/Chozodia/Chozodia Glass Tube Power Bomb"
+                        "ref": "Chozodia/Chozodia/Chozodia Right of Glass Tube"
                     }
                 ]
             },
@@ -922,11 +922,11 @@
                         "y": 60
                     }
                 ],
-                "name": "Chozodia Shortcut Super",
+                "name": "Chozodia Pirate Pitfall Trap",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Chozodia/Chozodia/Chozodia Shortcut Super"
+                        "ref": "Chozodia/Chozodia/Chozodia Pirate Pitfall Trap"
                     }
                 ]
             },
@@ -943,11 +943,11 @@
                         "y": 60
                     }
                 ],
-                "name": "Chozodia Workbot Super",
+                "name": "Chozodia Behind Workbot",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Chozodia/Chozodia/Chozodia Workbot Super"
+                        "ref": "Chozodia/Chozodia/Chozodia Behind Workbot"
                     }
                 ]
             },
@@ -964,11 +964,11 @@
                         "y": 124
                     }
                 ],
-                "name": "Chozodia Mothership Ceiling Near ZSS Start",
+                "name": "Chozodia Ceiling Near Map Station",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Chozodia/Chozodia/Chozodia Mothership Ceiling Near ZSS Start"
+                        "ref": "Chozodia/Chozodia/Chozodia Ceiling Near Map Station"
                     }
                 ]
             },
@@ -1052,34 +1052,34 @@
                 "name": "Crateria",
                 "sections": [
                     {
-                        "access_rules": "^$CrateriaLandingSiteBallspark",
+                        "access_rules": "^$CanReach|Crateria Landing Site Ballspark",
                         "chest_unopened_img": "images/PowerBombTank.png",
                         "name": "Crateria Landing Site Ballspark"
                     },
                     {
-                        "access_rules": "^$CrateriaPowerGrip",
+                        "access_rules": "^$CanReach|Crateria Power Grip",
                         "chest_unopened_img": "images/PowerGrip.png",
                         "name": "Crateria Power Grip"
                     },
                     {
-                        "access_rules": "^$CrateriaMoat",
+                        "access_rules": "^$CanReach|Crateria Moat",
                         "name": "Crateria Moat"
                     },
                     {
-                        "access_rules": "^$CrateriaStatueWater",
+                        "access_rules": "^$CanReach|Crateria Statue Water",
                         "name": "Crateria Statue Water"
                     },
                     {
-                        "access_rules": "^$CrateriaPlasmaBeam",
+                        "access_rules": "^$CanReach|Crateria Unknown Item Statue",
                         "chest_unopened_img": "images/UnknownPlasmaBeam.png",
-                        "name": "Crateria Plasma Beam"
+                        "name": "Crateria Unknown Item Statue"
                     },
                     {
-                        "access_rules": "^$CrateriaEastBallspark",
+                        "access_rules": "^$CanReach|Crateria East Ballspark",
                         "name": "Crateria East Ballspark"
                     },
                     {
-                        "access_rules": "^$CrateriaNortheastCorner",
+                        "access_rules": "^$CanReach|Crateria Northeast Corner",
                         "chest_unopened_img": "images/SuperMissileTank.png",
                         "name": "Crateria Northeast Corner"
                     }
@@ -1182,11 +1182,11 @@
                         "y": 36
                     }
                 ],
-                "name": "Crateria Plasma Beam",
+                "name": "Crateria Unknown Item Statue",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Crateria/Crateria/Crateria Plasma Beam"
+                        "ref": "Crateria/Crateria/Crateria Unknown Item Statue"
                     }
                 ]
             },
@@ -1250,59 +1250,59 @@
                 "name": "Kraid",
                 "sections": [
                     {
-                        "access_rules": "^$KraidGiantHoppersMissile",
-                        "name": "Kraid Giant Hoppers Missile"
+                        "access_rules": "^$CanReach|Kraid Behind Giant Hoppers",
+                        "name": "Kraid Behind Giant Hoppers"
                     },
                     {
-                        "access_rules": "^$KraidSaveRoomMissile",
-                        "name": "Kraid Save Room Missile"
+                        "access_rules": "^$CanReach|Kraid Save Room Tunnel",
+                        "name": "Kraid Save Room Tunnel"
                     },
                     {
-                        "access_rules": "^$KraidCrumbleBlockMissile",
-                        "name": "Kraid Crumble Block Missile"
+                        "access_rules": "^$CanReach|Kraid Zipline Morph Jump",
+                        "name": "Kraid Zipline Morph Jump"
                     },
                     {
-                        "access_rules": "^$KraidQuadBallCannonRoom",
+                        "access_rules": "^$CanReach|Kraid Quad Ball Cannon Room",
                         "name": "Kraid Quad Ball Cannon Room"
                     },
                     {
-                        "access_rules": "^$KraidSpaceJump",
+                        "access_rules": "^$CanReach|Kraid Unknown Item Statue",
                         "chest_unopened_img": "images/UnknownSpaceJump.png",
-                        "name": "Kraid Space Jump"
+                        "name": "Kraid Unknown Item Statue"
                     },
                     {
-                        "access_rules": "^$KraidAcidBallspark",
+                        "access_rules": "^$CanReach|Kraid Acid Ballspark",
                         "name": "Kraid Acid Ballspark"
                     },
                     {
-                        "access_rules": "^$KraidSpeedBooster",
+                        "access_rules": "^$CanReach|Kraid Speed Booster",
                         "chest_unopened_img": "images/SpeedBooster.png",
                         "name": "Kraid Speed Booster"
                     },
                     {
-                        "access_rules": "^$KraidWormMissile",
-                        "name": "Kraid Worm Missile"
+                        "access_rules": "^$CanReach|Kraid Under Acid Worm",
+                        "name": "Kraid Under Acid Worm"
                     },
                     {
-                        "access_rules": "^$KraidPillarMissile",
-                        "name": "Kraid Pillar Missile"
+                        "access_rules": "^$CanReach|Kraid Right Hall Pillar",
+                        "name": "Kraid Right Hall Pillar"
                     },
                     {
-                        "access_rules": "^$KraidAcidFall",
+                        "access_rules": "^$CanReach|Kraid Acid Fall",
                         "name": "Kraid Acid Fall"
                     },
                     {
-                        "access_rules": "^$KraidWormETank",
+                        "access_rules": "^$CanReach|Kraid Zipline Activator Room",
                         "chest_unopened_img": "images/EnergyTank.png",
-                        "name": "Kraid Worm E-Tank"
+                        "name": "Kraid Zipline Activator Room"
                     },
                     {
-                        "access_rules": "^$KraidSpeedJump",
+                        "access_rules": "^$CanReach|Kraid Speed Jump",
                         "chest_unopened_img": "images/EnergyTank.png",
                         "name": "Kraid Speed Jump"
                     },
                     {
-                        "access_rules": "^$KraidUpperRightMorphBallCannon",
+                        "access_rules": "^$CanReach|Kraid Upper Right Morph Ball Cannon",
                         "name": "Kraid Upper Right Morph Ball Cannon"
                     }
                 ]
@@ -1320,11 +1320,11 @@
                         "y": 276
                     }
                 ],
-                "name": "Kraid Giant Hoppers Missile",
+                "name": "Kraid Behind Giant Hoppers",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Kraid/Kraid/Kraid Giant Hoppers Missile"
+                        "ref": "Kraid/Kraid/Kraid Behind Giant Hoppers"
                     }
                 ]
             },
@@ -1341,11 +1341,11 @@
                         "y": 284
                     }
                 ],
-                "name": "Kraid Save Room Missile",
+                "name": "Kraid Save Room Tunnel",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Kraid/Kraid/Kraid Save Room Missile"
+                        "ref": "Kraid/Kraid/Kraid Save Room Tunnel"
                     }
                 ]
             },
@@ -1362,11 +1362,11 @@
                         "y": 308
                     }
                 ],
-                "name": "Kraid Crumble Block Missile",
+                "name": "Kraid Zipline Morph Jump",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Kraid/Kraid/Kraid Crumble Block Missile"
+                        "ref": "Kraid/Kraid/Kraid Zipline Morph Jump"
                     }
                 ]
             },
@@ -1404,11 +1404,11 @@
                         "y": 348
                     }
                 ],
-                "name": "Kraid Space Jump",
+                "name": "Kraid Unknown Item Statue",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Kraid/Kraid/Kraid Space Jump"
+                        "ref": "Kraid/Kraid/Kraid Unknown Item Statue"
                     }
                 ]
             },
@@ -1467,11 +1467,11 @@
                         "y": 268
                     }
                 ],
-                "name": "Kraid Worm Missile",
+                "name": "Kraid Under Acid Worm",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Kraid/Kraid/Kraid Worm Missile"
+                        "ref": "Kraid/Kraid/Kraid Under Acid Worm"
                     }
                 ]
             },
@@ -1488,11 +1488,11 @@
                         "y": 284
                     }
                 ],
-                "name": "Kraid Pillar Missile",
+                "name": "Kraid Right Hall Pillar",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Kraid/Kraid/Kraid Pillar Missile"
+                        "ref": "Kraid/Kraid/Kraid Right Hall Pillar"
                     }
                 ]
             },
@@ -1530,11 +1530,11 @@
                         "y": 252
                     }
                 ],
-                "name": "Kraid Worm E-Tank",
+                "name": "Kraid Zipline Activator Room",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Kraid/Kraid/Kraid Worm E-Tank"
+                        "ref": "Kraid/Kraid/Kraid Zipline Activator Room"
                     }
                 ]
             },
@@ -1613,95 +1613,95 @@
                 "name": "Norfair",
                 "sections": [
                     {
-                        "access_rules": "^$NorfairLavaPowerBomb",
+                        "access_rules": "^$CanReach|Norfair Lava Dive Left",
                         "chest_unopened_img": "images/PowerBombTank.png",
-                        "name": "Norfair Lava Power Bomb"
+                        "name": "Norfair Lava Dive Left"
                     },
                     {
-                        "access_rules": "^$NorfairLavaMissile",
-                        "name": "Norfair Lava Missile"
+                        "access_rules": "^$CanReach|Norfair Lava Dive Right",
+                        "name": "Norfair Lava Dive Right"
                     },
                     {
-                        "access_rules": "^$NorfairScrewAttack",
+                        "access_rules": "^$CanReach|Norfair Screw Attack",
                         "chest_unopened_img": "images/ScrewAttack.png",
                         "name": "Norfair Screw Attack"
                     },
                     {
-                        "access_rules": "^$NorfairScrewAttackMissile",
-                        "name": "Norfair Screw Attack Missile"
+                        "access_rules": "^$CanReach|Norfair Next to Screw Attack",
+                        "name": "Norfair Next to Screw Attack"
                     },
                     {
-                        "access_rules": "^$NorfairPowerGripMissile",
-                        "name": "Norfair Power Grip Missile"
+                        "access_rules": "^$CanReach|Norfair Hallway to Crateria",
+                        "name": "Norfair Hallway to Crateria"
                     },
                     {
-                        "access_rules": "^$NorfairUnderCrateriaElevator",
+                        "access_rules": "^$CanReach|Norfair Under Crateria Elevator",
                         "name": "Norfair Under Crateria Elevator"
                     },
                     {
-                        "access_rules": "^$NorfairWaveBeam",
+                        "access_rules": "^$CanReach|Norfair Wave Beam",
                         "chest_unopened_img": "images/WaveBeam.png",
                         "name": "Norfair Wave Beam"
                     },
                     {
-                        "access_rules": "^$NorfairBombTrap",
+                        "access_rules": "^$CanReach|Norfair Bomb Trap",
                         "chest_unopened_img": "images/SuperMissileTank.png",
                         "name": "Norfair Bomb Trap"
                     },
                     {
-                        "access_rules": "^$NorfairBottomHeatedRoomFirst",
-                        "name": "Norfair Bottom Heated Room First"
+                        "access_rules": "^$CanReach|Norfair Heated Room Below Wave - Left",
+                        "name": "Norfair Heated Room Below Wave - Left"
                     },
                     {
-                        "access_rules": "^$NorfairBottomHeatedRoomSecond",
-                        "name": "Norfair Bottom Heated Room Second"
+                        "access_rules": "^$CanReach|Norfair Heated Room Below Wave - Right",
+                        "name": "Norfair Heated Room Below Wave - Right"
                     },
                     {
-                        "access_rules": "^$NorfairHeatedRoomUnderBrinstarElevator",
+                        "access_rules": "^$CanReach|Norfair Heated Room Under Brinstar Elevator",
                         "name": "Norfair Heated Room Under Brinstar Elevator"
                     },
                     {
-                        "access_rules": "^$NorfairSpaceBoostMissile",
-                        "name": "Norfair Space Boost Missile"
+                        "access_rules": "^$CanReach|Norfair Behind Lower Super Missile Door - Left",
+                        "name": "Norfair Behind Lower Super Missile Door - Left"
                     },
                     {
-                        "access_rules": "^$NorfairSpaceBoostSuperMissile",
+                        "access_rules": "^$CanReach|Norfair Behind Lower Super Missile Door - Right",
                         "chest_unopened_img": "images/SuperMissileTank.png",
-                        "name": "Norfair Space Boost Super Missile"
+                        "name": "Norfair Behind Lower Super Missile Door - Right"
                     },
                     {
-                        "access_rules": "^$NorfairIceBeam",
+                        "access_rules": "^$CanReach|Norfair Ice Beam",
                         "chest_unopened_img": "images/IceBeam.png",
                         "name": "Norfair Ice Beam"
                     },
                     {
-                        "access_rules": "^$NorfairHeatedRoomAboveIceBeam",
-                        "name": "Norfair Heated Room Above Ice Beam"
+                        "access_rules": "^$CanReach|Norfair Heated Room above Ice Beam",
+                        "name": "Norfair Heated Room above Ice Beam"
                     },
                     {
-                        "access_rules": "^$NorfairHiJump",
+                        "access_rules": "^$CanReach|Norfair Hi-Jump",
                         "chest_unopened_img": "images/HiJump.png",
                         "name": "Norfair Hi-Jump"
                     },
                     {
-                        "access_rules": "^$NorfairBigRoom",
+                        "access_rules": "^$CanReach|Norfair Big Room",
                         "name": "Norfair Big Room"
                     },
                     {
-                        "access_rules": "^$NorfairBehindTopChozoStatue",
+                        "access_rules": "^$CanReach|Norfair Behind Top Chozo Statue",
                         "name": "Norfair Behind Top Chozo Statue"
                     },
                     {
-                        "access_rules": "^$NorfairLarvaCeilingETank",
+                        "access_rules": "^$CanReach|Norfair Larva Ceiling",
                         "chest_unopened_img": "images/EnergyTank.png",
-                        "name": "Norfair Larva Ceiling E-Tank"
+                        "name": "Norfair Larva Ceiling"
                     },
                     {
-                        "access_rules": "^$NorfairRightShaftLower",
-                        "name": "Norfair Right Shaft Lower"
+                        "access_rules": "^$CanReach|Norfair Right Shaft Near Hi-Jump",
+                        "name": "Norfair Right Shaft Near Hi-Jump"
                     },
                     {
-                        "access_rules": "^$NorfairRightShaftBottom",
+                        "access_rules": "^$CanReach|Norfair Right Shaft Bottom",
                         "name": "Norfair Right Shaft Bottom"
                     }
                 ]
@@ -1719,11 +1719,11 @@
                         "y": 276
                     }
                 ],
-                "name": "Norfair Lava Power Bomb",
+                "name": "Norfair Lava Dive Left",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Norfair/Norfair/Norfair Lava Power Bomb"
+                        "ref": "Norfair/Norfair/Norfair Lava Dive Left"
                     }
                 ]
             },
@@ -1740,11 +1740,11 @@
                         "y": 284
                     }
                 ],
-                "name": "Norfair Lava Missile",
+                "name": "Norfair Lava Dive Right",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Norfair/Norfair/Norfair Lava Missile"
+                        "ref": "Norfair/Norfair/Norfair Lava Dive Right"
                     }
                 ]
             },
@@ -1782,11 +1782,11 @@
                         "y": 244
                     }
                 ],
-                "name": "Norfair Screw Attack Missile",
+                "name": "Norfair Next to Screw Attack",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Norfair/Norfair/Norfair Screw Attack Missile"
+                        "ref": "Norfair/Norfair/Norfair Next to Screw Attack"
                     }
                 ]
             },
@@ -1803,11 +1803,11 @@
                         "y": 228
                     }
                 ],
-                "name": "Norfair Power Grip Missile",
+                "name": "Norfair Hallway to Crateria",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Norfair/Norfair/Norfair Power Grip Missile"
+                        "ref": "Norfair/Norfair/Norfair Hallway to Crateria"
                     }
                 ]
             },
@@ -1887,11 +1887,11 @@
                         "y": 292
                     }
                 ],
-                "name": "Norfair Bottom Heated Room First",
+                "name": "Norfair Heated Room Below Wave - Left",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Norfair/Norfair/Norfair Bottom Heated Room First"
+                        "ref": "Norfair/Norfair/Norfair Heated Room Below Wave - Left"
                     }
                 ]
             },
@@ -1908,11 +1908,11 @@
                         "y": 292
                     }
                 ],
-                "name": "Norfair Bottom Heated Room Second",
+                "name": "Norfair Heated Room Below Wave - Right",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Norfair/Norfair/Norfair Bottom Heated Room Second"
+                        "ref": "Norfair/Norfair/Norfair Heated Room Below Wave - Right"
                     }
                 ]
             },
@@ -1950,11 +1950,11 @@
                         "y": 268
                     }
                 ],
-                "name": "Norfair Space Boost Missile",
+                "name": "Norfair Behind Lower Super Missile Door - Left",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Norfair/Norfair/Norfair Space Boost Missile"
+                        "ref": "Norfair/Norfair/Norfair Behind Lower Super Missile Door - Left"
                     }
                 ]
             },
@@ -1971,11 +1971,11 @@
                         "y": 268
                     }
                 ],
-                "name": "Norfair Space Boost Super Missile",
+                "name": "Norfair Behind Lower Super Missile Door - Right",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Norfair/Norfair/Norfair Space Boost Super Missile"
+                        "ref": "Norfair/Norfair/Norfair Behind Lower Super Missile Door - Right"
                     }
                 ]
             },
@@ -2013,11 +2013,11 @@
                         "y": 204
                     }
                 ],
-                "name": "Norfair Heated Room Above Ice Beam",
+                "name": "Norfair Heated Room above Ice Beam",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Norfair/Norfair/Norfair Heated Room Above Ice Beam"
+                        "ref": "Norfair/Norfair/Norfair Heated Room above Ice Beam"
                     }
                 ]
             },
@@ -2097,11 +2097,11 @@
                         "y": 276
                     }
                 ],
-                "name": "Norfair Larva Ceiling E-Tank",
+                "name": "Norfair Larva Ceiling",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Norfair/Norfair/Norfair Larva Ceiling E-Tank"
+                        "ref": "Norfair/Norfair/Norfair Larva Ceiling"
                     }
                 ]
             },
@@ -2118,11 +2118,11 @@
                         "y": 252
                     }
                 ],
-                "name": "Norfair Right Shaft Lower",
+                "name": "Norfair Right Shaft Near Hi-Jump",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Norfair/Norfair/Norfair Right Shaft Lower"
+                        "ref": "Norfair/Norfair/Norfair Right Shaft Near Hi-Jump"
                     }
                 ]
             },
@@ -2165,90 +2165,90 @@
                 "name": "Ridley",
                 "sections": [
                     {
-                        "access_rules": "^$RidleySouthwestPuzzleTop",
+                        "access_rules": "^$CanReach|Ridley Southwest Puzzle Top",
                         "name": "Ridley Southwest Puzzle Top"
                     },
                     {
-                        "access_rules": "^$RidleySouthwestPuzzleBottom",
+                        "access_rules": "^$CanReach|Ridley Southwest Puzzle Bottom",
                         "name": "Ridley Southwest Puzzle Bottom"
                     },
                     {
-                        "access_rules": "^$RidleyWestPillar",
+                        "access_rules": "^$CanReach|Ridley West Pillar",
                         "name": "Ridley West Pillar"
                     },
                     {
-                        "access_rules": "^$RidleyETankBehindGravity",
+                        "access_rules": "^$CanReach|Ridley Behind Unknown Statue",
                         "chest_unopened_img": "images/EnergyTank.png",
-                        "name": "Ridley E-Tank Behind Gravity"
+                        "name": "Ridley Behind Unknown Statue"
                     },
                     {
-                        "access_rules": "^$RidleyGravitySuit",
+                        "access_rules": "^$CanReach|Ridley Unknown Item Statue",
                         "chest_unopened_img": "images/UnknownGravitySuit.png",
-                        "name": "Ridley Gravity Suit"
+                        "name": "Ridley Unknown Item Statue"
                     },
                     {
-                        "access_rules": "^$RidleyFakeFloorETank",
+                        "access_rules": "^$CanReach|Ridley Fake Floor",
                         "chest_unopened_img": "images/EnergyTank.png",
-                        "name": "Ridley Fake Floor E-Tank"
+                        "name": "Ridley Fake Floor"
                     },
                     {
-                        "access_rules": "^$RidleyUpperBallCannonPuzzle",
+                        "access_rules": "^$CanReach|Ridley Upper Ball Cannon Puzzle",
                         "name": "Ridley Upper Ball Cannon Puzzle"
                     },
                     {
-                        "access_rules": "^$RidleyLowerBallCannonPuzzle",
+                        "access_rules": "^$CanReach|Ridley Lower Ball Cannon Puzzle",
                         "name": "Ridley Lower Ball Cannon Puzzle"
                     },
                     {
-                        "access_rules": "^$RidleyImagoSuperMissile",
+                        "access_rules": "^$CanReach|Ridley Imago Super Missile",
                         "chest_unopened_img": "images/SuperMissileTank.png",
                         "name": "Ridley Imago Super Missile"
                     },
                     {
-                        "access_rules": "^$RidleyAfterSidehopperHallUpper",
+                        "access_rules": "^$CanReach|Ridley After Sidehopper Hall Upper",
                         "name": "Ridley After Sidehopper Hall Upper"
                     },
                     {
-                        "access_rules": "^$RidleyAfterSidehopperHallLower",
+                        "access_rules": "^$CanReach|Ridley After Sidehopper Hall Lower",
                         "chest_unopened_img": "images/SuperMissileTank.png",
                         "name": "Ridley After Sidehopper Hall Lower"
                     },
                     {
-                        "access_rules": "^$RidleyLongHall",
+                        "access_rules": "^$CanReach|Ridley Long Hall",
                         "name": "Ridley Long Hall"
                     },
                     {
-                        "access_rules": "^$RidleyCenterPillarMissile",
-                        "name": "Ridley Center Pillar Missile"
+                        "access_rules": "^$CanReach|Ridley Center Pillar",
+                        "name": "Ridley Center Pillar"
                     },
                     {
-                        "access_rules": "^$RidleyBallRoomMissile",
-                        "name": "Ridley Ball Room Missile"
+                        "access_rules": "^$CanReach|Ridley Ball Room Lower",
+                        "name": "Ridley Ball Room Lower"
                     },
                     {
-                        "access_rules": "^$RidleyBallRoomSuper",
+                        "access_rules": "^$CanReach|Ridley Ball Room Upper",
                         "chest_unopened_img": "images/SuperMissileTank.png",
-                        "name": "Ridley Ball Room Super"
+                        "name": "Ridley Ball Room Upper"
                     },
                     {
-                        "access_rules": "^$RidleyFakeLavaMissile",
-                        "name": "Ridley Fake Lava Missile"
+                        "access_rules": "^$CanReach|Ridley Fake Lava Under Floor",
+                        "name": "Ridley Fake Lava Under Floor"
                     },
                     {
-                        "access_rules": "^$RidleyOwlETank",
+                        "access_rules": "^$CanReach|Ridley Under Owls",
                         "chest_unopened_img": "images/EnergyTank.png",
-                        "name": "Ridley Owl E-Tank"
+                        "name": "Ridley Under Owls"
                     },
                     {
-                        "access_rules": "^$RidleyNortheastCornerMissile",
-                        "name": "Ridley Northeast Corner Missile"
+                        "access_rules": "^$CanReach|Ridley Northeast Corner",
+                        "name": "Ridley Northeast Corner"
                     },
                     {
-                        "access_rules": "^$RidleyBombPuzzle",
+                        "access_rules": "^$CanReach|Ridley Bomb Puzzle",
                         "name": "Ridley Bomb Puzzle"
                     },
                     {
-                        "access_rules": "^$RidleySpeedJump",
+                        "access_rules": "^$CanReach|Ridley Speed Jump",
                         "name": "Ridley Speed Jump"
                     }
                 ]
@@ -2329,11 +2329,11 @@
                         "y": 380
                     }
                 ],
-                "name": "Ridley E-Tank Behind Gravity",
+                "name": "Ridley Behind Unknown Statue",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Ridley/Ridley/Ridley E-Tank Behind Gravity"
+                        "ref": "Ridley/Ridley/Ridley Behind Unknown Statue"
                     }
                 ]
             },
@@ -2350,11 +2350,11 @@
                         "y": 380
                     }
                 ],
-                "name": "Ridley Gravity Suit",
+                "name": "Ridley Unknown Item Statue",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Ridley/Ridley/Ridley Gravity Suit"
+                        "ref": "Ridley/Ridley/Ridley Unknown Item Statue"
                     }
                 ]
             },
@@ -2371,11 +2371,11 @@
                         "y": 348
                     }
                 ],
-                "name": "Ridley Fake Floor E-Tank",
+                "name": "Ridley Fake Floor",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Ridley/Ridley/Ridley Fake Floor E-Tank"
+                        "ref": "Ridley/Ridley/Ridley Fake Floor"
                     }
                 ]
             },
@@ -2518,11 +2518,11 @@
                         "y": 364
                     }
                 ],
-                "name": "Ridley Center Pillar Missile",
+                "name": "Ridley Center Pillar",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Ridley/Ridley/Ridley Center Pillar Missile"
+                        "ref": "Ridley/Ridley/Ridley Center Pillar"
                     }
                 ]
             },
@@ -2539,11 +2539,11 @@
                         "y": 364
                     }
                 ],
-                "name": "Ridley Ball Room Missile",
+                "name": "Ridley Ball Room Lower",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Ridley/Ridley/Ridley Ball Room Missile"
+                        "ref": "Ridley/Ridley/Ridley Ball Room Lower"
                     }
                 ]
             },
@@ -2560,11 +2560,11 @@
                         "y": 356
                     }
                 ],
-                "name": "Ridley Ball Room Super",
+                "name": "Ridley Ball Room Upper",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Ridley/Ridley/Ridley Ball Room Super"
+                        "ref": "Ridley/Ridley/Ridley Ball Room Upper"
                     }
                 ]
             },
@@ -2581,11 +2581,11 @@
                         "y": 372
                     }
                 ],
-                "name": "Ridley Fake Lava Missile",
+                "name": "Ridley Fake Lava Under Floor",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Ridley/Ridley/Ridley Fake Lava Missile"
+                        "ref": "Ridley/Ridley/Ridley Fake Lava Under Floor"
                     }
                 ]
             },
@@ -2602,11 +2602,11 @@
                         "y": 380
                     }
                 ],
-                "name": "Ridley Owl E-Tank",
+                "name": "Ridley Under Owls",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Ridley/Ridley/Ridley Owl E-Tank"
+                        "ref": "Ridley/Ridley/Ridley Under Owls"
                     }
                 ]
             },
@@ -2623,11 +2623,11 @@
                         "y": 340
                     }
                 ],
-                "name": "Ridley Northeast Corner Missile",
+                "name": "Ridley Northeast Corner",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Ridley/Ridley/Ridley Northeast Corner Missile"
+                        "ref": "Ridley/Ridley/Ridley Northeast Corner"
                     }
                 ]
             },
@@ -2696,11 +2696,11 @@
                 "name": "Tourian",
                 "sections": [
                     {
-                        "access_rules": "^$TourianLeftOfMotherBrain",
-                        "name": "Tourian Left Of Mother Brain"
+                        "access_rules": "^$CanReach|Tourian Left of Mother Brain",
+                        "name": "Tourian Left of Mother Brain"
                     },
                     {
-                        "access_rules": "^$TourianUnderMotherBrain",
+                        "access_rules": "^$CanReach|Tourian Under Mother Brain",
                         "chest_unopened_img": "images/PowerBombTank.png",
                         "name": "Tourian Under Mother Brain"
                     }
@@ -2719,11 +2719,11 @@
                         "y": 172
                     }
                 ],
-                "name": "Tourian Left Of Mother Brain",
+                "name": "Tourian Left of Mother Brain",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Tourian/Tourian/Tourian Left Of Mother Brain"
+                        "ref": "Tourian/Tourian/Tourian Left of Mother Brain"
                     }
                 ]
             },

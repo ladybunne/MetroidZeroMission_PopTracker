@@ -6,7 +6,7 @@
             {
                 "type": "array",
                 "orientation": "vertical",
-                "margin": "64, 128",
+                "margin": "0, 0, 0, 100",
                 "content": [
                     {
                         "type": "array",
@@ -15,8 +15,8 @@
                             {
                                 "type": "item",
                                 "item": "goal",
-                                "max_height": 16,
-                                "max_width": 16,
+                                "max_height": 32,
+                                "max_width": 32,
                                 "margin": "4"
                             },
                             {
@@ -33,8 +33,8 @@
                             {
                                 "type": "item",
                                 "item": "chozodia_access",
-                                "max_height": 16,
-                                "max_width": 16,
+                                "max_height": 32,
+                                "max_width": 32,
                                 "margin": "4"
                             },
                             {
@@ -51,8 +51,8 @@
                             {
                                 "type": "item",
                                 "item": "unknown_items",
-                                "max_height": 16,
-                                "max_width": 16,
+                                "max_height": 32,
+                                "max_width": 32,
                                 "margin": "4"
                             },
                             {
@@ -69,8 +69,8 @@
                             {
                                 "type": "item",
                                 "item": "logic_difficulty",
-                                "max_height": 16,
-                                "max_width": 16,
+                                "max_height": 32,
+                                "max_width": 32,
                                 "margin": "4"
                             },
                             {
@@ -87,8 +87,8 @@
                             {
                                 "type": "item",
                                 "item": "ibj_logic",
-                                "max_height": 16,
-                                "max_width": 16,
+                                "max_height": 32,
+                                "max_width": 32,
                                 "margin": "4"
                             },
                             {
@@ -105,8 +105,8 @@
                             {
                                 "type": "item",
                                 "item": "heatruns",
-                                "max_height": 16,
-                                "max_width": 16,
+                                "max_height": 32,
+                                "max_width": 32,
                                 "margin": "4"
                             },
                             {
@@ -123,8 +123,8 @@
                             {
                                 "type": "item",
                                 "item": "walljump_logic",
-                                "max_height": 16,
-                                "max_width": 16,
+                                "max_height": 32,
+                                "max_width": 32,
                                 "margin": "4"
                             },
                             {
@@ -141,8 +141,8 @@
                             {
                                 "type": "item",
                                 "item": "tricky_shinesparks",
-                                "max_height": 16,
-                                "max_width": 16,
+                                "max_height": 32,
+                                "max_width": 32,
                                 "margin": "4"
                             },
                             {
@@ -159,8 +159,8 @@
                             {
                                 "type": "item",
                                 "item": "layout_patches",
-                                "max_height": 16,
-                                "max_width": 16,
+                                "max_height": 32,
+                                "max_width": 32,
                                 "margin": "4"
                             },
                             {
@@ -177,8 +177,8 @@
                             {
                                 "type": "item",
                                 "item": "remote_items",
-                                "max_height": 16,
-                                "max_width": 16,
+                                "max_height": 32,
+                                "max_width": 32,
                                 "margin": "4"
                             },
                             {
@@ -195,8 +195,8 @@
                             {
                                 "type": "item",
                                 "item": "auto_switch_tabs",
-                                "max_height": 16,
-                                "max_width": 16,
+                                "max_height": 32,
+                                "max_width": 32,
                                 "margin": "4"
                             },
                             {

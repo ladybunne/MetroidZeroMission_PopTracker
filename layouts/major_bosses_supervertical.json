@@ -1,0 +1,22 @@
+{
+    "major_bosses_supervertical": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "6,6",
+        "content": [
+            {
+                "type": "itemgrid",
+                "item_margin": "4, 4",
+                "item_size": "64, 64",
+                "margin": "0, 0",
+                "h_alignment": "center",
+                "rows": [
+                    ["kraid"],
+                    ["ridley"],
+                    ["mother_brain"],
+                    ["fully_powered_suit"]
+                ]
+            }
+        ]
+    }
+}
