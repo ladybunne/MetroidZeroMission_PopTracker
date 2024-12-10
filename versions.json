@@ -1,6 +1,19 @@
 {
     "versions": [
         {
+            "package_version": "1.2",
+            "download_url": "https://github.com/ladybunne/MetroidZeroMission_PopTrackerPack/releases/download/v1.2/MetroidZeroMission_PopTrackerPack.zip",
+            "sha256": "ed58887edbbe28fd40e7041a214aa4b05ed4e8b6b9ca47dff9ef1cd564117d92",
+            "changelog": [
+                "Added up-to-date logic as of v0.2.2 of the apworld.",
+                "Added images for each option.",
+                "Added scoutability logic to some locations (all areas except Chozodia).",
+                "Added minor out-of-logic indicators to show post-Kraid and post-Ridley locations are accessible if they can be beaten out of logic.",
+                "Added two new layouts: items on left and items only.",
+                "General design and polish pass of all layouts."
+            ]
+        },
+        {
             "package_version": "1.1",
             "download_url": "https://github.com/ladybunne/MetroidZeroMission_PopTrackerPack/releases/download/v1.1/MetroidZeroMission_PopTrackerPack.zip",
             "sha256": "7a953f93e0ed8a9b9c320a15a68a3958faa883cc0a9a8870a0ecec72b2040e38",
