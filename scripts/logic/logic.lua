@@ -17,7 +17,6 @@ function CanReach(location)
     -- Very jank, but... if it's the first check, update accessible_regions.
     if location == "Brinstar Morph Ball" then
         UpdateAccessibleRegions()
-        print(kraid_upper_right()())
     end
 
     -- Get access rules for the location.

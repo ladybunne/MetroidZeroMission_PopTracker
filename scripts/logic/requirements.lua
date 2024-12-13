@@ -172,7 +172,7 @@ RuinsTestEscape = All(
             CanWallJump
         ),
         CanIBJ,
-        Has("Space Jump")
+        Has("SpaceJump")
     ),
     CanEnterMediumMorphTunnel
 )

@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "1.2.1",
+            "download_url": "https://github.com/ladybunne/MetroidZeroMission_PopTrackerPack/releases/download/v1.2.1/MetroidZeroMission_PopTrackerPack.zip",
+            "sha256": "",
+            "changelog": [
+                "Fixed a minor logic issue where Space Jump wasn't being checked properly for Chozodia Ruins Test Area checks."
+            ]
+        },
+        {
             "package_version": "1.2",
             "download_url": "https://github.com/ladybunne/MetroidZeroMission_PopTrackerPack/releases/download/v1.2/MetroidZeroMission_PopTrackerPack.zip",
             "sha256": "ed58887edbbe28fd40e7041a214aa4b05ed4e8b6b9ca47dff9ef1cd564117d92",
