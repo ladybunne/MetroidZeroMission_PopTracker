@@ -1,9 +1,19 @@
 {
     "versions": [
         {
+            "package_version": "1.2.2",
+            "download_url": "https://github.com/ladybunne/MetroidZeroMission_PopTrackerPack/releases/download/v1.2.2/MetroidZeroMission_PopTrackerPack.zip",
+            "sha256": "",
+            "changelog": [
+                "Added map only variant for spectating.",
+                "Updated unknown item display behaviour depending on options.",
+                "Some refactoring."
+            ]
+        },
+        {
             "package_version": "1.2.1",
             "download_url": "https://github.com/ladybunne/MetroidZeroMission_PopTrackerPack/releases/download/v1.2.1/MetroidZeroMission_PopTrackerPack.zip",
-            "sha256": "",
+            "sha256": "f2084a5fbe06cd2d2bf4e93ca5863c728861c118bb35b0dc3dc08015d0a6a8a1",
             "changelog": [
                 "Fixed a minor logic issue where Space Jump wasn't being checked properly for Chozodia Ruins Test Area checks."
             ]
