@@ -24,9 +24,3 @@ function SwitchTab(value)
         end
     end
 end
-
-function SwitchTabOnAutoSwitchOptionEnabled(code)
-    if Tracker:FindObjectForCode(code).CurrentStage == 1 then
-        SwitchTab(CURRENT_TAB_VALUE)
-    end
-end

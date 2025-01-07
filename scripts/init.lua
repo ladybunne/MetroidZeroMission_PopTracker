@@ -34,6 +34,8 @@ ScriptHost:LoadScript("scripts/logic/load_apworld_data.lua")
 ScriptHost:LoadScript("scripts/logic/scout_rules.lua")
 ScriptHost:LoadScript("scripts/logic/out_of_logic_rules.lua")
 
+ScriptHost:LoadScript("scripts/watches.lua")
+
 -- Layouts
 Tracker:AddLayouts("layouts/maps.json")
 Tracker:AddLayouts("layouts/equipment.json")
@@ -58,3 +60,13 @@ end
 -- Watch for auto swap tab option changing
 -- This is the nichest of niche UX improvements, but I like it, and that's what matters.
 ScriptHost:AddWatchForCode("AutoSwitchTabOnOptionEnabled", "auto_switch_tabs", SwitchTabOnAutoSwitchOptionEnabled)
+
+-- Watch for either a change to Chozo Ghost Defeated or Unknown Items Always Usable,
+-- then update their item graphics in the tracker to reflect whether they're usable.
+ScriptHost:AddWatchForCode("UnknownItemsIconsChozoGhost", "fully_powered_suit", UpdateUnknownItemIcons)
+ScriptHost:AddWatchForCode("UnknownItemsIconsOption", "unknown_items", UpdateUnknownItemIcons)
+
+-- Also do so for the items in particular.
+ScriptHost:AddWatchForCode("UnknownItemsIconsPlasmaBeam", "PlasmaBeam", UpdateUnknownPlasmaBeam)
+ScriptHost:AddWatchForCode("UnknownItemsIconsSpaceJump", "SpaceJump", UpdateUnknownSpaceJump)
+ScriptHost:AddWatchForCode("UnknownItemsIconsGravitySuit", "GravitySuit", UpdateUnknownGravitySuit)

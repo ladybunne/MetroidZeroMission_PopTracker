@@ -26,7 +26,10 @@ function Event(flag)
         if not obj then
             return false
         end
-        return obj.Active
+        if obj.Type == "toggle" then
+            return obj.Active
+        end
+        return false
     end
 end
 
@@ -41,6 +44,7 @@ function OptionIs(option, value)
         elseif obj.Type == "progressive" then
             return obj.CurrentStage == value
         end
+        return false
     end
 end
 
@@ -55,6 +59,7 @@ function OptionAtLeast(option, value)
         elseif obj.Type == "progressive" then
             return obj.CurrentStage >= value
         end
+        return false
     end
 end
 

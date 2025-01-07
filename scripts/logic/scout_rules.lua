@@ -2,6 +2,10 @@
 scout_rules = {
     -- Brinstar
     ["Brinstar Ceiling E-Tank"] = MorphBall,
+    -- This one can be scouted if you can scout Ballspark,
+    -- and have a way to go up higher than a regular jump.
+    -- Add the rule later.
+    ["Brinstar Main Shaft Left Alcove"] = False,
     ["Brinstar Ballspark"] = Any(
         CanSingleBombBlock,
         Any(
@@ -23,7 +27,10 @@ scout_rules = {
         Missiles,
         CanReachRegion("Brinstar Past Hives")
     ),
-    ["Brinstar Behind Bombs"] = Missiles,
+    ["Brinstar Behind Bombs"] = All(
+        Missiles,
+        CanBombTunnelBlock
+    ),
 
     -- Kraid
     ["Kraid Behind Giant Hoppers"] = True,
@@ -112,6 +119,12 @@ scout_rules = {
     -- Tourian - None in Tourian!
 
     -- Crateria
+    -- This can be scouted if you can ballspark before Mother Brain is defeated.
+    ["Crateria Landing Site Ballspark"] = All(
+        CanBallspark,
+        GravitySuit
+    ),
+
     ["Crateria East Ballspark"] = Any(
         CanFlyWall,
         SpeedBooster

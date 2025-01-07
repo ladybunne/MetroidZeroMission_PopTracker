@@ -1,7 +1,7 @@
 {
     "name": "Metroid: Zero Mission - Archipelago",
     "game_name": "Metroid: Zero Mission",
-    "package_version": "1.2.1",
+    "package_version": "1.2.2",
     "package_uid": "MetroidZeroMission-Archipelago",
     "platform": "Windows",
     "author": "Ladybunne",
@@ -12,14 +12,20 @@
           "ap"
         ]
       },
-      "variant_items_on_left": {
+      "variant_01_items_on_left": {
         "display_name": "Map Tracker - Items on Left",
         "flags": [
           "ap"
         ]
       },
-      "variant_items_only": {
-        "display_name": "Items Only",
+      "variant_02_map_only": {
+        "display_name": "Map Tracker - Map Only",
+        "flags": [
+          "ap"
+        ]
+      },
+      "variant_03_items_only": {
+        "display_name": "Item Tracker",
         "flags": [
           "ap"
         ]

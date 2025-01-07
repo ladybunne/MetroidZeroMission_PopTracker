@@ -1,0 +1,17 @@
+{
+    "tracker_default": {
+        "type": "container",
+        "background": "#000000",
+        "content": [
+            {
+                "type": "dock",
+                "content": [
+                    {
+                        "type": "layout",
+                        "key": "maps"
+                    }
+                ]
+            }
+        ]
+    }
+}
