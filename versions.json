@@ -1,9 +1,19 @@
 {
     "versions": [
         {
+            "package_version": "1.2.3",
+            "download_url": "https://github.com/ladybunne/MetroidZeroMission_PopTrackerPack/releases/download/v1.2.3/MetroidZeroMission_PopTrackerPack.zip",
+            "sha256": "",
+            "changelog": [
+                "Added boss locations with hosted items for boss events.",
+                "Tweak Kraid Speed Booster logic to inherit Kraid logic status.",
+                "Some behind-the-scenes work on locations.json generator project."
+            ]
+        },
+        {
             "package_version": "1.2.2",
             "download_url": "https://github.com/ladybunne/MetroidZeroMission_PopTrackerPack/releases/download/v1.2.2/MetroidZeroMission_PopTrackerPack.zip",
-            "sha256": "",
+            "sha256": "55e74742a6a8e3f55c335243c79a3531c763b405470ad58b67849602626f7ab4",
             "changelog": [
                 "Added map only variant for spectating.",
                 "Updated unknown item display behaviour depending on options.",

@@ -31,6 +31,7 @@ ScriptHost:LoadScript("scripts/logic/requirements.lua")
 
 ScriptHost:LoadScript("scripts/logic/logic.lua")
 ScriptHost:LoadScript("scripts/logic/load_apworld_data.lua")
+ScriptHost:LoadScript("scripts/logic/additional_rules.lua")
 ScriptHost:LoadScript("scripts/logic/scout_rules.lua")
 ScriptHost:LoadScript("scripts/logic/out_of_logic_rules.lua")
 

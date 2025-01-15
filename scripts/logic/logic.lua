@@ -1,5 +1,9 @@
+-- Regular access rules.
 access_rules = {}
 location_regions = {}
+
+-- Additional access rules that live on PopTracker's side (not inherited from apworld).
+additional_access_rules = {}
 
 -- Out of logic locations are those which can be accessed through glitches
 -- or otherwise non-logical means.
@@ -7,7 +11,6 @@ out_of_logic_access_rules = {}
 out_of_logic_access_rules_ignore_region = {}
 
 -- Scoutable locations are those which can be seen, but not collected.
--- Load these later.
 scout_rules = {}
 scout_rules_ignore_region = {}
 
@@ -21,6 +24,7 @@ function CanReach(location)
 
     -- Get access rules for the location.
     local access_rule = access_rules[location]
+    local additional_access_rule = additional_access_rules[location]
     local out_of_logic_access_rule = out_of_logic_access_rules[location]
     local out_of_logic_access_rule_ignore_region = out_of_logic_access_rules_ignore_region[location]
     local scout_rule = scout_rules[location]
@@ -47,6 +51,8 @@ function CanReach(location)
 
     -- Test each subsequent rule.
     if access_rule() then
+        return AccessibilityLevel.Normal
+    elseif additional_access_rule and additional_access_rule() then
         return AccessibilityLevel.Normal
     elseif out_of_logic_access_rule and out_of_logic_access_rule() then
         return AccessibilityLevel.SequenceBreak

@@ -311,14 +311,14 @@
                         "y": 92
                     },
                     {
-                        "map": "Brinstar",
-                        "x": 196,
-                        "y": 60
-                    },
-                    {
                         "map": "Combined",
                         "x": 220,
                         "y": 180
+                    },
+                    {
+                        "map": "Brinstar",
+                        "x": 196,
+                        "y": 60
                     },
                     {
                         "map": "Combined",
@@ -633,6 +633,18 @@
                         "access_rules": "^$CanReach|Chozodia Southeast Corner In Hull",
                         "chest_unopened_img": "images/PowerBombTank.png",
                         "name": "Chozodia Southeast Corner In Hull"
+                    },
+                    {
+                        "access_rules": "^$CanReach|Chozo Ghost",
+                        "chest_unopened_img": "images/ChozoGhost.png",
+                        "hosted_item": "fully_powered_suit",
+                        "name": "Chozo Ghost"
+                    },
+                    {
+                        "access_rules": "^$CanReach|Mecha Ridley",
+                        "chest_unopened_img": "images/MechaRidley.png",
+                        "hosted_item": "mecha_ridley",
+                        "name": "Mecha Ridley"
                     }
                 ]
             },
@@ -1013,6 +1025,52 @@
                         "ref": "Chozodia/Chozodia/Chozodia Southeast Corner In Hull"
                     }
                 ]
+            },
+            {
+                "map_locations": [
+                    {
+                        "map": "Chozodia",
+                        "x": 52,
+                        "y": 52
+                    },
+                    {
+                        "map": "Combined",
+                        "x": 396,
+                        "y": 44
+                    }
+                ],
+                "name": "Chozo Ghost",
+                "sections": [
+                    {
+                        "name": " ",
+                        "ref": "Chozodia/Chozodia/Chozo Ghost"
+                    }
+                ]
+            },
+            {
+                "map_locations": [
+                    {
+                        "border_thickness": 2,
+                        "map": "Chozodia",
+                        "size": 10,
+                        "x": 192,
+                        "y": 16
+                    },
+                    {
+                        "border_thickness": 2,
+                        "map": "Combined",
+                        "size": 10,
+                        "x": 536,
+                        "y": 8
+                    }
+                ],
+                "name": "Mecha Ridley",
+                "sections": [
+                    {
+                        "name": " ",
+                        "ref": "Chozodia/Chozodia/Mecha Ridley"
+                    }
+                ]
             }
         ],
         "name": "Chozodia"
@@ -1304,6 +1362,12 @@
                     {
                         "access_rules": "^$CanReach|Kraid Upper Right Morph Ball Cannon",
                         "name": "Kraid Upper Right Morph Ball Cannon"
+                    },
+                    {
+                        "access_rules": "^$CanReach|Kraid",
+                        "chest_unopened_img": "images/Kraid.png",
+                        "hosted_item": "kraid",
+                        "name": "Kraid"
                     }
                 ]
             },
@@ -1577,6 +1641,31 @@
                     {
                         "name": " ",
                         "ref": "Kraid/Kraid/Kraid Upper Right Morph Ball Cannon"
+                    }
+                ]
+            },
+            {
+                "map_locations": [
+                    {
+                        "border_thickness": 2,
+                        "map": "Kraid",
+                        "size": 10,
+                        "x": 64,
+                        "y": 120
+                    },
+                    {
+                        "border_thickness": 2,
+                        "map": "Combined",
+                        "size": 10,
+                        "x": 160,
+                        "y": 352
+                    }
+                ],
+                "name": "Kraid",
+                "sections": [
+                    {
+                        "name": " ",
+                        "ref": "Kraid/Kraid/Kraid"
                     }
                 ]
             }
@@ -2250,6 +2339,12 @@
                     {
                         "access_rules": "^$CanReach|Ridley Speed Jump",
                         "name": "Ridley Speed Jump"
+                    },
+                    {
+                        "access_rules": "^$CanReach|Ridley",
+                        "chest_unopened_img": "images/Ridley.png",
+                        "hosted_item": "ridley",
+                        "name": "Ridley"
                     }
                 ]
             },
@@ -2672,6 +2767,31 @@
                         "ref": "Ridley/Ridley/Ridley Speed Jump"
                     }
                 ]
+            },
+            {
+                "map_locations": [
+                    {
+                        "border_thickness": 2,
+                        "map": "Ridley",
+                        "size": 10,
+                        "x": 56,
+                        "y": 72
+                    },
+                    {
+                        "border_thickness": 2,
+                        "map": "Combined",
+                        "size": 10,
+                        "x": 272,
+                        "y": 376
+                    }
+                ],
+                "name": "Ridley",
+                "sections": [
+                    {
+                        "name": " ",
+                        "ref": "Ridley/Ridley/Ridley"
+                    }
+                ]
             }
         ],
         "name": "Ridley"
@@ -2703,6 +2823,12 @@
                         "access_rules": "^$CanReach|Tourian Under Mother Brain",
                         "chest_unopened_img": "images/PowerBombTank.png",
                         "name": "Tourian Under Mother Brain"
+                    },
+                    {
+                        "access_rules": "^$CanReach|Mother Brain",
+                        "chest_unopened_img": "images/MotherBrain.png",
+                        "hosted_item": "mother_brain",
+                        "name": "Mother Brain"
                     }
                 ]
             },
@@ -2745,6 +2871,31 @@
                     {
                         "name": " ",
                         "ref": "Tourian/Tourian/Tourian Under Mother Brain"
+                    }
+                ]
+            },
+            {
+                "map_locations": [
+                    {
+                        "border_thickness": 2,
+                        "map": "Tourian",
+                        "size": 10,
+                        "x": 32,
+                        "y": 104
+                    },
+                    {
+                        "border_thickness": 2,
+                        "map": "Combined",
+                        "size": 10,
+                        "x": 24,
+                        "y": 168
+                    }
+                ],
+                "name": "Mother Brain",
+                "sections": [
+                    {
+                        "name": " ",
+                        "ref": "Tourian/Tourian/Mother Brain"
                     }
                 ]
             }
