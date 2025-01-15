@@ -70,13 +70,13 @@
                         "name": "Brinstar Varia Suit"
                     },
                     {
-                        "access_rules": "^$CanReach|Brinstar Worm drop",
+                        "access_rules": "^$CanReach|Brinstar Worm Drop",
                         "chest_unopened_img": "images/ChargeBeam.png",
-                        "name": "Brinstar Worm drop"
+                        "name": "Brinstar Worm Drop"
                     },
                     {
-                        "access_rules": "^$CanReach|Brinstar Acid near Varia",
-                        "name": "Brinstar Acid near Varia"
+                        "access_rules": "^$CanReach|Brinstar Acid Near Varia",
+                        "name": "Brinstar Acid Near Varia"
                     },
                     {
                         "access_rules": "^$CanReach|Brinstar First Missile",
@@ -91,8 +91,8 @@
                         "name": "Brinstar Under Bridge"
                     },
                     {
-                        "access_rules": "^$CanReach|Brinstar Post-Hive In Wall",
-                        "name": "Brinstar Post-Hive In Wall"
+                        "access_rules": "^$CanReach|Brinstar Post-Hive in Wall",
+                        "name": "Brinstar Post-Hive in Wall"
                     },
                     {
                         "access_rules": "^$CanReach|Brinstar Upper Pillar",
@@ -326,11 +326,11 @@
                         "y": 148
                     }
                 ],
-                "name": "Brinstar Worm drop",
+                "name": "Brinstar Worm Drop",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Brinstar/Brinstar/Brinstar Worm drop"
+                        "ref": "Brinstar/Brinstar/Brinstar Worm Drop"
                     }
                 ]
             },
@@ -347,11 +347,11 @@
                         "y": 108
                     }
                 ],
-                "name": "Brinstar Acid near Varia",
+                "name": "Brinstar Acid Near Varia",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Brinstar/Brinstar/Brinstar Acid near Varia"
+                        "ref": "Brinstar/Brinstar/Brinstar Acid Near Varia"
                     }
                 ]
             },
@@ -431,11 +431,11 @@
                         "y": 148
                     }
                 ],
-                "name": "Brinstar Post-Hive In Wall",
+                "name": "Brinstar Post-Hive in Wall",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Brinstar/Brinstar/Brinstar Post-Hive In Wall"
+                        "ref": "Brinstar/Brinstar/Brinstar Post-Hive in Wall"
                     }
                 ]
             },
@@ -630,9 +630,9 @@
                         "name": "Chozodia Under Mecha Ridley Hallway"
                     },
                     {
-                        "access_rules": "^$CanReach|Chozodia Southeast Corner In Hull",
+                        "access_rules": "^$CanReach|Chozodia Southeast Corner in Hull",
                         "chest_unopened_img": "images/PowerBombTank.png",
-                        "name": "Chozodia Southeast Corner In Hull"
+                        "name": "Chozodia Southeast Corner in Hull"
                     },
                     {
                         "access_rules": "^$CanReach|Chozo Ghost",
@@ -1018,11 +1018,11 @@
                         "y": 116
                     }
                 ],
-                "name": "Chozodia Southeast Corner In Hull",
+                "name": "Chozodia Southeast Corner in Hull",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Chozodia/Chozodia/Chozodia Southeast Corner In Hull"
+                        "ref": "Chozodia/Chozodia/Chozodia Southeast Corner in Hull"
                     }
                 ]
             },
@@ -1764,8 +1764,8 @@
                         "name": "Norfair Ice Beam"
                     },
                     {
-                        "access_rules": "^$CanReach|Norfair Heated Room above Ice Beam",
-                        "name": "Norfair Heated Room above Ice Beam"
+                        "access_rules": "^$CanReach|Norfair Heated Room Above Ice Beam",
+                        "name": "Norfair Heated Room Above Ice Beam"
                     },
                     {
                         "access_rules": "^$CanReach|Norfair Hi-Jump",
@@ -2102,11 +2102,11 @@
                         "y": 204
                     }
                 ],
-                "name": "Norfair Heated Room above Ice Beam",
+                "name": "Norfair Heated Room Above Ice Beam",
                 "sections": [
                     {
                         "name": " ",
-                        "ref": "Norfair/Norfair/Norfair Heated Room above Ice Beam"
+                        "ref": "Norfair/Norfair/Norfair Heated Room Above Ice Beam"
                     }
                 ]
             },
