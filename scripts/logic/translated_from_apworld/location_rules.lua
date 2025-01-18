@@ -58,7 +58,7 @@ brinstar_main = {
         CanBombTunnelBlock,
         CanVerticalWall
     ),
-    ["Brinstar Worm drop"] = All(
+    ["Brinstar Worm Drop"] = All(
         MorphBall,
         Missiles
     ),
@@ -94,7 +94,7 @@ brinstar_top = {
         ),
         CanBombTunnelBlock
     ),
-    ["Brinstar Acid near Varia"] = All(
+    ["Brinstar Acid Near Varia"] = All(
         Any(
             SpaceJump,
             CanHorizontalIBJ,
@@ -106,19 +106,20 @@ brinstar_top = {
         Any(
             VariaSuit,
             GravitySuit,
-            Hellrun(2)
+            Hellrun(1)
         )
     ),
     ["Brinstar Upper Pillar"] = True
 }
 
 brinstar_pasthives = {
-    ["Brinstar Post-Hive In Wall"] = True,
+    ["Brinstar Post-Hive in Wall"] = True,
     ["Brinstar Behind Bombs"] = All(
+        Missiles,
         CanBombTunnelBlock,
         CanBallJump
     ),
-    ["Brinstar Bomb"] = True,
+    ["Brinstar Bomb"] = Missiles,
     ["Brinstar Post-Hive Pillar"] = True
 }
 
@@ -156,17 +157,18 @@ kraid_acidworm_area = {
         CanSingleBombBlock,
         CanVerticalWall
     ),
-    ["Kraid Zipline Activator Room"] = True
+    ["Kraid Zipline Activator Room"] = True,
+    ["Kraid Zipline Activator"] = True
 }
 
-
+-- past the long acid pool
 kraid_left_shaft = {
     ["Kraid Behind Giant Hoppers"] = CanEnterHighMorphTunnel,
     ["Kraid Quad Ball Cannon Room"] = All(
         CanBombTunnelBlock,
         Ziplines,
         Missiles
-    ),
+    ),     -- there are some other seriously degen ways too
     ["Kraid Unknown Item Statue"] = All(
         Any(
             Bomb,
@@ -181,12 +183,9 @@ kraid_left_shaft = {
                 Bomb
             )
         ),
-        Missiles
+        Missiles     -- required for escape - covers both cases of only hijump or only grip
     )
 }
-
-
-
 
 kraid_bottom = {
     ["Kraid Speed Booster"] = Any(
@@ -213,7 +212,7 @@ kraid_bottom = {
             SpeedBooster,
             CanHiGrip,
             CanFlyWall
-        )
+        )     -- to escape, or to get to the upper door if you take the speed booster exit into the room
     )
 }
 
@@ -243,7 +242,7 @@ norfair_right_shaft = {
             IceBeam,
             CanVerticalWall
         ),
-        All(
+        All(     -- this method requires some jump extends
             AdvancedLogic,
             CanHiGrip,
             CanWallJump
@@ -252,8 +251,15 @@ norfair_right_shaft = {
 }
 
 norfair_upper_right = {
-    ["Norfair Ice Beam"] = True,
-    ["Norfair Heated Room above Ice Beam"] = Any(
+    ["Norfair Ice Beam"] = Any(
+        CanFlyWall,
+        PowerGrip,
+        All(
+            HiJump,
+            AdvancedLogic
+        )
+    ),
+    ["Norfair Heated Room Above Ice Beam"] = Any(
         VariaSuit,
         Hellrun(1)
     )
@@ -268,8 +274,11 @@ norfair_lowerrightshaft = {
         Any(
             Bomb,
             All(
-                SpaceJump,
-                PowerBombs
+                PowerBombs,
+                Any(
+                    SpaceJump,
+                    AdvancedLogic     -- Placing a PB in a specific place by the door hits only the top bomb chain
+                )
             )
         ),
         CanReachLocation("Norfair Heated Room Under Brinstar Elevator")
@@ -290,7 +299,10 @@ norfair_lowerrightshaft = {
         CanEnterHighMorphTunnel,
         Any(
             HiJump,
-            CanWallJump
+            All(
+                CanWallJump,
+                AdvancedLogic
+            )
         )
     )
 }
@@ -360,7 +372,7 @@ norfair_behind_superdoor = {
                 PowerGrip
             ),
             All(
-                AdvancedLogic,
+                AdvancedLogic,     -- Getting the freeze on the enemy at the right time is tricky
                 IceBeam,
                 Any(
                     CanEnterMediumMorphTunnel,
@@ -391,12 +403,25 @@ norfair_behind_superdoor = {
 
 norfair_bottom = {
     ["Norfair Larva Ceiling"] = CanReachEntrance("Lower Norfair -> Bottom"),
-    ["Norfair Right Shaft Bottom"] = All(
-        Any(
-            CanVerticalWall,
-            IceBeam
+    ["Norfair Right Shaft Bottom"] = Any(
+    -- going from the right "stairs"
+        All(
+            Any(
+                CanVerticalWall,
+                IceBeam
+            ),
+            CanBallJump
         ),
-        CanBallJump
+        -- using the shot blocks to the left
+        All(
+        -- AdvancedLogic,  -- placing in advance of logic difficulty rework, as this method is not obvious
+            Missiles,
+            Any(
+                CanFlyWall,
+                IceBeam
+            ),
+            PowerGrip
+        )
     )
 }
 
@@ -407,7 +432,7 @@ ridley_main = {
             MissileCount(20),
             All(
                 AdvancedLogic,
-                MissileTanks(1)
+                MissileTanks(1)     -- Imago does not drop super refills
             ),
             ChargeBeam
         )
@@ -417,11 +442,11 @@ ridley_main = {
 ridley_left_shaft = {
     ["Ridley West Pillar"] = True,
     ["Ridley Fake Floor"] = True,
-    ["Ridley Long Hall"] = True
 }
 
 ridley_sw_puzzle = {
     ["Ridley Southwest Puzzle Top"] = All(
+        CanReachLocation("Ridley Southwest Puzzle Bottom"),
         MissileCount(5),
         Any(
             CanWallJump,
@@ -429,16 +454,50 @@ ridley_sw_puzzle = {
             SpaceJump
         )
     ),
-    ["Ridley Southwest Puzzle Bottom"] = True
+    ["Ridley Southwest Puzzle Bottom"] = All(
+        SpeedBooster,
+        MorphBall,
+        Any(
+            CanIBJ,
+            All(
+                PowerGrip,
+                Any(
+                    HiJump,
+                    SpaceJump,
+                    CanWallJump
+                )
+            )
+        ),
+        Missiles,
+        Any(
+            PowerGrip,
+            All(
+                AdvancedLogic,
+                Any(
+                    SpaceJump,
+                    CanWallJump
+                )
+            )
+        ),
+        Any(
+            PowerGrip,
+            PowerBombs,
+            All(
+                LongBeam,
+                WaveBeam
+            )
+        )
+    )
 }
 
 ridley_right_shaft = {
+    ["Ridley Long Hall"] = True,
     ["Ridley Northeast Corner"] = Any(
         CanFly,
         All(
             AdvancedLogic,
             CanWallJump,
-            HiJump
+            HiJump     -- disable hi-jump mid walljump to get this, might be possible without
         ),
         All(
             IceBeam,
@@ -552,11 +611,11 @@ tourian = {
     ["Tourian Under Mother Brain"] = All(
         MotherBrainBoss,
         SuperMissiles,
-        CanEnterMediumMorphTunnel
+        CanEnterMediumMorphTunnel     -- to escape
     ),
     ["Mother Brain"] = All(
         IceBeam,
-        CanRegularBomb,
+        CanRegularBomb,     -- only bomb can unlatch metroids
         Any(
             AdvancedLogic,
             All(
@@ -564,8 +623,8 @@ tourian = {
                 EnergyTanks(4)
             )
         ),
-        CanVertical,
-        Any(
+        CanVertical,     -- to get through escape shaft
+        Any(             -- to get to ship
             SpeedBooster,
             CanFly,
             All(
@@ -623,7 +682,7 @@ crateria_upper = {
 
 chozodia_ruins_crateria_entrance = {
     ["Chozodia Upper Crateria Door"] =
-        CanReachEntrance("Crateria -> Chozodia Upper Door"),
+        CanReachEntrance("Crateria -> Chozodia Upper Door"),     -- Specifically need to access this entrance, not just the region as it's one-way
     ["Chozodia Ruins East of Upper Crateria Door"] = Missiles,
     ["Chozodia Triple Crawling Pirates"] = All(
         Any(
@@ -643,17 +702,17 @@ chozodia_ruins_crateria_entrance = {
 
 chozodia_ruins_test = {
     ["Chozodia Chozo Ghost Area Morph Tunnel Above Water"] = All(
-        ChozoGhostBoss,
+        ChozoGhostBoss,     -- The room leading to this item is inaccessible until the Chozo Ghost is defeated
         Missiles,
         CanBallJump
     ),
     ["Chozodia Chozo Ghost Area Underwater"] = All(
-        ChozoGhostBoss,
+        ChozoGhostBoss,     -- This item is fake until the Chozo Ghost is defeated
         SpeedBooster,
         GravitySuit
     ),
     ["Chozodia Chozo Ghost Area Long Shinespark"] = All(
-        ChozoGhostBoss,
+        ChozoGhostBoss,     -- The room leading to this item is inaccessible until the Chozo Ghost is defeated
         SpeedBooster,
         GravitySuit
     ),
@@ -721,7 +780,7 @@ chozodia_under_tube = {
     ),
     ["Chozodia Left of Glass Tube"] = All(
         SpeedBooster,
-        CanReachEntrance("Chozodia Glass Tube -> Chozo Ruins")
+        CanReachEntrance("Chozodia Glass Tube -> Chozo Ruins")     -- Required to access a save station after collecting to warp if necessary
     ),
     ["Chozodia Right of Glass Tube"] = All(
         PowerBombs,
@@ -743,7 +802,7 @@ chozodia_mothership = {
                 CanFlyWall
             ),
             All(
-                AdvancedLogic,
+                AdvancedLogic,     -- doable without falling down using screw, but can get softlocked without infinite vertical
                 CanSingleBombBlock
             )
         )
@@ -757,7 +816,7 @@ chozodia_mothership = {
             MissileCount(6)
         )
     ),
-    ["Chozodia Southeast Corner In Hull"] = PowerBombs
+    ["Chozodia Southeast Corner in Hull"] = PowerBombs
 }
 
 chozodia_pb_area = {
@@ -783,7 +842,7 @@ chozodia_mecha_ridley_hall = {
                 )
             )
         ),
-        CanEnterHighMorphTunnel,
+        CanEnterHighMorphTunnel,     -- To escape
         ReachedGoal
     ),
     ["Chozodia Space Pirate's Ship"] = MechaRidleyBoss

@@ -7,11 +7,11 @@ OOL accessible:
 - [ ] Maybe account for remote items on for hellruns?
 
 Scoutables:
-- [ ] Brinstar Main Shaft Left Alcove
+- [x] Brinstar Main Shaft Left Alcove
 
 Bosses: 
-- [ ] Boss logic locations (Kraid, Ridley, Mother Brain, Chozo Ghost)
-- [ ] Link behind-boss item accessibility to the logic of the boss they're behind (Kraid, Ridley)
+- [x] Boss logic locations (Kraid, Ridley, Mother Brain, Chozo Ghost)
+- [x] Link behind-boss item accessibility to the logic of the boss they're behind (Kraid, Ridley)
 
 Tracker options:
 - [ ] Enable/disable scoutables

@@ -1,0 +1,25 @@
+THE QUICK BROWN NONE JUMPS OVER THE ANY() DOG.
+The Quick Brown None Jumps Over The Any() Dog.
+the quick brown none jumps over the any() dog.
+
+"Brinstar Ceiling E-Tank": any(
+    all(
+        IceBeam,
+        RidleyBoss
+    ),
+    CanFly,
+    all(
+        MorphBall,
+        CanTrickySparks
+    )
+),
+
+def super_cool_function():
+    return any(
+        True
+    )
+
+def another_cool_function():
+    return any(
+        True
+    )

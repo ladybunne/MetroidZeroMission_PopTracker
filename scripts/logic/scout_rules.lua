@@ -2,12 +2,18 @@
 scout_rules = {
     -- Brinstar
     ["Brinstar Ceiling E-Tank"] = MorphBall,
-    -- This one can be scouted if you can scout Ballspark,
-    -- and have a way to go up higher than a regular jump.
-    -- Add the rule later.
-    ["Brinstar Main Shaft Left Alcove"] = False,
+    ["Brinstar Main Shaft Left Alcove"] = CanVerticalWall,
     ["Brinstar Ballspark"] = Any(
-        CanSingleBombBlock,
+        -- top path - reach bomb block, break bomb block
+        All(
+            Any(
+                CanFlyWall,
+                IceBeam,
+                CanHiGrip
+            ),
+            CanSingleBombBlock
+        ),
+        -- bottom path - enter tunnel
         Any(
             CanFlyWall,
             PowerGrip

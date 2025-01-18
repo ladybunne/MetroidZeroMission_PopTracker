@@ -24,10 +24,10 @@ ScriptHost:LoadScript("scripts/logic/helpers.lua")
 ScriptHost:LoadScript("scripts/logic/requirements.lua")
 
     -- From apworld
-    ScriptHost:LoadScript("scripts/logic/from_apworld/location_region_mappings.lua")
-    ScriptHost:LoadScript("scripts/logic/from_apworld/location_rules.lua")
-    ScriptHost:LoadScript("scripts/logic/from_apworld/region_rules.lua")
-    ScriptHost:LoadScript("scripts/logic/from_apworld/create_regions.lua")
+    ScriptHost:LoadScript("scripts/logic/translated_from_apworld/location_region_mappings.lua")
+    ScriptHost:LoadScript("scripts/logic/translated_from_apworld/location_rules.lua")
+    ScriptHost:LoadScript("scripts/logic/translated_from_apworld/region_rules.lua")
+    ScriptHost:LoadScript("scripts/logic/translated_from_apworld/create_regions.lua")
 
 ScriptHost:LoadScript("scripts/logic/logic.lua")
 ScriptHost:LoadScript("scripts/logic/load_apworld_data.lua")

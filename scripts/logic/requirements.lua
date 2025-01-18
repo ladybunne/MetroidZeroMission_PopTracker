@@ -1,5 +1,7 @@
 -- Requirements
 
+-- Ziplines = Event("ziplines")
+Ziplines = CanReachEntrance("Kraid Main -> Acid Worm Area")
 KraidBoss = Event("kraid")
 RidleyBoss = Event("ridley")
 MotherBrainBoss = Event("mother_brain")
@@ -154,8 +156,6 @@ CanEnterMediumMorphTunnel = Any(
         HiJump
     )
 )
-
-Ziplines = CanReachEntrance("Kraid Main -> Acid Worm Area")
 
 ChozodiaCombat = All(
     Any(

@@ -104,7 +104,7 @@ end
 
 function ConnectRegions(entrance_name, source, target, rule)
     REGIONS[source][entrance_name] = {
-        ["rule"] = rule,
+        ["rule"] = rule and rule or True,
         ["region"] = target
     }
 end

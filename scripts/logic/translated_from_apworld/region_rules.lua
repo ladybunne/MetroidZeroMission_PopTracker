@@ -1,3 +1,6 @@
+-- Regional connection requirements
+
+-- brinstar main to past-hives, top to past-hives is different
 function brinstar_past_hives()
     return All(
         MorphBall,
@@ -26,7 +29,7 @@ function brinstar_main_to_brinstar_top()
             IceBeam,
             CanWallJump,
             PowerBombs
-        )  
+        ) -- truly cursed strat
     )
 end
 
@@ -44,15 +47,20 @@ function brinstar_pasthives_to_brinstar_top()
     )
 end
 
+-- this works for now. it's kind of tricky, cause all you need just to get there is PBs and bombs,
+-- but to actually do anything (including get to ship) you need IBJ/speed/sj. it only checks for speed
+-- for now since the only thing you'd potentially need this entrance for is Landing Site Ballspark
+-- (this assumption changes if/when entrance/elevator rando happens)
 function brinstar_crateria_ballcannon()
     return All(
-         PowerBombs,
-         CanBallCannon,
-         CanVertical,
-         SpeedBooster
-     )
+        PowerBombs,
+        CanBallCannon,
+        CanVertical,
+        SpeedBooster
+    )
 end
 
+-- used for the items in this area as well as determining whether the ziplines can be activated
 function kraid_upper_right()
     return All(
         Missiles,
@@ -68,6 +76,7 @@ function kraid_upper_right()
     )
 end
 
+-- access to lower kraid
 function kraid_left_shaft_access()
     return All(
         Any(
@@ -87,7 +96,7 @@ function kraid_left_shaft_access()
                     CanIBJ
                 )
             ),
-            All(  
+            All( -- Acid Worm Skip
                 AdvancedLogic,
                 PowerGrip
             )
@@ -138,6 +147,7 @@ end
 
 function norfair_behind_ice_beam()
     return All(
+        CanReachLocation("Norfair Ice Beam"),
         Any(
             CanLongBeam,
             WaveBeam
@@ -174,6 +184,7 @@ function norfair_behind_ice_to_bottom()
             )
         ),
         Any(
+            CanIBJ,
             All(
                 AdvancedLogic,
                 PowerBombs,
@@ -197,7 +208,7 @@ function norfair_lower_right_shaft()
             SpeedBooster,
             Any(
                 CanBallCannon,
-                
+                -- TODO: This does nothing. Figure out a way to make it do what you intended
                 CanReachEntrance("Norfair Right Shaft -> Lower Norfair")
             )
         )
@@ -263,6 +274,7 @@ function lower_norfair_to_screwattack()
     )
 end
 
+-- This is necessary if your only way to the Screw Attack region is the ballcannon near the Ridley elevator
 function screw_to_lower_norfair()
     return Any(
         MissileCount(4),
@@ -290,6 +302,7 @@ function lower_norfair_to_kraid()
     )
 end
 
+-- The two items in Lower Norfair behind the Super Missile door right under the Screw Attack area
 function lower_norfair_to_spaceboost_room()
     return All(
         SuperMissiles,
@@ -329,10 +342,27 @@ function lower_norfair_to_bottom_norfair()
     )
 end
 
+function bottom_norfair_to_lower_shaft()
+    return Any(
+        All(
+            Missiles,
+            CanFlyWall,
+            Any(
+                PowerGrip,
+                CanIBJ
+            )
+        ),
+        All(
+            SpeedBooster,
+            AdvancedLogic
+        )
+    )
+end
+
 function bottom_norfair_to_ridley()
     return Any(
         All(
-            MissileCount(6),  
+            MissileCount(6), -- Covers the case where you only have Supers; 1 normal missile is enough from drops
             Any(
                 IceBeam,
                 AdvancedLogic
@@ -377,6 +407,7 @@ function ridley_main_to_left_shaft()
     )
 end
 
+-- shortcut to the right of elevator
 function ridley_main_to_right_shaft()
     return All(
         Missiles,
@@ -398,21 +429,11 @@ end
 function ridley_left_shaft_to_sw_puzzle()
     return All(
         SpeedBooster,
-        Any(
-            PowerGrip,
-            SpaceJump
-        ),
-        Any(
-            PowerGrip,
-            PowerBombs,
-            All(
-                LongBeam,
-                WaveBeam
-            )
-        )
+        CanVerticalWall
     )
 end
 
+-- The alcove to the right of the right shaft
 function ridley_speed_puzzles_access()
     return All(
         SpeedBooster,
@@ -423,18 +444,19 @@ function ridley_speed_puzzles_access()
     )
 end
 
+-- getting into the gap at the start of "ball room" and subsequently into the general area of ridley himself
 function ridley_right_shaft_to_central()
     return CanEnterMediumMorphTunnel
 end
 
-
+-- Ridley, Unknown 3, and the item behind Unknown 3
 function ridley_central_to_ridley_room()
     return All(
         Any(
             AdvancedLogic,
             All(
-              MissileCount(40),
-              EnergyTanks(3)
+                MissileCount(40),
+                EnergyTanks(3)
             )
         ),
         Any(
@@ -454,6 +476,7 @@ function tourian_to_chozodia()
     )
 end
 
+-- Getting to Unknown 1 and everything above
 function crateria_main_to_crateria_upper()
     return Any(
         CanBallJump,
@@ -476,6 +499,7 @@ function crateria_main_to_crateria_upper()
     )
 end
 
+-- Upper Crateria door to Ruins, the two items right by it, and the Triple Crawling Pirates
 function crateria_upper_to_chozo_ruins()
     return All(
         PowerBombs,
@@ -492,6 +516,7 @@ function crateria_upper_to_chozo_ruins()
     )
 end
 
+-- Ruins to Chozo Ghost, the three items in that general area, and the lava dive item
 function chozo_ruins_to_ruins_test()
     return All(
         MorphBall,
@@ -510,7 +535,7 @@ end
 
 function chozo_ruins_to_chozodia_tube()
     return Any(
-        All(  
+        All( -- Getting up to the tube is doable with just walljumps but tricky enough to be advanced imo
             AdvancedLogic,
             CanWallJump
         ),
@@ -518,6 +543,7 @@ function chozo_ruins_to_chozodia_tube()
     )
 end
 
+-- Specifically getting to the room with Crateria Upper Door location. Might need another empty region for region rando
 function chozodia_tube_to_chozo_ruins()
     return All(
         Any(
@@ -532,7 +558,7 @@ function crateria_to_under_tube()
     return All(
         PowerBombs,
         MorphBall,
-        Any(  
+        Any( -- To get to the save station and warp out
             SpeedBooster,
             CanFlyWall,
             CanHiGrip
@@ -550,7 +576,7 @@ function under_tube_to_tube()
         All(
             CanFly,
             PowerBombs,
-            ChozoGhostBoss  
+            ChozoGhostBoss -- Change if basepatch makes the tube breakable before Charlie
         )
     )
 end
@@ -621,7 +647,7 @@ function cockpit_to_original_pb()
             HiJump,
             PowerGrip,
             SpaceJump
-        ),  
+        ), -- cannot IBJ to escape to cockpit
         Any(
             CanIBJ,
             All(

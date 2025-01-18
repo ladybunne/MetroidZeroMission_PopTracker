@@ -8,16 +8,16 @@ brinstar_location_table = {
     ["Brinstar Ripper Climb"] = "Brinstar Main",
     ["Brinstar Speed Booster Shortcut"] = "Brinstar Main",
     ["Brinstar Varia Suit"] = "Brinstar Top",
-    ["Brinstar Worm drop"] = "Brinstar Main",
-    ["Brinstar Acid near Varia"] = "Brinstar Top",
+    ["Brinstar Worm Drop"] = "Brinstar Main",
+    ["Brinstar Acid Near Varia"] = "Brinstar Top",
     ["Brinstar First Missile"] = "Brinstar Main",
     ["Brinstar Behind Hive"] = "Brinstar Main",
     ["Brinstar Under Bridge"] = "Brinstar Main",
-    ["Brinstar Post-Hive In Wall"] = "Brinstar Past Hives",
+    ["Brinstar Post-Hive in Wall"] = "Brinstar Past Hives",
     ["Brinstar Upper Pillar"] = "Brinstar Top",
     ["Brinstar Behind Bombs"] = "Brinstar Past Hives",
     ["Brinstar Bomb"] = "Brinstar Past Hives",
-    ["Brinstar Post-Hive Pillar"] = "Brinstar Past Hives",
+    ["Brinstar Post-Hive Pillar"] = "Brinstar Past Hives"
 }
 
 kraid_location_table = {
@@ -34,7 +34,8 @@ kraid_location_table = {
     ["Kraid Zipline Activator Room"] = "Kraid Acid Worm Area",
     ["Kraid Speed Jump"] = "Kraid Main",
     ["Kraid Upper Right Morph Ball Cannon"] = "Kraid Main",
-    ["Kraid"] = "Kraid Bottom",
+    ["Kraid Zipline Activator"] = "Kraid Acid Worm Area",
+    ["Kraid"] = "Kraid Bottom"
 }
 
 norfair_location_table = {
@@ -52,13 +53,13 @@ norfair_location_table = {
     ["Norfair Behind Lower Super Missile Door - Left"] = "Norfair Behind Super Door",
     ["Norfair Behind Lower Super Missile Door - Right"] = "Norfair Behind Super Door",
     ["Norfair Ice Beam"] = "Norfair Upper Right Shaft",
-    ["Norfair Heated Room above Ice Beam"] = "Norfair Upper Right Shaft",
+    ["Norfair Heated Room Above Ice Beam"] = "Norfair Upper Right Shaft",
     ["Norfair Hi-Jump"] = "Norfair Lower Right Shaft",
     ["Norfair Big Room"] = "Norfair Right Shaft",
     ["Norfair Behind Top Chozo Statue"] = "Norfair Behind Ice Beam",
     ["Norfair Larva Ceiling"] = "Norfair Bottom",
     ["Norfair Right Shaft Near Hi-Jump"] = "Norfair Lower Right Shaft",
-    ["Norfair Right Shaft Bottom"] = "Norfair Bottom",
+    ["Norfair Right Shaft Bottom"] = "Norfair Bottom"
 }
 
 ridley_location_table = {
@@ -73,7 +74,7 @@ ridley_location_table = {
     ["Ridley Imago Super Missile"] = "Ridley Main",
     ["Ridley After Sidehopper Hall Upper"] = "Central Ridley",
     ["Ridley After Sidehopper Hall Lower"] = "Central Ridley",
-    ["Ridley Long Hall"] = "Ridley Left Shaft",
+    ["Ridley Long Hall"] = "Ridley Right Shaft",
     ["Ridley Center Pillar"] = "Central Ridley",
     ["Ridley Ball Room Lower"] = "Central Ridley",
     ["Ridley Ball Room Upper"] = "Central Ridley",
@@ -82,13 +83,13 @@ ridley_location_table = {
     ["Ridley Northeast Corner"] = "Ridley Right Shaft",
     ["Ridley Bomb Puzzle"] = "Ridley Speed Puzzles",
     ["Ridley Speed Jump"] = "Ridley Speed Puzzles",
-    ["Ridley"] = "Ridley Room",
+    ["Ridley"] = "Ridley Room"
 }
 
 tourian_location_table = {
     ["Tourian Left of Mother Brain"] = "Tourian",
     ["Tourian Under Mother Brain"] = "Tourian",
-    ["Mother Brain"] = "Tourian",
+    ["Mother Brain"] = "Tourian"
 }
 
 crateria_location_table = {
@@ -98,7 +99,7 @@ crateria_location_table = {
     ["Crateria Statue Water"] = "Upper Crateria",
     ["Crateria Unknown Item Statue"] = "Upper Crateria",
     ["Crateria East Ballspark"] = "Upper Crateria",
-    ["Crateria Northeast Corner"] = "Upper Crateria",
+    ["Crateria Northeast Corner"] = "Upper Crateria"
 }
 
 chozodia_location_table = {
@@ -119,8 +120,8 @@ chozodia_location_table = {
     ["Chozodia Behind Workbot"] = "Chozodia Mothership Central",
     ["Chozodia Ceiling Near Map Station"] = "Chozodia Mothership Central",
     ["Chozodia Under Mecha Ridley Hallway"] = "Chozodia Mecha Ridley Hallway",
-    ["Chozodia Southeast Corner In Hull"] = "Chozodia Mothership Central",
+    ["Chozodia Southeast Corner in Hull"] = "Chozodia Mothership Central",
     ["Chozo Ghost"] = "Chozodia Ruins Test Area",
     ["Mecha Ridley"] = "Chozodia Mecha Ridley Hallway",
-    ["Chozodia Space Pirate's Ship"] = "Chozodia Mecha Ridley Hallway",
+    ["Chozodia Space Pirate's Ship"] = "Chozodia Mecha Ridley Hallway"
 }
