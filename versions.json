@@ -1,6 +1,16 @@
 {
     "versions": [
         {
+            "package_version": "1.2.4",
+            "download_url": "https://github.com/ladybunne/MetroidZeroMission_PopTrackerPack/releases/download/v1.2.3/MetroidZeroMission_PopTrackerPack.zip",
+            "sha256": "ea224fa8da57bc18b12fee5121c7c58b1bf1e4c4188d74eb29e9bbc2fae649f8",
+            "changelog": [
+                "Updated logic to apworld version 0.2.3 (latest as of writing).",
+                "Updated some location names to reflect those in the apworld.",
+                "Added a script that does regex transformations to apworld Python files, turning them into Lua files."
+            ]
+        },
+        {
             "package_version": "1.2.3",
             "download_url": "https://github.com/ladybunne/MetroidZeroMission_PopTrackerPack/releases/download/v1.2.3/MetroidZeroMission_PopTrackerPack.zip",
             "sha256": "9a2d84c0c3149fa149aa4b4b16c01443d3cb16ce9eaf45b22832447e7d1b8981",
