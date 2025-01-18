@@ -2,7 +2,7 @@
     "versions": [
         {
             "package_version": "1.2.4",
-            "download_url": "https://github.com/ladybunne/MetroidZeroMission_PopTrackerPack/releases/download/v1.2.3/MetroidZeroMission_PopTrackerPack.zip",
+            "download_url": "https://github.com/ladybunne/MetroidZeroMission_PopTrackerPack/releases/download/v1.2.4/MetroidZeroMission_PopTrackerPack.zip",
             "sha256": "ea224fa8da57bc18b12fee5121c7c58b1bf1e4c4188d74eb29e9bbc2fae649f8",
             "changelog": [
                 "Updated logic to apworld version 0.2.3 (latest as of writing).",
